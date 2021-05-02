@@ -786,6 +786,10 @@ body {
   position: relative;
 }
 
+.lol {
+  padding-bottom: 320px;
+}
+
 .footer2 {
   display: flex;
   justify-content: space-between;
