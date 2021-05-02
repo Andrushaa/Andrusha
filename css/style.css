@@ -1091,6 +1091,75 @@ body {
   background: linear-gradient(45deg, #5f44c8, rgba(95, 68, 200, 0.7));
 }
 
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-button {
+  margin-top: 12px;
+  margin-left: 24px;
+}
+.header-button a img {
+  width: 200px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.button-enter {
+  margin-top: 14px;
+  width: 96px;
+  height: 48px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #BF6363;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 15%;
+}
+.button-enter a {
+  text-decoration: none;
+  color: yellow;
+  transition: 0.5s;
+}
+.button-enter a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.button-registration {
+  margin-top: 14px;
+  width: 200px;
+  height: 48px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #BF6363;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 15%;
+}
+.button-registration a {
+  text-decoration: none;
+  color: yellow;
+  transition: 0.5s;
+}
+.button-registration a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.buttons-enters {
+  display: flex;
+}
+
 html {
   background: lightseagreen;
 }
