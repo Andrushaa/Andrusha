@@ -243,7 +243,7 @@ body {
 }
 
 .slider__item {
-  background-image: url(../img/main/BisLite_slider.png);
+  background-image: url(../img/main/article3.png);
   min-height: 440px;
   background-position: top center;
   background-size: cover;
@@ -262,11 +262,11 @@ body {
 
 .slick-dots li {
   /* делаем кружочки */
-  /* расстояние между кружочками */
-  margin: 0 9px;
-  /* 9, чтобы между двумя кружочками получилось 18 */
-  width: auto;
-  height: auto;
+  /* расстояние между кружочками
+  * margin: 0 9px */
+  /* 9, чтобы между двумя кружочками получилось 18
+  * width: auto
+  * height: auto */
 }
 .slick-dots li button {
   /* делаем кружочки перехода, их адрес узнали через исперктор илементов */
