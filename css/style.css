@@ -543,6 +543,7 @@ body {
 }
 .title-games a {
   text-decoration: none;
+  color: yellow;
   transition: 0.5s;
 }
 
