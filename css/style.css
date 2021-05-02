@@ -108,6 +108,10 @@ body {
   font-weight: bold;
 }
 
+body {
+  background-color: transparent;
+}
+
 .list_article {
   margin-top: 25px;
   margin-left: 20px;
