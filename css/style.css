@@ -25,6 +25,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #a2b5c6;
+  background-color: lightseagreen;
 }
 
 .container {
@@ -248,6 +249,7 @@ body {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 14px;
 }
 
 /* position, size, repeat нужны для мобильной версии */
@@ -701,6 +703,10 @@ body {
   border-bottom: 1px solid darkorange;
   font-size: 16px;
   line-height: 24px;
+}
+
+.flink-text:hover {
+  color: yellow;
 }
 
 .flink-line {
