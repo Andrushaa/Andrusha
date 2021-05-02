@@ -516,14 +516,12 @@ body {
   display: inline-block;
   overflow: hidden;
   border-radius: 14px;
-  /*что не попадает в блок - скрыто*/
 }
 .image-games img {
   transition: 1s;
   display: block;
 }
 
-/* Убираем небольшой отступ снизу */
 .games img:hover {
   transform: scale(1.2);
 }
