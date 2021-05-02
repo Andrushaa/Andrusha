@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.list_games {
+  margin-top: 25px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-games {
+  max-width: 300px;
+  max-height: 150px;
+  display: inline-block;
+  overflow: hidden;
+  /*что не попадает в блок - скрыто*/
+}
+.image-games img {
+  transition: 1s;
+  display: block;
+}
+
+/* Убираем небольшой отступ снизу */
+.games img:hover {
+  transform: scale(1.2);
+}
+
+.title-games {
+  text-align: center;
+}
+.title-games a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=GamesList.css.map */

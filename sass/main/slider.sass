@@ -1,0 +1,167 @@
+.slider
+  padding: 20px 0px 10px
+
+.slider__item
+  background-image: url(../img/main/BisLite_slider.png)
+  min-height: 440px
+  background-position: top center
+  background-size: cover
+  background-repeat: no-repeat
+
+/* position, size, repeat нужны для мобильной версии
+
+.slider__item-title
+  font-size: 50px
+  color: #fff
+  width: 300px
+  margin-left: 60px
+  font-weight: 700
+  padding-top: 90px
+
+.slick-dots li
+  button
+    /* делаем кружочки перехода, их адрес узнали через исперктор илементов
+    width: 14px
+    height: 14px
+    background-color: rgba(98, 98, 98, 0.5)
+    border-radius: 50%
+
+  /* делаем кружочки
+
+  &.slick-active button
+    background-color: white
+
+  button::before
+    display: none
+
+  /* расстояние между кружочками
+  margin: 0 9px
+
+  /* 9, чтобы между двумя кружочками получилось 18
+  width: auto
+  height: auto
+
+.items
+  background-color: #e8ebf1
+  padding: 60px 0px 50px
+  border-bottom: 1px solid #d9d9d9
+
+.items__inner
+  display: flex
+  justify-content: space-between
+
+.item
+  width: 225px
+  font-family: 'arial', sans-serif
+
+.item__title
+  font-size: 15px
+  font-weight: 700
+  line-height: 20px
+  text-transform: uppercase
+
+  /*чтобы все были с большой буквы
+  padding: 10px 0 0 60px
+  margin-bottom: 30px
+  position: relative
+
+.item__icons
+  position: absolute
+  top: 0
+  left: 0
+
+.item__text
+  font-size: 13px
+  color: #363636
+  margin-bottom: 25px
+
+.item__link
+  padding-left: 15px
+  font-size: 13px
+  color: #2aacc8
+  position: relative
+
+  &::before
+    content: ''
+    position: absolute
+    background-image: url(../icons/arrow.png)
+    left: 0
+    top: 4px
+    width: 5px
+
+    /*для background-image укажем высоту и ширину нашей стрелки
+    height: 7px
+
+.works__title
+  padding: 25px 0px 15px 40px
+  position: relative
+  font-family: 'arial', sans-serif
+  font-weight: 700
+  text-transform: uppercase
+
+  &::before
+    content: ''
+    position: absolute
+    left: 0
+    top: 20px
+    background-image: url(../icons/cursor.png)
+    width: 14px
+
+    /*обязательно нужно поставить размер для background-image
+    height: 24px
+
+.works__inner-item
+  width: 200px
+  height: 200px
+
+  /*overflow: hidden;
+
+  width: 150px
+  height: 150px
+  padding: 10px 10px
+
+.works__inner
+  padding: 20px 0px 40px
+  border-top: 1px solid #dfe1e5
+
+  /*добавить линию толщина тип и цвет
+  border-bottom: 1px  solid #dfe1e5
+
+.slick-arrow
+  width: 20px
+  height: 20px
+  border-radius: 50%
+  background-color: #1eacc7
+
+  &::before
+    display: none
+
+  /*убрать стрелки, которые были в библиотеке
+
+  &:hover, &:focus
+    background-color: #1eacc7
+
+/*исправим фокус библиотеки
+
+.slick-prev
+  right: 30px
+  top: -27px
+  left: auto
+
+.slick-next
+  right: 0
+  top: -27px
+
+.works__inner-box
+  z-index: 2
+  display: inline-block
+
+/*                          чтобы внутренний элемент не вылазил за границы
+ * ширина элемента будет такая сколько там контента внутри а block значит что там буду работать блочные свойства
+
+.works__inner-link
+  background-color: black
+  height: 80px
+  display: flex
+  justify-content: center
+  align-items: center

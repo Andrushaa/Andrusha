@@ -1,0 +1,149 @@
+.footer_menu
+
+  display: flex
+  justify-content: space-between
+  margin-left: 20px
+  margin-right: 20px
+  margin-bottom: 20px
+
+
+li
+  display: inline-block
+
+/* чтоб маркированный список был в линию */
+
+
+.footer-bottom
+  display: flex
+  justify-content: space-between
+  max-width: 270px
+
+
+.under_footer
+  margin-bottom: 20px
+
+  .footer-bottom
+    width: 300px
+
+
+
+.footer_menu ul li a
+  text-decoration: none
+  -webkit-box-direction: normal
+  font-family: Graphik,Arial,sans-serif
+  color: #3f5067
+  box-sizing: border-box
+  outline: none
+  border-bottom: 1px solid #edecec
+  font-size: 16px
+  line-height: 24px
+  padding: 17px 17px 17px
+
+
+.container
+  .footer_menu .img_download_GooglePlay img
+    height: 40px
+    width: 200px
+
+  .under_footer_full
+    display: flex
+    justify-content: stretch
+
+    .footer_logo
+      width: 200px
+      display: inline-block
+      overflow: hidden
+      padding-bottom: 80px
+
+      img
+        margin-left: 25px
+        border-radius: 15%
+        display: inline-block
+        overflow: hidden
+
+
+
+
+
+.footer_logo_text
+  text-align: center
+  font-size: 12px
+  font-weight: 300
+  word-break: break-word
+  color: darkred
+
+
+.container .under_footer_full .footer_logo img
+  margin-top: 65px
+  width: 150px
+  height: 50px
+
+
+.footer_icon_social_network
+  width: 450px
+  display: flex
+  justify-content: space-between
+
+  img
+    width: 50px
+    height: 50px
+
+
+
+.under_footer1
+  margin-top: 30px
+  display: flex
+  justify-content: space-between
+  width: 900px
+
+
+.img_download_AppStore
+  margin-left: 12px
+
+
+.under_footer2
+  margin-top: 30px
+  display: flex
+  justify-content: space-between
+
+
+.footer-license
+  font-size: 12px
+  font-weight: 300
+  color: rgb(162, 181, 198)
+  text-align: left
+  &::before
+    content: '\e91b'
+    font-family: 'icomoon'
+    
+
+
+.footer_creature
+  font-size: 24px
+  font-weight: 300px
+  color: lightskyblue
+  text-align: left
+
+
+.footer_icon_social_network .icon_sn
+  &:before, &:after
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: blue
+    border-radius: 50%
+    filter: blur(20px)
+    z-index: -1
+    opacity: 0
+    transition: 1.5s
+
+
+  &:hover
+    &:before, &:after
+      opacity: 1
+
+
+    transform: scale(1)

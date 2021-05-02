@@ -1,0 +1,19 @@
+.footer2-logo {
+  margin: 0;
+}
+
+.footer-logo-img {
+  margin-top: 65px;
+  width: 150px;
+  height: 50px;
+}
+
+.footer-logo-text {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  word-break: break-word;
+  color: darkred;
+}
+
+/*# sourceMappingURL=footer2-logo.css.map */

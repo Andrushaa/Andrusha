@@ -1,0 +1,66 @@
+.products__inner-btn {
+  padding-top: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.products__inner-btn button {
+  padding: 12px 21px;
+  border: none;
+  background-color: #fff;
+  color: #1c7430;
+  cursor: pointer;
+}
+.products__inner-btn button + button {
+  margin-left: 5px;
+}
+.products__inner-btn button.mixitup-control-active {
+  background-color: red;
+  color: white;
+  outline: none;
+}
+
+.products__inner-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product__item {
+  max-width: 342px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.product__item-img {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/article1.jpg);
+  transition: 1s;
+}
+.product__item-img:hover {
+  transform: scale(1.2);
+}
+.product__item-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+  max-height: 90px;
+  color: blue;
+}
+.product__item-title {
+  color: green;
+  line-height: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+}
+.product__item-category {
+  display: block;
+}
+
+/*# sourceMappingURL=games.css.map */

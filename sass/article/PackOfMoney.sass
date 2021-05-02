@@ -1,0 +1,60 @@
+.Article__PackOfMoney-inner
+  margin: 0 auto
+  padding-left: 400px
+  width: 100%
+  height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+
+.Article__PackOfMoney
+  position: relative
+  width: 750px
+  height: 1334px
+  margin-top: 150px
+  background-color: transparent
+  transform: scale(0.5) rotate(-30deg) skew(25deg) /*уменьшает объект (%); поворот (градус); как будто лежит на столе (градус)*/
+  & img
+    position: absolute
+    width: 100%
+    transition: 0.5s
+
+.Article__PackOfMoney:hover img:nth-child(9)
+  transform: translate(55px, -55px)
+  opacity: 1
+
+.Article__PackOfMoney:hover img:nth-child(8)
+  transform: translate(50px, -50px)
+  opacity: 0.9
+
+.Article__PackOfMoney:hover img:nth-child(7)
+  transform: translate(45px, -45px)
+  opacity: 0.8
+
+.Article__PackOfMoney:hover img:nth-child(6)
+  transform: translate(40px, -40px)
+  opacity: 0.7
+
+.Article__PackOfMoney:hover img:nth-child(5)
+  transform: translate(35px, -35px)
+  opacity: 0.6
+
+.Article__PackOfMoney:hover img:nth-child(4)
+  transform: translate(30px, -30px)
+  opacity: 0.5
+
+.Article__PackOfMoney:hover img:nth-child(3)
+  transform: translate(25px, -25px)
+  opacity: 0.4
+
+.Article__PackOfMoney:hover img:nth-child(2)
+  transform: translate(15px, -15px)
+  opacity: 0.3
+
+.Article__PackOfMoney:hover img:nth-child(1)
+  transform: translate(10px, -10px)
+  opacity: 0.2
+
+
+
+

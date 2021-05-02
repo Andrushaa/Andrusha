@@ -1,0 +1,23 @@
+.Game-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.btn {
+  font-size: 25px;
+  font-family: monospace;
+  color: lightskyblue;
+  background: linear-gradient(to right, red, orange, yellow, green, lightskyblue, blue, purple);
+  text-decoration: none;
+  padding: 20px 70px;
+  border-radius: 10px;
+  background-size: 200%;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-position: right;
+}
+
+/*# sourceMappingURL=GamesOne-Button.css.map */
