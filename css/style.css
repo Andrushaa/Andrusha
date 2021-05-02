@@ -528,6 +528,10 @@ body {
   transform: scale(1.2);
 }
 
+.games:hover .title-games a {
+  color: darkred;
+}
+
 .footer-inner {
   padding-left: 20px;
 }
@@ -541,6 +545,7 @@ body {
 }
 .title-games a {
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .img-inner {
