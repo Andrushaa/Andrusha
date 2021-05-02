@@ -24,7 +24,7 @@ body {
   font-family: "Roboto Light", sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #a2b5c6;
+  color: darkgreen;
 }
 
 .container {
@@ -99,12 +99,12 @@ body {
 
 .breadcrumbs__list li a {
   text-decoration: none;
-  color: #a2b5c6;
+  color: darkgreen;
   margin-right: 8px;
 }
 
 .breadcrumbs__list li span {
-  color: #a2b5c6;
+  color: darkgreen;
   font-weight: bold;
 }
 
@@ -137,6 +137,10 @@ body {
   transform: scale(1.2);
 }
 
+.article:hover .title-article a {
+  color: darkred;
+}
+
 .list_reviews {
   margin-top: 20px;
   margin-left: 20px;
@@ -164,6 +168,12 @@ body {
 }
 .title-article a {
   text-decoration: none;
+  color: yellow;
+  transition: 0.5s;
+}
+.title-article a:hover {
+  text-decoration: none;
+  color: darkred;
 }
 
 .products__inner-btn {
@@ -172,6 +182,7 @@ body {
   margin-bottom: 50px;
 }
 .products__inner-btn button {
+  border-radius: 10px;
   padding: 12px 21px;
   border: none;
   background-color: #fff;
@@ -1049,31 +1060,31 @@ body {
 }
 .footer_icon_social_network-list li:nth-child(1) a, .footer_icon_social_network-list li:nth-child(1):before, .footer_icon_social_network-list li:nth-child(1):after {
   background: #519af5;
-  background: linear-gradient(45deg, #519af5, #ffff);
+  background: linear-gradient(45deg, #4782c6, rgba(71, 130, 198, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(2) a, .footer_icon_social_network-list li:nth-child(2):before, .footer_icon_social_network-list li:nth-child(2):after {
   background: #f12711;
-  background: linear-gradient(45deg, #11998e, #38ef7d);
+  background: linear-gradient(45deg, #33a8da, rgba(51, 168, 218, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(3) a, .footer_icon_social_network-list li:nth-child(3):before, .footer_icon_social_network-list li:nth-child(3):after {
   background: #f12711;
-  background: linear-gradient(45deg, #7F00FF, #E100FF);
+  background: linear-gradient(45deg, #8899f7, rgba(136, 153, 247, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(4) a, .footer_icon_social_network-list li:nth-child(4):before, .footer_icon_social_network-list li:nth-child(4):after {
   background: #f12711;
-  background: linear-gradient(45deg, #fc4a1a, #f7b733);
+  background: linear-gradient(45deg, #009ded, rgba(0, 157, 237, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(5) a, .footer_icon_social_network-list li:nth-child(5):before, .footer_icon_social_network-list li:nth-child(5):after {
   background: #519af5;
-  background: linear-gradient(45deg, #519af5, #ffff);
+  background: linear-gradient(45deg, #f18f00, rgba(241, 143, 0, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(6) a, .footer_icon_social_network-list li:nth-child(6):before, .footer_icon_social_network-list li:nth-child(6):after {
   background: #519af5;
-  background: linear-gradient(45deg, #519af5, #ffff);
+  background: linear-gradient(45deg, #4ecb5c, rgba(78, 203, 92, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(7) a, .footer_icon_social_network-list li:nth-child(7):before, .footer_icon_social_network-list li:nth-child(7):after {
   background: #519af5;
-  background: linear-gradient(45deg, #519af5, #ffff);
+  background: linear-gradient(45deg, #5f44c8, rgba(95, 68, 200, 0.7));
 }
 
 html {
