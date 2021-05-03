@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -27,14 +28,14 @@
                             <span class="hlink-line hlink-line-right"></span>
                             <span class="hlink-line hlink-line-bottom"></span>
                             <span class="hlink-line hlink-line-left"></span>
-                            <a href="404.html" class="hlink-text">Регистрация</a>
+                            <a class="hlink-text" >Регистрация</a>
                         </li>
                         <li class="hlink">
                             <span class="hlink-line hlink-line-top"></span>
                             <span class="hlink-line hlink-line-right"></span>
                             <span class="hlink-line hlink-line-bottom"></span>
                             <span class="hlink-line hlink-line-left"></span>
-                            <a href="404.html" class="hlink-text">Войти</a>
+                            <a href="404.html" class="hlink-text" data-fancybox data-src="#modal" href="javascript:;">Войти</a>
                         </li>
                     </ul>
                 </div>
@@ -106,6 +107,22 @@
                         <span class="flink-line flink-line-left"></span>
                         <a href="404.html" class="flink-text">Лицензия</a>
                     </li>
+
+                    <li class="flink">
+                        <span class="flink-line flink-line-top"></span>
+                        <span class="flink-line flink-line-right"></span>
+                        <span class="flink-line flink-line-bottom"></span>
+                        <span class="flink-line flink-line-left"></span>
+                        <a href="html/404.html" class="flink-text">Карта сайта</a>
+                    </li>
+
+                    <li class="flink">
+                        <span class="flink-line flink-line-top"></span>
+                        <span class="flink-line flink-line-right"></span>
+                        <span class="flink-line flink-line-bottom"></span>
+                        <span class="flink-line flink-line-left"></span>
+                        <a href="html/404.html" class="flink-text">Лицензия</a>
+                    </li>
                 </ul>
             </div>
             <div class="footer1-img">
@@ -172,5 +189,31 @@
         </div>
     </div>
 </section>
+
+<div  style="display: none;" id="modal">
+    <div class="login-wrapper">
+        <div class="login-title">
+            Вход на сайт
+        </div>
+        <form class="form-enter">
+            <label class="login-label-name">
+                <input type="text" placeholder="UserName" required>
+            </label>
+            <label class="login-label-pass">
+                <input type="text" placeholder="Password" required>
+            </label>
+            <button class="popap-button" type="submit">
+                <div class="popap-button-enter">
+                    Войти
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js"></script>
+<scriptscriptscript src="../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js"></scriptscriptscript>
 </body>
 </html>
