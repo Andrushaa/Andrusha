@@ -264,13 +264,12 @@ body {
 .slider__item {
   background-image: url(../img/main/article3.png);
   min-height: 440px;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 14px;
 }
 
-/* position, size, repeat нужны для мобильной версии */
 .slider__item-title {
   font-size: 50px;
   color: #fff;
@@ -323,7 +322,6 @@ body {
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
-  /*чтобы все были с большой буквы */
   padding: 10px 0 0 60px;
   margin-bottom: 30px;
   position: relative;
@@ -354,7 +352,6 @@ body {
   left: 0;
   top: 4px;
   width: 5px;
-  /*для background-image укажем высоту и ширину нашей стрелки */
   height: 7px;
 }
 
@@ -372,7 +369,6 @@ body {
   top: 20px;
   background-image: url(../icons/cursor.png);
   width: 14px;
-  /*обязательно нужно поставить размер для background-image */
   height: 24px;
 }
 
@@ -388,7 +384,6 @@ body {
 .works__inner {
   padding: 20px 0px 40px;
   border-top: 1px solid #dfe1e5;
-  /*добавить линию толщина тип и цвет */
   border-bottom: 1px solid #dfe1e5;
 }
 
@@ -423,8 +418,6 @@ body {
   display: inline-block;
 }
 
-/*                          чтобы внутренний элемент не вылазил за границы
- * * ширина элемента будет такая сколько там контента внутри а block значит что там буду работать блочные свойства */
 .works__inner-link {
   background-color: black;
   height: 80px;
