@@ -38,7 +38,7 @@ body {
   font-size: 36px;
   font-weight: 300;
   word-break: break-word;
-  color: #a2b5c6;
+  color: darkyellow;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -47,7 +47,7 @@ body {
 
 .test-standart {
   width: 1200px;
-  color: #a2b5c6;
+  color: darkblue;
   font-size: 20px;
   text-align: center;
 }
