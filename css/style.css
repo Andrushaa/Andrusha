@@ -1366,7 +1366,7 @@ input::placeholder {
 
 .animated-modal {
   max-width: 550px;
-  border-radius: 4px;
+  border-radius: 14px;
   overflow: hidden;
   transform: translateY(-50px);
   transition: all 0.7s;

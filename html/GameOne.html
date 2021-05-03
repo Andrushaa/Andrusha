@@ -34,7 +34,7 @@
                         <span class="hlink-line hlink-line-right"></span>
                         <span class="hlink-line hlink-line-bottom"></span>
                         <span class="hlink-line hlink-line-left"></span>
-                        <a href="404.html" class="hlink-text">Регистрация</a>
+                        <a class="hlink-text" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Регистрация</a>
                     </li>
                     <li class="hlink">
                         <span class="hlink-line hlink-line-top"></span>
@@ -282,10 +282,32 @@
     </div>
 </div>
 
+<div style="display: none;" id="animatedModal" class="animated-modal">
+    <h2>Регистрация</h2>
+    <div class="login-wrapper">
+        <form class="form-enter">
+            <label class="login-label-name">
+                <input type="text" placeholder="UserName" required>
+            </label>
+            <label class="login-label-email">
+                <input type="email" placeholder="Email" required>
+            </label>
+            <label class="login-label-pass">
+                <input type="password" placeholder="Password" required>
+            </label>
+
+            <button class="popap-button2" type="submit">
+                <div class="popap-button2-register">
+                    Зарегистрироваться
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
-
-
 
 </body>
 
