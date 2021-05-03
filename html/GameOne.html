@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Article</title>
 </head>
@@ -40,7 +41,7 @@
                         <span class="hlink-line hlink-line-right"></span>
                         <span class="hlink-line hlink-line-bottom"></span>
                         <span class="hlink-line hlink-line-left"></span>
-                        <a href="404.html" class="hlink-text">Войти</a>
+                        <a class="hlink-text" data-fancybox data-src="#modal" href="javascript:;">Войти</a>
                     </li>
                 </ul>
             </div>
@@ -259,6 +260,30 @@
         </div>
     </div>
 </section>
+
+<div  style="display: none;" id="modal">
+    <div class="login-wrapper">
+        <div class="login-title">
+            Вход на сайт
+        </div>
+        <form class="form-enter">
+            <label class="login-label-name">
+                <input type="text" placeholder="UserName" required>
+            </label>
+            <label class="login-label-pass">
+                <input type="text" placeholder="Password" required>
+            </label>
+            <button class="popap-button" type="submit">
+                <div class="popap-button-enter">
+                    Войти
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
 
 
 
