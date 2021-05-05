@@ -1571,7 +1571,7 @@ html:hover .spider {
   height: 120px;
   position: relative;
   display: inline-block;
-  padding-top: 64px;
+  padding-top: 42px;
   text-decoration: none;
   color: #fff;
   font-size: 36px;
@@ -1587,7 +1587,7 @@ html:hover .spider {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 27px;
+  top: 5px;
   left: 5px;
   width: 100%;
   height: 100px;
