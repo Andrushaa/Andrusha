@@ -1608,5 +1608,109 @@ html:hover .spider {
     background-position: 0%;
   }
 }
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.bodyforapps {
+  background: black;
+}
+
+.calculator-on-iPhone-JS {
+  overflow: hidden;
+  background: black;
+  color: white;
+  height: 780px;
+  position: relative;
+  padding-left: 10px;
+  width: 550px;
+}
+
+.status {
+  display: flex;
+  justify-content: start;
+}
+
+.signal {
+  margin-right: 7px;
+  width: 20px;
+  height: 10px;
+}
+.signal img {
+  border-radius: 0;
+}
+
+.wifi {
+  margin-left: 7px;
+  width: 20px;
+  height: 20px;
+}
+
+.battery {
+  width: 8px;
+  height: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.battery-logo img {
+  width: 40px;
+  height: 53px;
+  padding-bottom: 30px;
+}
+
+.top-bar {
+  display: flex;
+  height: 90px;
+  width: 463px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.value {
+  font-size: 130px;
+  font-weight: 300;
+  height: 70px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.buttons-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.button {
+  align-items: center;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 45px;
+  height: 100px;
+  justify-content: center;
+  transition: filter 0.3s;
+  width: 100px;
+}
+.button.function {
+  color: black;
+  background: #a5a5a5;
+}
+.button.operator {
+  background: #f1a33c;
+}
+.button.number-0 {
+  border-radius: 55px;
+  grid-column: 1/span 2;
+  justify-content: flex-start;
+  padding-left: 43px;
+  width: 250px;
+}
+.button:active, .button:focus {
+  filter: brightness(133%);
+}
 
 /*# sourceMappingURL=style.css.map */
