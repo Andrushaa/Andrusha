@@ -2,8 +2,10 @@
   display: flex
   justify-content: space-between
 
-
-
+  @media only screen and (max-width: 677px)
+    display: flex
+    justify-content: center
+    flex-direction: column
 
 .footer2-content-up-bottom
   display: flex
@@ -15,12 +17,23 @@
   display: flex
   justify-content: space-between
 
+  @media only screen and (max-width: 677px)
+    display: flex
+    justify-content: center
+    flex-direction: column
+
 .footer2-content-down-license
   margin-top: 12px
   font-size: 24px
   font-weight: 300
   color: red
   text-align: center
+
+  @media only screen and (max-width: 677px)
+    font-weight: 200
+    width: 400px
+    height: 100%
+
   &::before
     content: '\e91b'
     font-family: 'icomoon'

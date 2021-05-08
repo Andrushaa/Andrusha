@@ -2,12 +2,16 @@
   display: flex
   justify-content: space-between
 
+  @media only screen and (max-width: 677px)
+    display: flex
+    justify-content: center
+    flex-direction: column-reverse
+
 .footer2-logo
   width: 300px
   height: 110px
   display: flex
   justify-content: space-between
-
 
 .footer-logo-prototip img
 
@@ -17,8 +21,6 @@
   height: 50px
   border-radius: 14px
 
-
-
 .footer2-logo-text
   text-align: center
   font-size: 12px
@@ -26,8 +28,10 @@
   word-break: break-word
   color: darkred
 
-
 .footer2-content
   width: 800px
 
-
+  @media only screen and (max-width: 677px)
+    display: flex
+    justify-content: center
+    flex-direction: column

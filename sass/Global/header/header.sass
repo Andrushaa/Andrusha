@@ -1,6 +1,13 @@
 .header-inner
     display: flex
     justify-content: space-between
+
+    @media only screen and (max-width: 577px)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding-top: 12px
+
 .header-button
     margin-top: 12px
     margin-left: 24px
