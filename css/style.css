@@ -590,9 +590,11 @@ body {
   background-position: right;
 }
 
-.tabs-content-inner {
+.tabs-inner {
   position: relative;
   overflow: hidden;
+  width: 1200px;
+  height: 360px;
 }
 
 .btn-box {
@@ -608,6 +610,7 @@ body {
   margin-right: 50px;
   font-size: 20px;
   font-weight: bold;
+  transition: 0.7s;
 }
 .btn-box button button:hover {
   color: #ff7846;
@@ -809,10 +812,6 @@ tabs-content__right-calc img {
 .flink a {
   text-decoration: none;
   position: relative;
-}
-
-.lol {
-  padding-bottom: 320px;
 }
 
 .footer2 {
@@ -1608,13 +1607,9 @@ html:hover .spider {
     background-position: 0%;
   }
 }
-* {
-  box-sizing: border-box;
-  user-select: none;
-}
-
 .bodyforapps {
   background: black;
+  user-select: none;
 }
 
 .calculator-on-iPhone-JS {
@@ -1711,6 +1706,139 @@ html:hover .spider {
 }
 .button:active, .button:focus {
   filter: brightness(133%);
+}
+
+.TicTacToe-Wrapper {
+  color: #545454;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  background: #14BDAC;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  user-select: none;
+}
+
+.TicTacToe {
+  background: #14BDAC;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 25px;
+}
+@media only screen and (max-width: 540px) {
+  .TicTacToe {
+    margin: 25px;
+    padding: 25px;
+  }
+}
+
+.title-TicTacToe {
+  text-align: center;
+  color: darkorange;
+}
+
+.title-TicTacToe span {
+  color: #F2EBD3;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.statusWrapper-TicTacToe {
+  display: flex;
+  margin-top: 25px;
+  font-size: 25px;
+  justify-content: space-around;
+  height: 30px;
+}
+
+.status-TicTacToe span {
+  color: #F2EBD3;
+}
+
+.newGame-TicTacToe {
+  cursor: pointer;
+}
+
+.newGame-TicTacToe:hover {
+  color: #F2EBD3;
+}
+
+.gameNet-TicTacToe {
+  background: #0DA192;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .gameNet-TicTacToe {
+    margin-top: 25px;
+    grid-gap: 10px;
+  }
+}
+
+.game-cell-TicTacToe {
+  background: #14BDAC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+}
+@media only screen and (max-width: 1024px) {
+  .game-cell-TicTacToe {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .game-cell-TicTacToe {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.x,
+.o {
+  cursor: default;
+}
+
+.x::after {
+  content: "×";
+  font-size: 200px;
+}
+@media only screen and (max-width: 1024px) {
+  .x::after {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .x::after {
+    font-size: 100px;
+  }
+}
+
+.o::after {
+  content: "○";
+  color: #F2EBD3;
+  font-size: 225px;
+}
+@media only screen and (max-width: 1024px) {
+  .o::after {
+    font-size: 175px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .o::after {
+    font-size: 125px;
+  }
+}
+
+.won::after {
+  color: #BD022F;
 }
 
 /*# sourceMappingURL=style.css.map */
