@@ -553,6 +553,8 @@ body {
   display: inline-block;
   border-radius: 14px;
   overflow: hidden;
+  width: 500px;
+  height: 500px;
 }
 
 .Game_img img {
