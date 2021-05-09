@@ -499,75 +499,75 @@ body {
   margin-top: 20px;
 }
 
-.list_games {
-  margin-top: 25px;
-  margin-left: 20px;
-  margin-bottom: 25px;
+.list-games {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.image-games {
-  max-width: 300px;
-  max-height: 150px;
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 14px;
-}
-.image-games img {
-  transition: 1s;
+.games-card {
+  width: 250px;
+  height: 300px;
   display: block;
+  margin: 10px 30px;
 }
 
-.games img:hover {
+.games-card-img {
+  display: block;
+  border-radius: 14px;
+  height: 250px;
+  weight: 250px;
+  overflow: hidden;
+}
+.games-card-img img {
+  height: 250px;
+  weight: 250px;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.games-card-img img:hover {
   transform: scale(1.2);
 }
 
-.games:hover .title-games a {
+.games-card a img:hover {
+  transform: scale(1.2);
+}
+
+.games-card:hover .games-card-title a {
   color: darkred;
 }
 
-.footer-inner {
-  padding-left: 20px;
-}
-
-.container {
-  width: 1139px;
-}
-
-.title-games {
+.games-card-title {
   text-align: center;
 }
-.title-games a {
+.games-card-title a {
   text-decoration: none;
   color: yellow;
   transition: 0.5s;
 }
 
-.img-inner {
+.list_games {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.Game_img {
-  display: inline-block;
+.image-games-one {
+  display: block;
+  margin: 0 auto;
   border-radius: 14px;
   overflow: hidden;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
-.Game_img img {
+.image-games-one img {
   transition: 1s;
   display: block;
+  width: 400px;
+  height: 400px;
 }
 
-.Game_img img:hover {
+.image-games-one img:hover {
   transform: scale(1.2);
-}
-
-.footer-inner {
-  padding-top: 300px;
 }
 
 .Game-Button {

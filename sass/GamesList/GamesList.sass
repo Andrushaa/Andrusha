@@ -1,33 +1,36 @@
-.list_games
-  margin-top: 25px
-  margin-left: 20px
-  margin-bottom: 25px
-  display: flex
-  justify-content: space-between
 
-.image-games
-  max-width: 300px
-  max-height: 150px
-  display: inline-block
-  overflow: hidden
+.list-games
+  display: flex
+  justify-content: flex-start
+
+.games-card
+  width: 250px
+  height: 300px
+  display: block
+  margin: 10px 30px
+
+.games-card-img
+  display: block
   border-radius: 14px
+  height: 250px
+  weight: 250px
+  overflow: hidden
 
   img
-    transition: 1s /* Время эффекта */
-    display: block
+    height: 250px
+    weight: 250px
+    overflow: hidden
+    transition: 0.7s
 
-.games img:hover
+  img:hover
+    transform: scale(1.2)
+
+.games-card a img:hover
   transform: scale(1.2)
-.games:hover .title-games a
+.games-card:hover .games-card-title a
   color: darkred
 
-.footer-inner
-  padding-left: 20px
-
-.container
-  width: 1139px
-
-.title-games
+.games-card-title
   text-align: center
 
   a
