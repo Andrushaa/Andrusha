@@ -675,12 +675,14 @@ tabs-content__right-calc img {
   background: red;
   color: darkblue;
   font-size: 18px;
+  cursor: pointer;
 }
 .button-For-Like button {
   background: transparent;
   border: none;
   color: white;
   font-size: 48px;
+  cursor: pointer;
 }
 
 @keyframes pulse {
