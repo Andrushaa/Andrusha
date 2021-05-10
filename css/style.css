@@ -249,12 +249,67 @@ body {
 }
 
 .title-reviews {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   text-decoration: none;
 }
 
-.title-reviews a {
+.link-review {
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70px;
+}
+.link-review a {
   text-decoration: none;
+}
+
+.img-reviews {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-reviews img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.img-reviews img:hover {
+  transform: scale(1.2);
+}
+
+.link-review-name {
+  color: blue;
+  transition: 1s;
+  font-size: 18px;
+  user-select: none;
+}
+
+.link-review-text a {
+  color: orange;
+  transition: 1s;
+  font-size: 24px;
+}
+
+.content-reviews a {
+  transition: 1s;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+.reviews:hover .link-review-name {
+  color: red;
+}
+.reviews:hover .link-review-text a {
+  color: yellow;
+  text-decoration: underline;
+}
+.reviews:hover .content-reviews a {
+  color: yellow;
 }
 
 .slider {
