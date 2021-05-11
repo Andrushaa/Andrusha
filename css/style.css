@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   box-sizing: border-box;
+  background: lightseagreen;
 }
 
 *,
@@ -248,6 +249,17 @@ body {
   display: block;
 }
 
+.reviews {
+  cursor: pointer;
+  padding: 20px;
+  transition: 1s;
+  border-radius: 14px;
+}
+.reviews:hover {
+  border: 0.5px dashed yellow;
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
 .title-reviews {
   width: 300px;
   height: 100px;
@@ -312,6 +324,98 @@ body {
   color: yellow;
 }
 
+.deposit-min-time {
+  position: relative;
+  width: 500px;
+  height: 20px;
+  margin: 70px 0;
+}
+
+.deposit-min-time input {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.deposit-min-time .deposit-time-bar {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  border-radius: 50px;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #295FFE;
+}
+
+.deposit-min-time .min,
+.deposit-min-time .max {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.deposit-min-time .min {
+  left: 2%;
+}
+
+.deposit-min-time .max {
+  right: 2%;
+}
+
+.deposit-min-time .deposit-track {
+  position: absolute;
+  z-index: 3;
+  left: 25px;
+  right: 25px;
+  top: 0;
+  bottom: 0;
+}
+
+.deposit-min-time .deposit-time-value {
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: lightgrey;
+  background-color: darkred;
+  border: 4px solid #000;
+  border-radius: 100%;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  transition: top 0.5s ease-in-out, color 0.5s ease-in-out;
+  border-color: yellow;
+}
+
+.deposit-min-time .deposit-time-value.up {
+  width: 52px;
+  height: 52px;
+  top: -90%;
+  color: white;
+  font-size: 17px;
+}
+
+.deposit-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .slider {
   padding: 20px 0px 10px;
 }
@@ -334,16 +438,7 @@ body {
   padding-top: 90px;
 }
 
-.slick-dots li {
-  /* делаем кружочки */
-  /* расстояние между кружочками
-  * margin: 0 9px */
-  /* 9, чтобы между двумя кружочками получилось 18
-  * width: auto
-  * height: auto */
-}
 .slick-dots li button {
-  /* делаем кружочки перехода, их адрес узнали через исперктор илементов */
   width: 14px;
   height: 14px;
   background-color: rgba(98, 98, 98, 0.5);
@@ -430,7 +525,6 @@ body {
 .works__inner-item {
   width: 200px;
   height: 200px;
-  /*overflow: hidden; */
   width: 150px;
   height: 150px;
   padding: 10px 10px;
@@ -447,7 +541,6 @@ body {
   height: 20px;
   border-radius: 50%;
   background-color: #1eacc7;
-  /*убрать стрелки, которые были в библиотеке */
 }
 .slick-arrow::before {
   display: none;
@@ -456,7 +549,6 @@ body {
   background-color: #1eacc7;
 }
 
-/*исправим фокус библиотеки */
 .slick-prev {
   right: 30px;
   top: -27px;
@@ -823,7 +915,7 @@ tabs-content__right-calc img {
   overflow: hidden;
   border-radius: 14px;
   transition: 1s;
-  background: linear-gradient(180deg, transparent, red);
+  background: linear-gradient(180deg, transparent, #295FFE);
 }
 
 .flink-text {
@@ -1333,7 +1425,7 @@ tabs-content__right-calc img {
   overflow: hidden;
   border-radius: 14px;
   transition: 1s;
-  background: linear-gradient(180deg, transparent, red);
+  background: linear-gradient(180deg, transparent, #295FFE);
 }
 
 .hlink-text {
@@ -1564,9 +1656,6 @@ input::placeholder {
   height: 40px;
 }
 
-html {
-  background: lightseagreen;
-}
 html:hover .spider {
   top: -120%;
 }
@@ -1576,10 +1665,8 @@ html:hover .spider {
   display: inline-block;
   top: 0;
   left: 30%;
-  /* 4. Animatie */
   animation: swing 2s infinite;
   transform-origin: top;
-  /* Bonus */
   transition: 1s ease-in-out;
 }
 .spider .spiderweb {
@@ -1617,7 +1704,6 @@ html:hover .spider {
   display: block;
   margin: 55%;
   border-radius: 50%;
-  /* 3. Animatie */
   animation: look 8s infinite;
 }
 .spider .legs {
@@ -1670,7 +1756,6 @@ html:hover .spider {
   margin-left: -30px;
 }
 
-/* 1. Animatie */
 @keyframes look {
   0%, 40%, 100% {
     transform: translateX(0);
@@ -1679,7 +1764,6 @@ html:hover .spider {
     transform: translateX(-110%);
   }
 }
-/* 3. Animatie */
 @keyframes swing {
   0%, 100% {
     transform: translateY(0);

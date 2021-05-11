@@ -1,0 +1,77 @@
+.deposit-min-time
+    position: relative
+    width: 500px
+    height: 20px
+    margin: 70px 0
+
+.deposit-min-time input
+    position: absolute
+    z-index: 10
+    top: 0
+    bottom: 0
+    width: 100%
+    cursor: pointer
+    opacity: 0
+
+.deposit-min-time .deposit-time-bar
+    position: absolute
+    z-index: 1
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: #000
+    border-radius: 50px
+    box-shadow: 0 5px 0 rgba(0,0,0,.1)
+    background-color: #295FFE
+
+.deposit-min-time .min,
+.deposit-min-time .max
+    position: absolute
+    z-index: 2
+    top: 50%
+    transform: translateY(-50%)
+    font-size: 14px
+    font-weight: 800
+    color: #fff
+
+.deposit-min-time .min
+    left: 2%
+
+.deposit-min-time .max
+    right: 2%
+
+.deposit-min-time .deposit-track
+    position: absolute
+    z-index: 3
+    left: 25px
+    right: 25px
+    top: 0
+    bottom: 0
+
+.deposit-min-time .deposit-time-value
+    position: absolute
+    left: 50%
+    top: -5px
+    width: 33px
+    height: 33px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 14px
+    font-weight: 800
+    color: lightgrey
+    background-color: darkred
+    border: 4px solid #000
+    border-radius: 100%
+    box-sizing: border-box
+    transform: translateX(-50%)
+    transition: top .5s ease-in-out, color .5s ease-in-out
+    border-color: yellow
+
+.deposit-min-time .deposit-time-value.up
+    width: 52px
+    height: 52px
+    top: -90%
+    color: white
+    font-size: 17px
