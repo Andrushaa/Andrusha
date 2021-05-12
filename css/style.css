@@ -35,11 +35,10 @@ body {
 }
 
 .title-main-middle {
-  width: 1200px;
   font-size: 36px;
   font-weight: 300;
   word-break: break-word;
-  color: darkyellow;
+  color: #2336A5;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -107,7 +106,6 @@ img {
   color: darkgreen;
   margin-right: 8px;
 }
-
 .breadcrumbs__list li span {
   color: darkgreen;
   font-weight: bold;
@@ -326,11 +324,10 @@ body {
 
 .deposit-min-time {
   position: relative;
-  width: 500px;
+  width: 400px;
   height: 20px;
-  margin: 70px 0;
+  margin: 10px 0;
 }
-
 .deposit-min-time input {
   position: absolute;
   z-index: 10;
@@ -340,7 +337,6 @@ body {
   cursor: pointer;
   opacity: 0;
 }
-
 .deposit-min-time .deposit-time-bar {
   position: absolute;
   z-index: 1;
@@ -350,8 +346,52 @@ body {
   bottom: 0;
   background-color: #000;
   border-radius: 50px;
-  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
   background-color: #295FFE;
+}
+.deposit-min-time .deposit-time-bar-text {
+  color: white;
+  margin-left: 10%;
+}
+.deposit-min-time .deposit-track {
+  position: absolute;
+  z-index: 3;
+  left: 25px;
+  right: 25px;
+  top: 0;
+  bottom: 0;
+}
+.deposit-min-time .deposit-time-value {
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: lightgrey;
+  background-color: #2336A5;
+  border: 4px solid #000;
+  border-radius: 100%;
+  box-sizing: border-box;
+  transform: translateX(-50%);
+  transition: top 0.5s ease-in-out, color 0.5s ease-in-out;
+  border-color: yellow;
+}
+.deposit-min-time .deposit-time-value.up {
+  width: 52px;
+  height: 52px;
+  top: -90%;
+  color: white;
+  font-size: 17px;
+}
+.deposit-min-time .min {
+  left: 2%;
+}
+.deposit-min-time .max {
+  right: 2%;
 }
 
 .deposit-min-time .min,
@@ -365,55 +405,117 @@ body {
   color: #fff;
 }
 
-.deposit-min-time .min {
-  left: 2%;
-}
-
-.deposit-min-time .max {
-  right: 2%;
-}
-
-.deposit-min-time .deposit-track {
-  position: absolute;
-  z-index: 3;
-  left: 25px;
-  right: 25px;
-  top: 0;
-  bottom: 0;
-}
-
-.deposit-min-time .deposit-time-value {
-  position: absolute;
-  left: 50%;
-  top: -5px;
-  width: 33px;
-  height: 33px;
+.deposit-wrapper {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-size: 14px;
-  font-weight: 800;
-  color: lightgrey;
-  background-color: darkred;
-  border: 4px solid #000;
-  border-radius: 100%;
-  box-sizing: border-box;
-  transform: translateX(-50%);
-  transition: top 0.5s ease-in-out, color 0.5s ease-in-out;
-  border-color: yellow;
 }
 
-.deposit-min-time .deposit-time-value.up {
-  width: 52px;
-  height: 52px;
-  top: -90%;
+.DepositSum input {
+  height: 43px;
+  margin-bottom: 8px;
+  border: none;
+  background-color: #2336A5;
   color: white;
-  font-size: 17px;
+  font-size: 14px;
+  padding-left: 40px;
+  display: block;
+  width: 400px;
+  border-radius: 12px;
+}
+.DepositSum input:hover {
+  border: none;
 }
 
-.deposit-form-wrapper {
+.DepositPercent input {
+  height: 43px;
+  margin-bottom: 8px;
+  border: none;
+  background-color: #2336A5;
+  color: white;
+  font-size: 14px;
+  padding-left: 40px;
+  display: block;
+  width: 400px;
+  border-radius: 12px;
+}
+.DepositPercent input:hover {
+  border: none;
+}
+
+.deposit-button {
+  padding: 10px 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #2336A5;
+  width: 140px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 12px;
+}
+.deposit-button:hover .deposit-button-payment {
+  color: yellow;
+}
+.deposit-button-payment {
+  color: white;
+  transition: 1s;
+}
+
+.profit-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+.profit-wrapper .profit-text {
+  color: #FF7000;
+  font-size: 18px;
+  font-weight: 900;
+}
+.profit-wrapper .profit-result-number {
+  color: #FF7000;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.sum-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+.sum-wrapper .sum-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.sum-wrapper .sum-result {
+  margin-right: 1.5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.time-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+.time-wrapper .time-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.time-wrapper .time-result {
+  margin-right: 1.5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .slider {
@@ -1814,7 +1916,6 @@ html:hover .spider {
   font-size: 36px;
   background-color: inherit;
 }
-
 .advertisement-text {
   color: yellow;
   text-align: center;

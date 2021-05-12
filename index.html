@@ -390,10 +390,17 @@
         <h3>
             <h3 class="title-main-middle">Депозитный калькулятор</h3>
         </h3>
-        <div class="deposit-form-wrapper">
+        <form class="deposit-wrapper">
+            <label class="DepositSum">
+                <input type="text" name="DSum" placeholder="Введите сумму" required maxlength="10">
+            </label>
+            <label class="DepositPercent">
+                <input type="text" name="DPersent" placeholder="а здесь проценты" required maxlength="4">
+            </label>
             <div class="deposit-min-time">
-                <input type="range" min="0" max="365" step="1">
+                <input type="range" name="DTime" min="0" max="365" step="1">
                 <div class="deposit-time-bar">
+                    <span class="deposit-time-bar-text">тут время в днях</span>
                     <span class="min"></span>
                     <span class="max"></span>
                 </div>
@@ -401,7 +408,47 @@
                     <div class="deposit-time-value"></div>
                 </div>
             </div>
+            <button class="deposit-button" type="submit">
+                <div class="deposit-button-payment">
+                    Рассчитать
+                </div>
+            </button>
+        </form>
+        <div class="deposit-result">
+            <div class="profit-wrapper">
+                <div class="profit-text">
+                    Доход
+                </div>
+                <div class="profit-result">
+                    <div class="profit-result-number">0</div>
+                </div>
+
+            </div>
+
+            <div class="sum-wrapper">
+                <div class="sum-text">
+                    Сумма
+                </div>
+                <div class="sum-result">
+                    <div class="profit-result-number">0</div>
+                </div>
+            </div>
+
+            <div class="time-wrapper">
+                <div class="time-text">
+                    Cрок вклада	
+                </div>
+                <div class="time-result">
+                    <div class="time-result-number">
+                        0
+                    </div>
+                </div>
+            </div>
         </div>
+       
+
+
+
     </div>
 
 </section>
@@ -533,10 +580,10 @@
         </div>
         <form class="form-enter">
             <label class="login-label-name">
-                <input type="text" placeholder="UserName" required>
+                <input type="text" placeholder="UserName" required maxlength="10">
             </label>
             <label class="login-label-pass">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" required maxlength="20">
             </label>
             <button class="popap-button" type="submit">
                 <div class="popap-button-enter">
@@ -553,16 +600,16 @@
     <div class="login-wrapper">
         <form class="form-enter">
             <label class="login-label-name">
-                <input type="text" placeholder="UserName" required>
+                <input type="text" placeholder="UserName" required maxlength="10">
             </label>
             <label class="login-label-email">
-                <input type="email" placeholder="Email" required>
+                <input type="email" placeholder="Email" required maxlength="20">
             </label>
             <label class="login-label-phone">
                 <input name="phone" placeholder="Your phone" required>
             </label>
             <label class="login-label-pass">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" required maxlength="20">
             </label>
 
             <button class="popap-button2" type="submit">
@@ -595,6 +642,7 @@
 <script src="js/main/script.js"></script>
 <script src="js/main/review.js"></script>
 <script src="js/DepositCalc/DepositTime.js"></script>
+
 
 </body>
 
