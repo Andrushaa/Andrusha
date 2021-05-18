@@ -1992,4 +1992,48 @@ html:hover .spider {
   background-size: cover;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Main-title {
+  font-family: Bebas Neue;
+  font-style: bold;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-title {
+  margin-top: 40px;
+  font-family: Bebas Neue;
+  font-style: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-yellow {
+  position: absolute;
+  left: 38.64%;
+  right: 43.28%;
+  top: 46.88%;
+  bottom: 46.88%;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+}
+
+.the-story {
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
