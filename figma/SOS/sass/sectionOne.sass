@@ -1,18 +1,74 @@
 .SectionOne
-    min-height: 1000px
+    min-weight: 1000px
+    min-height: 1100px
     background-repeat: no-repeat
     display: block
     background-position: center
-    background-size: cover
+    background-size: contain
+    position: relative
 
 .container1
     display: flex
     flex-direction: column
     justify-content: space-between
+    position: relative
 
 .header-inner
+    margin: 0 auto
     display: flex
-    justify-content: space-around
+    justify-content: space-between
+    margin-top: 21.54px
+    width: 70%
+
+    .logo
+        img
+            width: 55px
+            height: 55px
+            border-radius: 0
+
+    .menu-inner
+        display: flex
+        justify-content: space-between
+        width: 50%
+
+        .submenu-main
+            color: white
+            font-style: normal
+            font-weight: 700
+            margin: 4%
+            text-transform: uppercase
+            white-space: nowrap
+
+    .buttons
+        display: flex
+        justify-content: space-between
+        position: relative
+        width: 150px
+
+        .language
+            position: absolute
+            text-transform: uppercase
+            color: white
+            font-weight: 700
+            top: 30%
+
+        .separator
+            position: absolute
+            top: 20%
+            left: 38%
+
+        .logo-Xbox
+            position: absolute
+            left: 40%
+            top: 20%
+
+        .logo-steam
+            position: absolute
+            margin-top: 10%
+            left: 80%
+
+.title-wrapper
+    margin-top: 10%
 
 .Main-title
     font-family: Bebas Neue
@@ -32,13 +88,51 @@
     text-transform: uppercase
 
 .button-yellow
-    position: absolute
-    left: 38.64%
-    right: 43.28%
-    top: 46.88%
-    bottom: 46.88%
+    margin: 0 auto
+    position: relative
+    margin-top: 28.55px
+    width: 260.36px
+    height: 60px
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%)
     border-radius: 4px
 
+    &-left
+        position: absolute
+        left: 16.39px
+        top: 17.5px
+        color: black
+        font-size: 16px
+        font-weight: 700
+
+    &-center
+        position: absolute
+        left: 176.17px
+        top: 16.54px
+
+    &-right
+        position: absolute
+        right: 16.39px
+        top: 17.5px
+        color: black
+        font-size: 16px
+        font-weight: 700
+
 .the-story
+    position: relative
+    width: 68px
+    height: 25px
     margin: 0 auto
+    margin-top: 570px
+    margin-button: 20px
+
+    &-text
+        font-family: OpenSans
+        font-style: bold
+        font-size: 15px
+        color: white
+        text-transform: uppercase
+        white-space: nowrap
+
+    &-img
+        position: absolute
+        left: 42%

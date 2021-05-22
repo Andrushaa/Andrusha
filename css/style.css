@@ -1985,22 +1985,78 @@ html:hover .spider {
 }
 
 .SectionOne {
-  min-height: 1000px;
+  min-weight: 1000px;
+  min-height: 1100px;
   background-repeat: no-repeat;
   display: block;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  position: relative;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .header-inner {
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 21.54px;
+  width: 70%;
+}
+.header-inner .logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 0;
+}
+.header-inner .menu-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.header-inner .menu-inner .submenu-main {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  margin: 4%;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.header-inner .buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 150px;
+}
+.header-inner .buttons .language {
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  top: 30%;
+}
+.header-inner .buttons .separator {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+.header-inner .buttons .logo-Xbox {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+.header-inner .buttons .logo-steam {
+  position: absolute;
+  margin-top: 10%;
+  left: 80%;
+}
+
+.title-wrapper {
+  margin-top: 10%;
 }
 
 .Main-title {
@@ -2023,17 +2079,55 @@ html:hover .spider {
 }
 
 .button-yellow {
-  position: absolute;
-  left: 38.64%;
-  right: 43.28%;
-  top: 46.88%;
-  bottom: 46.88%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 28.55px;
+  width: 260.36px;
+  height: 60px;
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 4px;
 }
+.button-yellow-left {
+  position: absolute;
+  left: 16.39px;
+  top: 17.5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-yellow-center {
+  position: absolute;
+  left: 176.17px;
+  top: 16.54px;
+}
+.button-yellow-right {
+  position: absolute;
+  right: 16.39px;
+  top: 17.5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
 
 .the-story {
+  position: relative;
+  width: 68px;
+  height: 25px;
   margin: 0 auto;
+  margin-top: 570px;
+  margin-button: 20px;
+}
+.the-story-text {
+  font-family: OpenSans;
+  font-style: bold;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.the-story-img {
+  position: absolute;
+  left: 42%;
 }
 
 /*# sourceMappingURL=style.css.map */
