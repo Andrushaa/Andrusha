@@ -2146,6 +2146,7 @@ html:hover .spider {
   top: 256px;
   left: 122px;
   font-size: 24px;
+  font-family: Bebas Neue;
 }
 .SectionTwo .h1Main {
   position: absolute;
@@ -2154,8 +2155,23 @@ html:hover .spider {
   font-size: 50px;
   top: 293px;
   left: 120px;
-  line-height: 52px;
-  width: 520px;
+  line-height: 80px;
+  width: 600px;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: Bebas Neue;
+}
+.SectionTwo .textSectionTwo {
+  position: absolute;
+  color: white;
+  top: 520px;
+  left: 310px;
+  font-size: 18px;
+  width: 360px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: Open Sans;
 }
 
 .SectionThree {
@@ -2168,6 +2184,30 @@ html:hover .spider {
   position: relative;
 }
 
+.S3-h1up-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 169px;
+  left: 800px;
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.S3-h1main-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 208px;
+  left: 800px;
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+}
+
 .SectionFour {
   min-weight: 1000px;
   min-height: 880px;
@@ -2176,6 +2216,58 @@ html:hover .spider {
   background-position: center;
   background-size: contain;
   position: relative;
+}
+
+.s4-h1up-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 145px;
+  left: 570px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Bebas Neue;
+}
+
+.s4-h1main-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 182px;
+  left: 419px;
+  font-size: 60px;
+  font-family: Bebas Neue;
+}
+
+.table-os {
+  position: relative;
+  top: 390px;
+  left: 122px;
+  width: 267px;
+  height: 120px;
+  border: yellow 1px solid;
+}
+.table-os-os {
+  color: #FFB548;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.table-os-text {
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.table-os-processor {
+  position: relative;
+  display: inline;
+  top: 390px;
+  left: 389px;
 }
 
 /*# sourceMappingURL=style.css.map */
