@@ -2270,4 +2270,24 @@ html:hover .spider {
   left: 389px;
 }
 
+.SectionFive {
+  min-weight: 1000px;
+  min-height: 880px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.SectionSix {
+  min-weight: 1000px;
+  min-height: 880px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
 /*# sourceMappingURL=style.css.map */
