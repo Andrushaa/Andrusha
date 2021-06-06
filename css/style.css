@@ -2323,4 +2323,87 @@ html:hover .spider {
   position: relative;
 }
 
+.s6h1-up {
+  position: absolute;
+  top: 220px;
+  left: 678px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.s6h1-main {
+  position: absolute;
+  top: 260px;
+  left: 678px;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-family: Bebas Neue;
+}
+
+.s6h1-text {
+  position: absolute;
+  top: 380px;
+  left: 675px;
+  width: 645px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Open Sans;
+  line-height: 22px;
+}
+
+.s6img-main {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+
+.email {
+  position: absolute;
+  top: 510px;
+  left: 676px;
+  width: 367px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+}
+.email-text {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-left: 21px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.button-subscribe {
+  position: absolute;
+  top: 511px;
+  left: 1060px;
+  width: 260px;
+  height: 60px;
+  background: linear-gradient(#FFB548, #F3AF34);
+  border-radius: 4px;
+}
+.button-subscribe-text {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.rights-text {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Open Sans;
+}
+
 /*# sourceMappingURL=style.css.map */
