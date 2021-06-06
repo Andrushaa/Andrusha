@@ -2313,6 +2313,23 @@ html:hover .spider {
   font-family: Open Sans;
 }
 
+.Read-more {
+  position: absolute;
+  top: 630px;
+  left: 124px;
+  width: 260px;
+  height: 60px;
+  background: linear-gradient(#FFB548, #F3AF34);
+  border-radius: 4px;
+}
+.Read-more-text {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Open Sans;
+}
+
 .SectionSix {
   min-weight: 1000px;
   min-height: 880px;
