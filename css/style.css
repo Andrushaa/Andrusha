@@ -2115,6 +2115,7 @@ html:hover .spider {
   margin: 0 auto;
   margin-top: 570px;
   margin-button: 20px;
+  cursor: pointer;
 }
 .the-story-text {
   font-family: OpenSans;
