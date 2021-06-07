@@ -2331,6 +2331,32 @@ html:hover .spider {
   font-family: Open Sans;
 }
 
+.reviews {
+  width: 453px;
+  height: 183px;
+  background-color: #1a1a1b;
+  border-radius: 10px;
+}
+.reviews-name {
+  color: #FFB548;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin-left: 109px;
+  margin-top: 26px;
+}
+.reviews-date {
+  margin-left: 16px;
+  margin-top: 141px;
+}
+
+.evan {
+  position: absolute;
+  top: 160px;
+  left: 870px;
+}
+
 .SectionSix {
   min-weight: 1000px;
   min-height: 880px;
