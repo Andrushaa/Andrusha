@@ -2332,25 +2332,65 @@ html:hover .spider {
   font-family: Open Sans;
 }
 
-.reviews {
+.reviewsSOS {
+  position: relative;
   width: 453px;
   height: 183px;
   background-color: #1a1a1b;
   border-radius: 10px;
 }
-.reviews-name {
+.reviewsSOS-name {
+  position: absolute;
   color: #FFB548;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
-  margin-left: 109px;
-  margin-top: 26px;
+  left: 109px;
+  top: 26px;
   letter-spacing: 2px;
 }
-.reviews-date {
+.reviewsSOS-subname {
+  position: absolute;
+  top: 47px;
+  left: 109px;
+  color: #5d5d5e;
+}
+.reviewsSOS-img {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+.reviewsSOS-img img {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+}
+.reviewsSOS-yellowCircle {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: 66px;
+  height: 66px;
+  background-color: #FFB548;
+  border-radius: 50%;
+  z-index: -1;
+}
+.reviewsSOS-social {
+  position: absolute;
+  top: 30px;
+  left: 414px;
+}
+.reviewsSOS-text {
+  position: absolute;
+  top: 103px;
+  left: 16px;
+  color: white;
+}
+.reviewsSOS-date {
   margin-left: 16px;
   margin-top: 141px;
+  color: #5d5d5e;
 }
 
 .evan {
