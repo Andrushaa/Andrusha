@@ -2084,6 +2084,7 @@ html:hover .spider {
   height: 60px;
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-yellow-left {
   position: absolute;
@@ -2319,6 +2320,7 @@ html:hover .spider {
   height: 60px;
   background: linear-gradient(#FFB548, #F3AF34);
   border-radius: 4px;
+  cursor: pointer;
 }
 .Read-more-text {
   color: black;
@@ -2397,13 +2399,20 @@ html:hover .spider {
   color: #FFFFFF;
 }
 .email-email .field-email {
-  color: red;
+  color: #FFB548;
   background-color: transparent;
   border: none;
   font-weight: 400;
   font-size: 18px;
   font-family: Open Sans;
   margin-left: 21px;
+  cursor: pointer;
+}
+.email-email .field-email::placeholder {
+  color: #FFB548;
+}
+.email-email .field-email:focus {
+  outline: none;
 }
 
 .button-subscribe {
@@ -2414,6 +2423,7 @@ html:hover .spider {
   height: 60px;
   background: linear-gradient(#FFB548, #F3AF34);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-subscribe-text {
   font-size: 16px;
