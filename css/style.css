@@ -2299,6 +2299,7 @@ html:hover .spider {
   text-transform: uppercase;
   font-size: 80px;
   line-height: 80px;
+  letter-spacing: 3px;
 }
 
 .s5h1-text {
@@ -2345,6 +2346,7 @@ html:hover .spider {
   line-height: 24px;
   margin-left: 109px;
   margin-top: 26px;
+  letter-spacing: 2px;
 }
 .reviews-date {
   margin-left: 16px;
