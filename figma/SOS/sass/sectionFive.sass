@@ -47,6 +47,10 @@
     background: linear-gradient(#FFB548, #F3AF34)
     border-radius: 4px
     cursor: pointer
+    transition: 0.5s
+
+    &:hover
+        background: linear-gradient(#fc9804, #d39013)
 
     &-text
         color: black
@@ -62,9 +66,17 @@
     background-color: #1a1a1b
     border-radius: 10px
     cursor: pointer
+    transition: 0.5s
+
+    &:hover
+        border: 2px solid #FFB548
+        transform: scale(1.05)
 
     &:hover .reviewsSOS-yellowCircle
         transform: translate(8px, 4px)
+
+    &:hover .fa-twitter::before
+        color: #179CF0
 
     &-name
         position: absolute
@@ -113,13 +125,30 @@
         top: 103px
         left: 16px
         color: white
+        width: 390px
+        height: 60px
 
     &-date
         margin-left: 16px
-        margin-top: 141px
+        margin-top: 151px
         color: #5d5d5e
+
+.fa-twitter::before
+    font-size: 17px
+    color: #5d5d5e
+    transition: 0.5s
 
 .evan
     position: absolute
     top: 160px
-    left: 870px
+    left: 970px
+
+.lada
+    position: absolute
+    top: 372px
+    left: 824px
+
+.aaron
+    position: absolute
+    top: 608px
+    left: 929px

@@ -2086,6 +2086,9 @@ html:hover .spider {
   border-radius: 4px;
   cursor: pointer;
 }
+.button-yellow:hover {
+  background: linear-gradient(#fc9804, #d39013);
+}
 .button-yellow-left {
   position: absolute;
   left: 16.39px;
@@ -2323,6 +2326,10 @@ html:hover .spider {
   background: linear-gradient(#FFB548, #F3AF34);
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.Read-more:hover {
+  background: linear-gradient(#fc9804, #d39013);
 }
 .Read-more-text {
   color: black;
@@ -2339,9 +2346,17 @@ html:hover .spider {
   background-color: #1a1a1b;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.reviewsSOS:hover {
+  border: 2px solid #FFB548;
+  transform: scale(1.05);
 }
 .reviewsSOS:hover .reviewsSOS-yellowCircle {
   transform: translate(8px, 4px);
+}
+.reviewsSOS:hover .fa-twitter::before {
+  color: #179CF0;
 }
 .reviewsSOS-name {
   position: absolute;
@@ -2391,17 +2406,37 @@ html:hover .spider {
   top: 103px;
   left: 16px;
   color: white;
+  width: 390px;
+  height: 60px;
 }
 .reviewsSOS-date {
   margin-left: 16px;
-  margin-top: 141px;
+  margin-top: 151px;
   color: #5d5d5e;
+}
+
+.fa-twitter::before {
+  font-size: 17px;
+  color: #5d5d5e;
+  transition: 0.5s;
 }
 
 .evan {
   position: absolute;
   top: 160px;
-  left: 870px;
+  left: 970px;
+}
+
+.lada {
+  position: absolute;
+  top: 372px;
+  left: 824px;
+}
+
+.aaron {
+  position: absolute;
+  top: 608px;
+  left: 929px;
 }
 
 .SectionSix {
@@ -2498,6 +2533,9 @@ html:hover .spider {
   background: linear-gradient(#FFB548, #F3AF34);
   border-radius: 4px;
   cursor: pointer;
+}
+.button-subscribe:hover {
+  background: linear-gradient(#fc9804, #d39013);
 }
 .button-subscribe-text {
   font-size: 16px;
