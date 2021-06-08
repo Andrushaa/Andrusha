@@ -2265,28 +2265,28 @@ html:hover .spider {
 .table-os {
   position: absolute;
   top: 388px;
-  left: 121px;
+  left: 221px;
 }
 .table-processor {
   position: absolute;
   top: 388px;
-  left: 387px;
+  left: 487px;
 }
 .table-memory {
   position: absolute;
   top: 507px;
-  left: 121px;
+  left: 221px;
 }
 .table-storage {
   position: absolute;
   top: 507px;
-  left: 387px;
+  left: 487px;
 }
 
 .table2 {
   position: absolute;
   top: 626px;
-  left: 121px;
+  left: 221px;
   width: 533px;
   height: 150px;
   border-left: 1px solid rgba(151, 151, 151, 0.2);
@@ -2297,7 +2297,7 @@ html:hover .spider {
   width: 64.8px;
   position: absolute;
   top: 775px;
-  left: 121px;
+  left: 221px;
 }
 
 .line2 {
@@ -2305,7 +2305,7 @@ html:hover .spider {
   width: 17px;
   position: absolute;
   top: 769px;
-  left: 183px;
+  left: 283px;
   transform: rotate(-45deg);
 }
 
@@ -2314,7 +2314,7 @@ html:hover .spider {
   width: 70px;
   position: absolute;
   top: 763.2px;
-  left: 197.5px;
+  left: 297.5px;
 }
 
 .line4 {
@@ -2322,7 +2322,7 @@ html:hover .spider {
   width: 17px;
   position: absolute;
   top: 769px;
-  left: 264.8px;
+  left: 364.8px;
   transform: rotate(45deg);
 }
 
@@ -2331,7 +2331,7 @@ html:hover .spider {
   width: 362.8px;
   position: absolute;
   top: 775px;
-  left: 279.4px;
+  left: 379.4px;
 }
 
 .line6 {
@@ -2339,7 +2339,7 @@ html:hover .spider {
   width: 17px;
   position: absolute;
   top: 768.5px;
-  left: 639.3px;
+  left: 739.3px;
   transform: rotate(-45deg);
 }
 
@@ -2348,7 +2348,7 @@ html:hover .spider {
   height: 137px;
   position: absolute;
   top: 626px;
-  left: 653px;
+  left: 753px;
 }
 
 .SectionFive {
