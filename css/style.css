@@ -2242,22 +2242,19 @@ html:hover .spider {
   font-family: Bebas Neue;
 }
 
-.table-os {
-  position: relative;
-  top: 390px;
-  left: 122px;
+.table {
   width: 267px;
   height: 120px;
-  border: yellow 1px solid;
+  border: 1px solid rgba(151, 151, 151, 0.2);
 }
-.table-os-os {
+.table-name {
   color: #FFB548;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 10px;
   margin-left: 20px;
 }
-.table-os-text {
+.table-text {
   color: white;
   margin-top: 10px;
   margin-left: 20px;
@@ -2265,12 +2262,93 @@ html:hover .spider {
   font-size: 18px;
   line-height: 22px;
 }
+.table-os {
+  position: absolute;
+  top: 388px;
+  left: 121px;
+}
+.table-processor {
+  position: absolute;
+  top: 388px;
+  left: 387px;
+}
+.table-memory {
+  position: absolute;
+  top: 507px;
+  left: 121px;
+}
+.table-storage {
+  position: absolute;
+  top: 507px;
+  left: 387px;
+}
 
-.table-os-processor {
-  position: relative;
-  display: inline;
-  top: 390px;
-  left: 389px;
+.table2 {
+  position: absolute;
+  top: 626px;
+  left: 121px;
+  width: 533px;
+  height: 150px;
+  border-left: 1px solid rgba(151, 151, 151, 0.2);
+}
+
+.line1 {
+  border-top: 1px solid rgba(151, 151, 151, 0.2);
+  width: 64.8px;
+  position: absolute;
+  top: 775px;
+  left: 121px;
+}
+
+.line2 {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+  width: 17px;
+  position: absolute;
+  top: 769px;
+  left: 183px;
+  transform: rotate(-45deg);
+}
+
+.line3 {
+  border-top: 1px solid rgba(151, 151, 151, 0.2);
+  width: 70px;
+  position: absolute;
+  top: 763.2px;
+  left: 197.5px;
+}
+
+.line4 {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+  width: 17px;
+  position: absolute;
+  top: 769px;
+  left: 264.8px;
+  transform: rotate(45deg);
+}
+
+.line5 {
+  border-top: 1px solid rgba(151, 151, 151, 0.2);
+  width: 362.8px;
+  position: absolute;
+  top: 775px;
+  left: 279.4px;
+}
+
+.line6 {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+  width: 17px;
+  position: absolute;
+  top: 768.5px;
+  left: 639.3px;
+  transform: rotate(-45deg);
+}
+
+.line7 {
+  border-right: 1px solid rgba(151, 151, 151, 0.2);
+  height: 137px;
+  position: absolute;
+  top: 626px;
+  left: 653px;
 }
 
 .SectionFive {
