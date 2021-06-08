@@ -2338,6 +2338,7 @@ html:hover .spider {
   height: 183px;
   background-color: #1a1a1b;
   border-radius: 10px;
+  cursor: pointer;
 }
 .reviewsSOS-name {
   position: absolute;
