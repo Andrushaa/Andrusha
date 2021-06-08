@@ -2264,32 +2264,35 @@ html:hover .spider {
 }
 .table-os {
   position: absolute;
-  top: 388px;
+  top: 368px;
   left: 221px;
 }
 .table-processor {
   position: absolute;
-  top: 388px;
+  top: 368px;
   left: 487px;
 }
 .table-memory {
   position: absolute;
-  top: 507px;
+  top: 487px;
   left: 221px;
 }
 .table-storage {
   position: absolute;
-  top: 507px;
+  top: 487px;
   left: 487px;
 }
 
 .table2 {
   position: absolute;
-  top: 626px;
+  top: 606px;
   left: 221px;
   width: 533px;
-  height: 150px;
+  height: 170px;
   border-left: 1px solid rgba(151, 151, 151, 0.2);
+}
+.table2 .table-name {
+  margin-top: 20px;
 }
 
 .line1 {
@@ -2345,9 +2348,9 @@ html:hover .spider {
 
 .line7 {
   border-right: 1px solid rgba(151, 151, 151, 0.2);
-  height: 137px;
+  height: 157px;
   position: absolute;
-  top: 626px;
+  top: 606px;
   left: 753px;
 }
 
