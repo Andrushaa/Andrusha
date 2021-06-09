@@ -2177,6 +2177,38 @@ html:hover .spider {
   font-family: Open Sans;
 }
 
+.photo1 {
+  position: absolute;
+  top: 190px;
+  left: 770px;
+  z-index: 3;
+}
+.photo1 img {
+  width: 490px;
+  height: 600px;
+}
+
+.photo2 {
+  position: absolute;
+  top: 210px;
+  left: 880px;
+  z-index: 2;
+}
+.photo2 img {
+  width: 450px;
+  height: 550px;
+}
+
+.photo3 {
+  position: absolute;
+  top: 230px;
+  left: 1000px;
+}
+.photo3 img {
+  width: 400px;
+  height: 500px;
+}
+
 .SectionThree {
   min-weight: 1000px;
   min-height: 880px;
