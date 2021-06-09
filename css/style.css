@@ -2211,6 +2211,66 @@ html:hover .spider {
   font-style: normal;
 }
 
+.s3h {
+  color: #FFB548;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Bebas Neue;
+  cursor: pointer;
+}
+
+.s3h1 {
+  position: absolute;
+  top: 350px;
+  left: 842px;
+}
+
+.s3h2 {
+  position: absolute;
+  top: 500px;
+  left: 842px;
+}
+
+.s3h3 {
+  position: absolute;
+  top: 573px;
+  left: 842px;
+}
+
+.s3text {
+  width: 360px;
+  height: 77.7px;
+  color: white;
+  font-weight: 400;
+  fontfamily: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.s3text:hover {
+  color: lightblue;
+}
+
+.s3text1 {
+  position: absolute;
+  top: 393px;
+  left: 842px;
+}
+
+.s3text2 {
+  position: absolute;
+  top: 545px;
+  left: 842px;
+  display: none;
+}
+
+.s3h2 {
+  position: absolute;
+  top: 500px;
+  left: 842px;
+}
+
 .SectionFour {
   min-weight: 1000px;
   min-height: 880px;
