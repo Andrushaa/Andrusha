@@ -2120,6 +2120,7 @@ html:hover .spider {
   margin-top: 570px;
   margin-button: 20px;
   cursor: pointer;
+  animation: animate-TheStory 1s ease infinite;
 }
 .the-story-text {
   font-family: OpenSans;
@@ -2134,6 +2135,17 @@ html:hover .spider {
   left: 42%;
 }
 
+@keyframes animate-TheStory {
+  0% {
+    margin-top: 570px;
+  }
+  50% {
+    margin-top: 550px;
+  }
+  100% {
+    margin-top: 570px;
+  }
+}
 .SectionTwo {
   min-weight: 1000px;
   min-height: 1100px;

@@ -130,6 +130,7 @@
     margin-top: 570px
     margin-button: 20px
     cursor: pointer
+    animation: animate-TheStory 1s ease infinite
 
     &-text
         font-family: OpenSans
@@ -142,3 +143,13 @@
     &-img
         position: absolute
         left: 42%
+
+@keyframes animate-TheStory
+    0%
+        margin-top: 570px
+
+    50%
+        margin-top: 550px
+
+    100%
+        margin-top: 570px
