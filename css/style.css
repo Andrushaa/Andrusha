@@ -2232,6 +2232,7 @@ html:hover .spider {
   border: 1px solid white;
   border-radius: 50%;
   z-index: 4;
+  cursor: pointer;
 }
 
 .point2 {
@@ -2244,6 +2245,7 @@ html:hover .spider {
   border: 1px solid white;
   border-radius: 50%;
   z-index: 4;
+  cursor: pointer;
 }
 
 .point3 {
@@ -2256,6 +2258,7 @@ html:hover .spider {
   border: 1px solid white;
   border-radius: 50%;
   z-index: 4;
+  cursor: pointer;
 }
 
 .point4 {
@@ -2268,6 +2271,7 @@ html:hover .spider {
   border: 1px solid white;
   border-radius: 50%;
   z-index: 4;
+  cursor: pointer;
 }
 
 .point5 {
@@ -2280,6 +2284,7 @@ html:hover .spider {
   border: 1px solid white;
   border-radius: 50%;
   z-index: 4;
+  cursor: pointer;
 }
 
 .SectionThree {
