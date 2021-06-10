@@ -2574,7 +2574,7 @@ html:hover .spider {
   color: #5d5d5e;
 }
 
-.fa-twitter::before {
+.reviewsSOS .fa-twitter::before {
   font-size: 17px;
   color: #5d5d5e;
   transition: 0.5s;
@@ -2645,8 +2645,12 @@ html:hover .spider {
 
 .s6img-main {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 160px;
+}
+.s6img-main img {
+  width: 360px;
+  height: 600px;
 }
 
 .email {
@@ -2713,12 +2717,27 @@ html:hover .spider {
 .footer-up {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1300px;
   margin: 0 auto;
+  padding-bottom: 30px;
+}
+.footer-up-img img {
+  width: 180px;
+  height: 90px;
+  padding-right: 90px;
+}
+.footer-up .footer-up-imgs i {
+  color: white;
+  font-size: 24px;
+  padding: 30px;
+  transition: 0.5s;
+}
+.footer-up .footer-up-imgs i:hover {
+  color: red;
 }
 
 .footer-under {
-  width: 1200px;
+  width: 1300px;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -2728,11 +2747,17 @@ html:hover .spider {
 .footer-under .under-menu {
   display: flex;
   justify-content: space-between;
-  width: 420px;
+  width: 450px;
 }
 .footer-under .under-menu a {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer-under .under-menu a:hover {
+  color: red;
 }
 
 .rights-text {
@@ -2751,6 +2776,36 @@ html:hover .spider {
 .footer-wrapper-inner {
   display: block;
   margin: 0 auto;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 33px;
+}
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.footer-menu a:hover {
+  color: red;
+}
+
+.footer-line-long {
+  border-top: 3px solid rgba(151, 151, 151, 0.2);
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.footer-line-short {
+  margin-top: 1.5px;
+  height: 20px;
+  border-left: 1px solid white;
 }
 
 .SectionThree {
