@@ -1,7 +1,13 @@
 .Game-Button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 10vh;
 }
 
@@ -9,15 +15,17 @@
   font-size: 25px;
   font-family: monospace;
   color: lightskyblue;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(lightskyblue), color-stop(blue), to(purple));
   background: linear-gradient(to right, red, orange, yellow, green, lightskyblue, blue, purple);
   text-decoration: none;
   padding: 20px 70px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-size: 200%;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 .btn:hover {
   background-position: right;
 }
-
 /*# sourceMappingURL=GamesOne-Button.css.map */

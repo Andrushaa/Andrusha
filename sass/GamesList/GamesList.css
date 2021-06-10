@@ -1,33 +1,57 @@
-@charset "UTF-8";
-.list_games {
-  margin-top: 25px;
-  margin-left: 20px;
+.list-games {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.image-games {
-  max-width: 300px;
-  max-height: 150px;
-  display: inline-block;
-  overflow: hidden;
-  /*что не попадает в блок - скрыто*/
-}
-.image-games img {
-  transition: 1s;
+.games-card {
+  width: 250px;
+  height: 300px;
   display: block;
+  margin: 10px 30px;
 }
 
-/* Убираем небольшой отступ снизу */
-.games img:hover {
-  transform: scale(1.2);
+.games-card-img {
+  display: block;
+  border-radius: 14px;
+  height: 250px;
+  weight: 250px;
+  overflow: hidden;
 }
 
-.title-games {
+.games-card-img img {
+  height: 250px;
+  weight: 250px;
+  overflow: hidden;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.games-card-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.games-card a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.games-card:hover .games-card-title a {
+  color: darkred;
+}
+
+.games-card-title {
   text-align: center;
 }
-.title-games a {
-  text-decoration: none;
-}
 
+.games-card-title a {
+  text-decoration: none;
+  color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /*# sourceMappingURL=GamesList.css.map */

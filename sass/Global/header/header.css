@@ -1,0 +1,98 @@
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 577px) {
+  .header-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 12px;
+  }
+}
+
+.header-button {
+  margin-top: 12px;
+  margin-left: 24px;
+}
+
+.header-button a img {
+  width: 200px;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.button-enter {
+  margin-top: 14px;
+  width: 96px;
+  height: 48px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #BF6363;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 15%;
+}
+
+.button-enter a {
+  text-decoration: none;
+  color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-enter a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.button-registration {
+  margin-top: 14px;
+  width: 200px;
+  height: 48px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #BF6363;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 15%;
+}
+
+.button-registration a {
+  text-decoration: none;
+  color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-registration a:hover {
+  text-decoration: none;
+  color: darkred;
+}
+
+.buttons-enters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=header.css.map */

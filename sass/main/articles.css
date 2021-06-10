@@ -1,9 +1,17 @@
 @charset "UTF-8";
+body {
+  background-color: transparent;
+}
+
 .list_article {
   margin-top: 25px;
   margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .image-article {
@@ -11,24 +19,36 @@
   max-height: 150px;
   display: inline-block;
   overflow: hidden;
+  border-radius: 14px;
   /*что не попадает в блок - скрыто*/
   /* Убираем небольшой отступ снизу */
 }
+
 .image-article img {
+  -webkit-transition: 1s;
   transition: 1s;
   display: block;
 }
 
 .article img:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.article:hover .title-article a {
+  color: darkred;
 }
 
 .list_reviews {
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .content-reviews {
@@ -41,15 +61,27 @@
 
 /*что не попадает в блок - скрыто*/
 .botton_news {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title-article {
   text-align: center;
 }
+
 .title-article a {
   text-decoration: none;
+  color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
+.title-article a:hover {
+  text-decoration: none;
+  color: darkred;
+}
 /*# sourceMappingURL=articles.css.map */

@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["GamesOne.sass"],"names":[],"mappings":"AAAA;EACE;EACA","file":"GamesOne.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAAG;;AAElC,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,MAAM;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAAG;;AAElB,AAAA,gBAAgB,CAAC,GAAG,CAAC;EACnB,UAAU,EAAE,EAAE;EACd,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAAG;;AAElB,AAAA,gBAAgB,CAAC,GAAG,AAAA,MAAM,CAAC;EACzB,SAAS,EAAE,UAAU;CAAG",
+    "sources": [
+        "GamesOne.sass"
+    ],
+    "names": [],
+    "file": "GamesOne.css"
+}

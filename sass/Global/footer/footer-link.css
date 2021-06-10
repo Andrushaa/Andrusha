@@ -1,39 +1,156 @@
 .footer1-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer1-menu li {
   display: inline-block;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+@media only screen and (max-width: 677px) {
+  .footer1-menu li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .flink {
-  text-decoration: none;
-  -webkit-box-direction: normal;
-  font-family: Graphik, Arial, sans-serif;
-  color: #3f5067;
-  box-sizing: border-box;
-  outline: none;
-  border-bottom: 1px solid #edecec;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 17px 17px 17px;
   position: relative;
+  display: inline-block;
+  padding: 8px 14px;
+  overflow: hidden;
+  border-radius: 14px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#295FFE));
+  background: linear-gradient(180deg, transparent, #295FFE);
 }
 
-.flink::before {
-  content: "";
+.flink-text {
+  text-decoration: none;
+  -webkit-box-direction: normal;
+  font-family: Graphik,Arial,sans-serif;
+  color: yellow;
+  outline: none;
+  border-bottom: 1px solid darkorange;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flink-text:hover {
+  color: yellow;
+}
+
+.flink-line {
+  position: absolute;
+  display: block;
+}
+
+.flink-line-top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(yellow));
+  background: linear-gradient(90deg, transparent, yellow);
+}
+
+.flink:hover .flink-line-top {
+  left: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.flink-line-bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(yellow));
+  background: linear-gradient(270deg, transparent, yellow);
+}
+
+.flink:hover .flink-line-bottom {
+  right: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.flink-line-left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(yellow));
+  background: linear-gradient(0deg, transparent, yellow);
+}
+
+.flink:hover .flink-line-left {
+  bottom: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.flink-line-right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(yellow));
+  background: linear-gradient(180deg, transparent, yellow);
+}
+
+.flink:hover .flink-line-right {
+  top: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.flink a::before {
+  content: '';
   bottom: 0;
   left: 0;
   position: absolute;
   width: 100%;
-  height: 2px;
-  background-color: #000;
-  transition: 0.2s;
-  transform: scaleX(0);
+  height: 1px;
+  background-color: yellow;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 
+.flink a:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.flink a {
+  text-decoration: none;
+  position: relative;
+}
 /*# sourceMappingURL=footer-link.css.map */

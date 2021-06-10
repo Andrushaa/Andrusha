@@ -1,0 +1,130 @@
+.SectionThree {
+  min-weight: 1000px;
+  min-height: 880px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.S3-h1up-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 169px;
+  left: 800px;
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.S3-h1main-text {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  top: 208px;
+  left: 800px;
+  font-family: Bebas Neue;
+  font-weight: 700;
+  font-size: 80px;
+  font-style: normal;
+}
+
+.s3h3 {
+  color: #FFB548;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Bebas Neue;
+}
+
+.s3h3:hover .s3text1 {
+  color: red;
+  display: none;
+}
+
+.s3h2:hover .s3text3 {
+  color: red;
+}
+
+.s3block1 {
+  position: absolute;
+  top: 350px;
+  left: 842px;
+  cursor: pointer;
+}
+
+.s3block1 .s3h1 {
+  color: #FFB548;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Bebas Neue;
+}
+
+.s3block1 .s3text1 {
+  margin-top: 20px;
+  width: 360px;
+  height: 77.7px;
+  color: white;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.s3block2 {
+  position: absolute;
+  top: 500px;
+  left: 842px;
+  cursor: pointer;
+}
+
+.s3block2 .s3h2 {
+  color: #FFB548;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Bebas Neue;
+}
+
+.s3block2 .s3text2 {
+  margin-top: 20px;
+  width: 360px;
+  height: 77.7px;
+  color: white;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+  display: none;
+}
+
+.s3block2:hover .s3text2 {
+  display: block;
+}
+
+.s3block3 {
+  position: absolute;
+  top: 573px;
+  left: 842px;
+  cursor: pointer;
+}
+
+.s3block3 .s3text3 {
+  margin-top: 20px;
+  width: 360px;
+  height: 77.7px;
+  color: white;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: none;
+}
+
+.s3block3:hover .s3text3 {
+  display: block;
+}
+/*# sourceMappingURL=sectionThreeExperimental.css.map */

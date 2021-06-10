@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["ArticleContent.sass"],"names":[],"mappings":"AAAA;EACE","file":"ArticleContent.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "ArticleContent.sass"
+    ],
+    "names": [],
+    "file": "ArticleContent.css"
+}
