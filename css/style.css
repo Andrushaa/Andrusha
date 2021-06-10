@@ -2848,14 +2848,6 @@ html:hover .spider {
   font-weight: 700;
   font-family: Bebas Neue;
 }
-.s3h3:hover .s3text1 {
-  color: red;
-  display: none;
-}
-
-.s3h2:hover .s3text3 {
-  color: red;
-}
 
 .s3block1 {
   position: absolute;
@@ -2903,9 +2895,6 @@ html:hover .spider {
   text-align: justify;
   display: none;
 }
-.s3block2:hover .s3text2 {
-  display: block;
-}
 
 .s3block3 {
   position: absolute;
@@ -2924,9 +2913,6 @@ html:hover .spider {
   text-align: justify;
   transition: 1s;
   display: none;
-}
-.s3block3:hover .s3text3 {
-  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
