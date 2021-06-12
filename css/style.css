@@ -3045,25 +3045,91 @@ html {
   height: 57px;
 }
 
-.sectionZEN1-right {
+.sectionZEN2-right {
   margin-top: 300px;
   margin-right: 150px;
 }
-.sectionZEN1-right-h1 {
+.sectionZEN2-right-h1 {
   color: #222;
   font-weight: 400;
   font-size: 36px;
   width: 370px;
 }
-.sectionZEN1-right-text {
+.sectionZEN2-right-text {
   margin-top: 22px;
   color: #222;
   font-weight: 400;
   font-size: 18px;
   width: 440px;
 }
-.sectionZEN1-right-text-2 {
+.sectionZEN2-right-text-2 {
   margin-top: 12px;
+}
+
+.sectionZEN3 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionZEN3-left {
+  color: #222;
+}
+.sectionZEN3-left-h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+.sectionZEN3-left-text1 {
+  margin-top: 22px;
+  width: 451px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.sectionZEN3-left-text2 {
+  margin-top: 12px;
+  width: 366px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.sectionZEN3-left-text3 {
+  margin-top: 17px;
+  width: 447px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sectionZEN-Cashbask {
+  margin-top: 100px;
+  display: block;
+}
+.sectionZEN-Cashbask-h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #222;
+  text-align: center;
+  margin: 0 auto;
+}
+.sectionZEN-Cashbask-text {
+  color: #222;
+  width: 584px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 58px;
+  padding-top: 20px;
+}
+.sectionZEN-Cashbask-button {
+  width: 237px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.sectionZEN-Cashbask-button-text {
+  text-align: center;
+  margin-top: 11px;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
