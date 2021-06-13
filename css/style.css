@@ -3009,6 +3009,11 @@ html:hover .spider {
   border: 1px solid #222;
   border-radius: 24px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.headerZEN-RIGHT-button:hover {
+  border: 1px solid red;
+  background: rgba(255, 0, 0, 0.2);
 }
 .headerZEN-RIGHT-button-text {
   text-align: center;
@@ -3155,6 +3160,12 @@ html {
   border: 1px solid black;
   border-radius: 24px;
   margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sectionZEN-Cashbask-button:hover {
+  border: 1px solid red;
+  background: rgba(255, 0, 0, 0.2);
 }
 .sectionZEN-Cashbask-button-text {
   text-align: center;
