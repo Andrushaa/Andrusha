@@ -2014,43 +2014,65 @@ html:hover .spider {
 .header-inner .menu-inner {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
 }
 .header-inner .menu-inner .submenu-main {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 20px;
+}
+.header-inner .menu-inner .submenu-main a {
   color: white;
-  font-style: normal;
-  font-weight: 700;
-  margin: 4%;
+  text-decoration: none;
   text-transform: uppercase;
+  margin: 0 auto;
+  transition: 0.5s;
+  font-weight: 700;
   white-space: nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-inner .menu-inner .submenu-main a:hover {
+  color: red;
 }
 .header-inner .buttons {
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 150px;
+  width: 160px;
 }
 .header-inner .buttons .language {
   position: absolute;
+  display: flex;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
   top: 30%;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+.header-inner .buttons .language:hover {
+  color: red;
+}
+.header-inner .buttons .language-arrow {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .header-inner .buttons .separator {
   position: absolute;
   top: 20%;
   left: 38%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.header-inner .buttons .logo-Xbox {
-  position: absolute;
-  left: 40%;
-  top: 20%;
-}
-.header-inner .buttons .logo-steam {
-  position: absolute;
-  margin-top: 10%;
-  left: 80%;
+.header-inner .buttons .GamePlatform {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 80px;
 }
 
 .title-wrapper {
@@ -2195,6 +2217,7 @@ html:hover .spider {
   top: 190px;
   left: 770px;
   z-index: 3;
+  cursor: pointer;
 }
 .photo1 img {
   width: 490px;
@@ -2206,6 +2229,7 @@ html:hover .spider {
   top: 210px;
   left: 880px;
   z-index: 2;
+  cursor: pointer;
 }
 .photo2 img {
   width: 450px;
@@ -2216,10 +2240,18 @@ html:hover .spider {
   position: absolute;
   top: 230px;
   left: 1000px;
+  cursor: pointer;
 }
 .photo3 img {
   width: 400px;
   height: 500px;
+}
+
+.switch-img {
+  position: absolute;
+  top: 470px;
+  right: 130px;
+  cursor: pointer;
 }
 
 .point1 {
@@ -2625,7 +2657,7 @@ html:hover .spider {
   left: 678px;
   color: white;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 80px;
   text-transform: uppercase;
   font-family: Bebas Neue;
@@ -3130,6 +3162,25 @@ html {
   color: #222;
   font-size: 18px;
   font-weight: 400;
+}
+
+.company1 {
+  display: flex;
+  width: 1000px;
+}
+.company1-png {
+  margin: 50px;
+}
+
+.company2 {
+  display: flex;
+  width: 1000px;
+}
+.company2-png img {
+  border: 2px solid red;
+  margin: 50px;
+  width: 200px;
+  height: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

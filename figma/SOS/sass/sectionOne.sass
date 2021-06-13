@@ -29,43 +29,64 @@
     .menu-inner
         display: flex
         justify-content: space-between
-        width: 50%
+        width: 60%
 
         .submenu-main
-            color: white
-            font-style: normal
-            font-weight: 700
-            margin: 4%
-            text-transform: uppercase
-            white-space: nowrap
+            display: flex
+            justify-content: space-between
+            width: 600px
+            margin-top: 20px
+            a
+                color: white
+                text-decoration: none
+                text-transform: uppercase
+                margin: 0 auto
+                transition: 0.5s
+                font-weight: 700
+                white-space: nowrap
+                padding-left: 20px
+                padding-right: 20px
+
+                &:hover
+                    color: red
 
     .buttons
         display: flex
         justify-content: space-between
         position: relative
-        width: 150px
+        width: 160px
 
         .language
             position: absolute
+            display: flex
             text-transform: uppercase
             color: white
             font-weight: 700
             top: 30%
+            width: 40px
+            height: 30px
+            cursor: pointer
+
+            &:hover
+                color: red
+
+            &-arrow
+                margin-left: 5px
+                margin-right: 5px
 
         .separator
             position: absolute
             top: 20%
             left: 38%
+            margin-left: 5px
+            margin-right: 5px
 
-        .logo-Xbox
-            position: absolute
-            left: 40%
-            top: 20%
-
-        .logo-steam
-            position: absolute
-            margin-top: 10%
-            left: 80%
+        .GamePlatform
+            display: flex
+            justify-content: space-between
+            width: 150px
+            margin-top: 15px
+            margin-left: 80px
 
 .title-wrapper
     margin-top: 10%
