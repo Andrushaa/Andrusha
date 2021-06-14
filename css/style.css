@@ -1,7 +1,6 @@
 @charset "UTF-8";
 html {
   box-sizing: border-box;
-  background: lightseagreen;
 }
 
 *,
@@ -3094,13 +3093,13 @@ html {
 .sectionZEN1-left-buttonApps {
   margin-top: 15px;
 }
-.sectionZEN1-left-buttonApps-AppStore img {
+.sectionZEN1-left-buttonApps-AppStore a img {
   width: 167px;
   height: 48px;
 }
-.sectionZEN1-left-buttonApps-GooglePlay img {
+.sectionZEN1-left-buttonApps-GooglePlay a img {
   width: 167px;
-  height: 57px;
+  height: 48px;
 }
 
 .sectionZEN2-right {
@@ -3125,12 +3124,14 @@ html {
 }
 
 .sectionZEN3 {
-  margin-top: 15px;
+  margin-top: 65px;
   display: flex;
   justify-content: space-between;
 }
 .sectionZEN3-left {
   color: #222;
+  display: block;
+  margin-top: 240px;
 }
 .sectionZEN3-left-h1 {
   font-weight: 400;
@@ -3188,12 +3189,14 @@ html {
   border: 1px solid red;
   background: rgba(255, 0, 0, 0.2);
 }
-.sectionZEN-Cashbask-button-text {
+.sectionZEN-Cashbask-button-text a {
   text-align: center;
   margin-top: 11px;
   color: #222;
   font-size: 18px;
   font-weight: 400;
+  margin-left: 34px;
+  text-decoration: none;
 }
 
 .company1 {
