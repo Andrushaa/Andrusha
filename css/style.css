@@ -3004,6 +3004,10 @@ html:hover .spider {
   font-weight: 400;
   text-decoration: none;
   color: #222222;
+  transition: 0.5s;
+}
+.headerZEN-LEFT-link a:hover {
+  color: #ff6781;
 }
 .headerZEN-RIGHT {
   display: flex;
@@ -3022,6 +3026,10 @@ html:hover .spider {
   font-weight: 400;
   text-decoration: none;
   color: #222;
+  transition: 0.5s;
+}
+.headerZEN-RIGHT-link a:hover {
+  color: #ff6781;
 }
 .headerZEN-RIGHT-button {
   width: 135px;
