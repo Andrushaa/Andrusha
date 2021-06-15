@@ -3066,6 +3066,25 @@ html {
   margin: 0 auto;
 }
 
+.section-common {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-common-text {
+  color: #222;
+}
+.section-common-text-h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+.section-common-text-text {
+  padding: 22px 0;
+  width: 470px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .sectionZEN1 {
   margin-top: 15px;
   display: flex;
@@ -3132,7 +3151,6 @@ html {
 }
 
 .sectionZEN3 {
-  margin-top: 65px;
   display: flex;
   justify-content: space-between;
 }
@@ -3224,6 +3242,14 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-text-button {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
