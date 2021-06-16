@@ -3150,38 +3150,6 @@ html {
   margin-top: 12px;
 }
 
-.sectionZEN3 {
-  display: flex;
-  justify-content: space-between;
-}
-.sectionZEN3-left {
-  color: #222;
-  display: block;
-  margin-top: 240px;
-}
-.sectionZEN3-left-h1 {
-  font-weight: 400;
-  font-size: 36px;
-}
-.sectionZEN3-left-text1 {
-  margin-top: 22px;
-  width: 451px;
-  font-weight: 400;
-  font-size: 18px;
-}
-.sectionZEN3-left-text2 {
-  margin-top: 12px;
-  width: 366px;
-  font-weight: 400;
-  font-size: 18px;
-}
-.sectionZEN3-left-text3 {
-  margin-top: 17px;
-  width: 447px;
-  font-weight: 400;
-  font-size: 18px;
-}
-
 .sectionZEN-Cashbask {
   margin-top: 100px;
   display: block;
