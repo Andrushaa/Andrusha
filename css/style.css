@@ -3068,50 +3068,77 @@ html {
   margin: 0 auto;
 }
 
-.section-common {
+.sectionZEN-common {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
-.section-common-text {
+.sectionZEN-common-text {
   color: #222;
 }
-.section-common-text-h1 {
+.sectionZEN-common-text-h1 {
   font-weight: 400;
   font-size: 36px;
+  line-height: 34px;
 }
-.section-common-text-text {
+.sectionZEN-common-text-text {
   padding: 22px 0;
   width: 470px;
   font-weight: 400;
   font-size: 18px;
 }
 
-.sectionZEN1 {
+.sectionZEN-img img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1050px) {
+  .containerZEN {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionZEN-img {
+    position: absolute;
+  }
+  .sectionZEN-img img {
+    max-height: 100%;
+    max-weight: 100%;
+  }
+
+  .sectionZEN-common-text {
+    margin: 0 auto;
+    z-index: 2;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+.sectionZEN-common {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
-.sectionZEN1-left {
+.sectionZEN-common-text {
   display: block;
 }
-.sectionZEN1-left-textUp {
+.sectionZEN-common-text-textUp {
   margin-top: 204px;
   color: black;
   font-weight: 400;
   font-size: 16px;
 }
-.sectionZEN1-left-h1 {
+.sectionZEN-common-text-h1 {
   margin-top: 23px;
   color: #222;
   font-weight: 400;
   font-size: 42px;
   width: 370px;
 }
-.sectionZEN1-left-h1-2 {
+.sectionZEN-common-text-h1-2 {
   margin-top: 20px;
 }
-.sectionZEN1-left-textUnder {
+.sectionZEN-common-text-textUnder {
   margin-top: 23px;
   font-weight: 400;
   font-size: 18px;
@@ -3119,39 +3146,111 @@ html {
   width: 400px;
   height: 52px;
 }
-.sectionZEN1-left-buttonApps {
+.sectionZEN-common-text-buttonApps {
   margin-top: 15px;
 }
-.sectionZEN1-left-buttonApps-AppStore a img {
+.sectionZEN-common-text-buttonApps-AppStore a img {
   width: 167px;
   height: 48px;
 }
-.sectionZEN1-left-buttonApps-GooglePlay a img {
+.sectionZEN-common-text-buttonApps-GooglePlay a img {
   width: 167px;
   height: 48px;
 }
 
-.sectionZEN2-right {
+@media (max-width: 1050px) {
+  .sectionZEN-common-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectionZEN-common-text-textUp {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .sectionZEN-common-text-text {
+    width: 100%;
+    height: 100%;
+  }
+  .sectionZEN-common-text-h1 {
+    display: block;
+    margin: 0 auto;
+    padding: 10% 0;
+  }
+  .sectionZEN-common-text-h1-1 {
+    text-align: center;
+  }
+  .sectionZEN-common-text-h1-2 {
+    text-align: center;
+  }
+  .sectionZEN-common-text-textUnder {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .sectionZEN-common-text-buttonApps {
+    display: flex;
+    /** flex-direction: column **/
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .sectionZEN-common-text-buttonApps-AppStore a {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionZEN-common-text-buttonApps-GooglePlay a {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .sectionZEN-common-text-buttonApps {
+    display: block;
+    margin: 0 auto;
+  }
+  .sectionZEN-common-text-buttonApps-GooglePlay {
+    margin-top: 5px;
+  }
+}
+.sectionZEN11-common-text {
   margin-top: 300px;
   margin-right: 150px;
 }
-.sectionZEN2-right-h1 {
+.sectionZEN11-common-text-h1 {
   color: #222;
   font-weight: 400;
   font-size: 36px;
   width: 370px;
+  line-height: 34px;
 }
-.sectionZEN2-right-text {
+.sectionZEN11-common-text-text {
   margin-top: 22px;
   color: #222;
   font-weight: 400;
   font-size: 18px;
   width: 440px;
 }
-.sectionZEN2-right-text-2 {
+.sectionZEN11-common-text-text-2 {
   margin-top: 12px;
 }
 
+@media (max-width: 1050px) {
+  .sectionZEN-common-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectionZEN-common-text-h1 {
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    line-height: 34px;
+  }
+  .sectionZEN-common-text-text {
+    text-align: center;
+  }
+}
 .sectionZEN-Cashbask {
   margin-top: 100px;
   display: block;
@@ -3195,6 +3294,12 @@ html {
   text-decoration: none;
 }
 
+@media (max-width: 1050px) {
+  .sectionZEN-Cashbask-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
 .company {
   width: 100%;
   height: 100%;
@@ -3214,12 +3319,38 @@ html {
   align-items: center;
 }
 
-.section-text-button {
+@media (max-width: 1050px) {
+  .company-all {
+    justify-content: center !important;
+  }
+}
+.sectionZEN-text-button {
   display: flex;
   width: 200px;
   height: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.sectionZEN-text-button .ApplePay {
+  border-radius: 0;
+}
+.sectionZEN-text-button img {
+  border-radius: 0;
+}
+
+@media (max-width: 1050px) {
+  .sectionZEN-text-button {
+    margin: 0 auto;
+    display: flex;
+    /** flex-direction: column **/
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1050px) {
+  .ZEN-section8-button {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

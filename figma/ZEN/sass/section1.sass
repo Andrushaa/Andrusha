@@ -1,9 +1,9 @@
-.sectionZEN1
+.sectionZEN-common
     margin-top: 15px
     display: flex
     justify-content: space-between
 
-    &-left
+    &-text
         display: block
 
         &-textUp
@@ -44,3 +44,55 @@
                     img
                         width: 167px
                         height: 48px
+
+@media ( max-width: 1050px )
+    .sectionZEN-common-text
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        &-textUp
+            margin-top: 15px
+            text-align: center
+
+        &-text
+            width: 100%
+            height: 100%
+
+        &-h1
+            display: block
+            margin: 0 auto
+            padding: 10% 0
+
+            &-1
+                text-align: center
+            &-2
+                text-align: center
+
+        &-textUnder
+            width: 100%
+            height: 80px
+            margin-top: 30px
+            text-align: center
+
+        &-buttonApps
+            display: flex
+            /** flex-direction: column **/
+            justify-content: space-around
+            margin-top: 30px
+
+            &-AppStore a
+                display: flex
+                justify-content: center
+
+            &-GooglePlay a
+                display: flex
+                justify-content: center
+
+@media ( max-width: 400px )
+    .sectionZEN-common-text-buttonApps
+        display: block
+        margin: 0 auto
+
+        &-GooglePlay
+            margin-top: 5px
