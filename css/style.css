@@ -2970,11 +2970,13 @@ html:hover .spider {
 .headerZEN {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 25px;
 }
 .headerZEN-LEFT {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 340px;
 }
 .headerZEN-LEFT-img {
