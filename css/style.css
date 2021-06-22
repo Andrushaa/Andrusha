@@ -3426,6 +3426,7 @@ html {
 
 .footer-line {
   border-top: 1px solid rgba(151, 151, 151, 0.2);
+  margin-top: 68px;
 }
 
 @media (max-width: 700px) {
@@ -3437,10 +3438,41 @@ html {
     display: block;
   }
   .footerZEN-menu-common-topic {
+    margin-top: 30px;
     text-align: center;
+    font-size: 24px;
+    font-weight: 600;
   }
   .footerZEN-menu-common-content {
+    margin-top: 10px;
     text-align: center;
+    padding-bottom: 10px;
+  }
+  .footerZEN-menu-common-content-list li a {
+    font-size: 18px;
+  }
+  .footerZEN-menu-common-content-email {
+    font-size: 18px;
+    padding-bottom: 7px;
+  }
+
+  .footerZEN-under-text {
+    text-align: center;
+  }
+
+  .footerZEN-under-img {
+    margin: 0 auto;
+  }
+
+  .footerZEN-under img {
+    margin: 0 auto;
+  }
+
+  .footerZEN-long-img img {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 }
 
