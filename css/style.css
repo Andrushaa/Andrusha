@@ -3399,6 +3399,10 @@ html {
   line-height: 15px;
 }
 
+.footer-line {
+  border-top: 1px solid rgba(151, 151, 151, 0.2);
+}
+
 @media (max-width: 700px) {
   .footerZEN-menu {
     display: block;
