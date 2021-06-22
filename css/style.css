@@ -3370,6 +3370,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.company .company-all .company-png:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 1050px) {
