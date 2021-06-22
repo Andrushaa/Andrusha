@@ -3053,6 +3053,31 @@ html:hover .spider {
   color: #222;
 }
 
+@media (max-width: 1050px) {
+  .headerZEN-RIGHT-button {
+    display: block;
+    width: 90px;
+    height: 36px;
+  }
+  .headerZEN-RIGHT-button-text {
+    margin-top: 5px;
+  }
+
+  .headerZEN-LEFT-img-mastercard img {
+    width: 60px;
+    height: 36px;
+  }
+
+  .headerZEN-LEFT-img-Fill img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .headerZEN-LEFT-img {
+    width: 115px;
+    height: 36px;
+  }
+}
 html {
   box-sizing: border-box;
 }
