@@ -3373,7 +3373,10 @@ html {
   transition: 0.5s;
   cursor: pointer;
 }
-.company .company-all .company-png:hover {
+.company .company-all .company-png img {
+  transition: 0.5s;
+}
+.company .company-all .company-png img:hover {
   transform: scale(1.2);
 }
 
