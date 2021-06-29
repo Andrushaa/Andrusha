@@ -88,3 +88,13 @@ function onMouseCompany8(){
 function outMouseCompany8(){
    h.src = "../ZEN/img/company/Groupon.png";
 }
+
+var i=document.getElementById("ZEN_footer");
+ 
+function onMouseCompany9(){
+    i.src="../ZEN/img/company-pink/ZEN-footer-IN.png";
+}
+ 
+function outMouseCompany9(){
+   i.src = "../ZEN/img/company/ZEN-footer-IN.png";
+}

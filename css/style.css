@@ -3456,6 +3456,11 @@ html {
   font-weight: 400;
   font-size: 14px;
   color: #000;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footerZEN-menu-common-content-email:hover {
+  color: red;
 }
 
 .footerZEN-under {
