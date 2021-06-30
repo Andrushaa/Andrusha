@@ -1,5 +1,7 @@
 .SectionThree
-    min-weight: 1000px
+    display: flex
+    justify-content: center
+    min-width: 1000px
     min-height: 880px
     background-repeat: no-repeat
     display: block
@@ -7,76 +9,87 @@
     background-size: contain
     position: relative
 
+.SOS-S3-container
+    display: flex
+    justify-content: flex-end
+
+.SOS-S3-wrapper
+    margin: 15% 10% 0 0
+
 .S3-h1up-text
-    position: absolute
     color: white
     text-transform: uppercase
-    top: 169px
-    left: 800px
     font-family: Bebas Neue
     font-weight: 700
     font-size: 24px
     line-height: 24px
 
 .S3-h1main-text
-    position: absolute
+    margin-top: 30px
     color: white
     text-transform: uppercase
-    top: 208px
-    left: 800px
     font-family: Bebas Neue
     font-weight: 700
     font-size: 80px
     font-style: normal
 
-.s3h
-    color: #FFB548
-    font-size: 36px
-    font-weight: 700
-    font-family: Bebas Neue
+.s3block1
     cursor: pointer
 
-.s3h1
-    position: absolute
-    top: 350px
-    left: 842px
+    & .s3h1
+        margin-top: 80px
+        color: #ffb548
+        font-size: 36px
+        font-weight: 700
+        font-family: Bebas Neue
+        padding: 10px 0
 
-.s3h2
-    position: absolute
-    top: 500px
-    left: 842px
+    & .s3text1
+        width: 360px
+        height: 77.7px
+        color: white
+        font-weight: 400
+        font-family: Open Sans
+        font-size: 19px
+        text-align: justify
 
-.s3h3
-    position: absolute
-    top: 573px
-    left: 842px
-
-.s3text
-    width: 360px
-    height: 77.7px
-    color: white
-    font-weight: 400
-    fontfamily: Open Sans
-    font-size: 19px
-    text-align: justify
+.s3block2
     cursor: pointer
-    transition: 0.5s
 
-    &:hover
-        color: lightblue
+    & .s3h2
+        color: #ffb548
+        font-size: 36px
+        font-weight: 700
+        font-family: Bebas Neue
+        padding: 10px 0
 
-.s3text1
-    position: absolute
-    top: 393px
-    left: 842px
+    & .s3text2
+        width: 360px
+        height: 77.7px
+        color: white
+        font-weight: 400
+        font-family: Open Sans
+        font-size: 19px
+        text-align: justify
 
-.s3text2
-    position: absolute
-    top: 545px
-    left: 842px
+.s3block3
+    cursor: pointer
+
+    & .s3h3
+        color: #ffb548
+        font-size: 36px
+        font-weight: 700
+        font-family: Bebas Neue
+        padding: 10px 0
+
+    & .s3text3
+        width: 360px
+        height: 77.7px
+        color: white
+        font-weight: 400
+        font-family: Open Sans
+        font-size: 19px
+        text-align: justify
+
+.hidden
     display: none
-
-.s3h2
-    position: absolute
-    top: 500px
-    left: 842px
