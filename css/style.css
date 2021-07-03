@@ -1559,6 +1559,12 @@ label::before {
   height: 40px;
 }
 
+@media (max-width: 700px) {
+  .pageup {
+    bottom: 14px;
+    right: 14px;
+  }
+}
 html:hover .spider {
   top: -120%;
 }
@@ -3510,7 +3516,7 @@ li {
   color: #222;
 }
 
-body._lockZEN {
+body.lockZEN {
   overflow: hidden;
 }
 
@@ -3628,17 +3634,17 @@ body._lockZEN {
     transform: scale(1) translate(0px, -50%);
   }
 
-  .menu-burgerZEN._active span {
+  .menu-burgerZEN.activeHeaderZEN span {
     transform: scale(0) translate(0px, -50%);
   }
 
-  .menu-burgerZEN._active::before {
+  .menu-burgerZEN.activeHeaderZEN::before {
     top: 50%;
     transform: rotate(-45deg) translate(0px, -50%);
     background: rgba(255, 255, 255, 0.5);
   }
 
-  .menu-burgerZEN._active::after {
+  .menu-burgerZEN.activeHeaderZEN::after {
     bottom: 50%;
     transform: rotate(45deg) translate(0px, 50%);
     background: rgba(255, 255, 255, 0.5);
@@ -3658,7 +3664,7 @@ body._lockZEN {
     background-color: rgba(0, 0, 0, 0.9);
   }
 
-  .menu-bodyZEN._active {
+  .menu-bodyZEN.activeHeaderZEN {
     left: 0;
     z-index: 3;
   }
