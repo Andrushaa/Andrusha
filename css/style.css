@@ -3705,6 +3705,14 @@ body.lockZEN {
   .header-menu-ZEN {
     width: 0;
   }
+
+  .headerZEN-RIGHT-button {
+    width: 90px;
+    height: 45px;
+  }
+  .headerZEN-RIGHT-button-text {
+    margin-top: 8px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
