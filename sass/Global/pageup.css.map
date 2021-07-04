@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAAG",
     "sources": [
-        "pageup.sass"
+        "pageUp.sass"
     ],
     "names": [],
-    "file": "pageup.css"
+    "file": "pageUp.css"
 }

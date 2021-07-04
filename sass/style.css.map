@@ -27,7 +27,7 @@
         "Global/header/header-link.sass",
         "Global/header/popap-enter.sass",
         "Global/header/popap-registration.sass",
-        "Global/pageup.sass",
+        "Global/pageUp.sass",
         "404/spider2.sass",
         "404/Title.sass",
         "Global/advertisement.sass",

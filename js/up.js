@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 300) {
-            $('.pageup').fadeIn();
+            $('.pageUp').fadeIn();
         } else {
-            $('.pageup').fadeOut();
+            $('.pageUp').fadeOut();
         }
     });
 

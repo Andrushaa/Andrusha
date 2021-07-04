@@ -1930,7 +1930,7 @@ label::before {
   color: white;
 }
 
-.pageup {
+.pageUp {
   display: none;
   position: fixed;
   bottom: 40px;
