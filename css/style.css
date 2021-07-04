@@ -1557,6 +1557,7 @@ label::before {
   right: 40px;
   width: 40px;
   height: 40px;
+  z-index: 25;
 }
 
 @media (max-width: 700px) {
@@ -3042,6 +3043,31 @@ html {
     padding-left: 0;
   }
 }
+@media (min-width: 1050px) {
+  .ZENs2h {
+    margin-top: 300px;
+  }
+
+  .ZENs3h {
+    margin-top: 200px;
+  }
+
+  .ZENs4h {
+    margin-top: 180px;
+  }
+
+  .ZENs5h {
+    margin-top: 130px;
+  }
+
+  .ZENs6h {
+    margin-top: 190px;
+  }
+
+  .ZENs7h {
+    margin-top: 60px;
+  }
+}
 .sectionZEN-common {
   margin-top: 15px;
   display: flex;
@@ -3149,28 +3175,6 @@ html {
     margin-top: 5px;
   }
 }
-.sectionZEN11-common-text {
-  margin-top: 300px;
-  margin-right: 150px;
-}
-.sectionZEN11-common-text-h1 {
-  color: #222;
-  font-weight: 400;
-  font-size: 36px;
-  width: 370px;
-  line-height: 34px;
-}
-.sectionZEN11-common-text-text {
-  margin-top: 22px;
-  color: #222;
-  font-weight: 400;
-  font-size: 18px;
-  width: 440px;
-}
-.sectionZEN11-common-text-text-2 {
-  margin-top: 12px;
-}
-
 @media (max-width: 1050px) {
   .sectionZEN-common-text {
     display: flex;
