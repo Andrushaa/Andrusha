@@ -1,0 +1,212 @@
+.SectionOne {
+  min-weight: 1000px;
+  min-height: 1100px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.header-inner {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 21.54px;
+  width: 70%;
+}
+
+.header-inner .logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 0;
+}
+
+.header-inner .menu-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.header-inner .menu-inner .submenu-main {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  margin: 4%;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.header-inner .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 150px;
+}
+
+.header-inner .buttons .language {
+  position: absolute;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  top: 30%;
+}
+
+.header-inner .buttons .separator {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+
+.header-inner .buttons .logo-Xbox {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.header-inner .buttons .logo-steam {
+  position: absolute;
+  margin-top: 10%;
+  left: 80%;
+}
+
+.title-wrapper {
+  margin-top: 10%;
+}
+
+.Main-title {
+  font-family: Bebas Neue;
+  font-style: bold;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-title {
+  margin-top: 40px;
+  font-family: Bebas Neue;
+  font-style: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-yellow {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 28.55px;
+  width: 260.36px;
+  height: 60px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-yellow:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fc9804), to(#d39013));
+  background: linear-gradient(#fc9804, #d39013);
+  border: 1.5px solid darkred;
+}
+
+.button-yellow-left {
+  position: absolute;
+  left: 16.39px;
+  top: 17.5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-yellow-center {
+  position: absolute;
+  left: 176.17px;
+  top: 16.54px;
+}
+
+.button-yellow-right {
+  position: absolute;
+  right: 16.39px;
+  top: 17.5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.the-story {
+  position: relative;
+  width: 68px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 570px;
+  margin-button: 20px;
+  cursor: pointer;
+  -webkit-animation: animate-TheStory 1s ease infinite;
+          animation: animate-TheStory 1s ease infinite;
+}
+
+.the-story-text {
+  font-family: OpenSans;
+  font-style: bold;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.the-story-img {
+  position: absolute;
+  left: 42%;
+}
+
+@-webkit-keyframes animate-TheStory {
+  0% {
+    margin-top: 570px;
+  }
+  50% {
+    margin-top: 550px;
+  }
+  100% {
+    margin-top: 570px;
+  }
+}
+
+@keyframes animate-TheStory {
+  0% {
+    margin-top: 570px;
+  }
+  50% {
+    margin-top: 550px;
+  }
+  100% {
+    margin-top: 570px;
+  }
+}
+/*# sourceMappingURL=sectionOne.css.map */
