@@ -2114,6 +2114,12 @@ html:hover .spider {
   color: white;
 }
 
+@media (max-width: 580px) {
+  .Main-title {
+    line-height: 70px;
+    font-size: 70px;
+  }
+}
 .sub-title {
   margin-top: 40px;
   font-family: Bebas Neue;
@@ -3819,7 +3825,7 @@ body.lockSOS {
   width: 100%;
   height: 1px;
   background-color: red;
-  transition: 0.2s;
+  transition: 0.7s;
   transform: scaleX(0);
 }
 .menu-listSOS li a:hover:before {
@@ -3855,6 +3861,7 @@ body.lockSOS {
   font-weight: 700;
   cursor: pointer;
   transition: 0.5s;
+  margin-top: 5px;
 }
 
 .language:hover {
@@ -3895,6 +3902,7 @@ body.lockSOS {
     height: 18px;
     cursor: pointer;
     margin-right: 20px;
+    margin-left: 20px;
   }
 
   .menu-burgerSOS span,
@@ -3905,7 +3913,7 @@ body.lockSOS {
     height: 10%;
     width: 100%;
     transition: all 0.3s ease 0s;
-    background-color: #222222;
+    background-color: #ffd904;
   }
 
   .menu-burgerSOS::before,
@@ -3933,13 +3941,13 @@ body.lockSOS {
   .menu-burgerSOS.activeHeaderSOS::before {
     top: 50%;
     transform: rotate(-45deg) translate(0px, -50%);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 217, 4, 0.7);
   }
 
   .menu-burgerSOS.activeHeaderSOS::after {
     bottom: 50%;
     transform: rotate(45deg) translate(0px, 50%);
-    background: rgba(255, 255, 255, 0.5);
+    background: #ffd901;
   }
 
   .menu-bodySOS {
@@ -3998,6 +4006,7 @@ body.lockSOS {
   .headerSOS-RIGHT-button {
     width: 200px;
     height: 45px;
+    margin-top: 12px;
   }
   .headerSOS-RIGHT-button-text {
     margin-top: 8px;

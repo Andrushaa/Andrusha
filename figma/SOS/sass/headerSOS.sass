@@ -96,7 +96,7 @@ body.lockSOS
                 width: 100%
                 height: 1px
                 background-color: red
-                transition: 0.2s
+                transition: 0.7s
                 transform: scaleX(0)
 
             &:hover:before
@@ -127,6 +127,7 @@ body.lockSOS
     font-weight: 700
     cursor: pointer
     transition: 0.5s
+    margin-top: 5px
 
 .language:hover
     color: red
@@ -161,6 +162,7 @@ body.lockSOS
         height: 18px
         cursor: pointer
         margin-right: 20px
+        margin-left: 20px
 
     .menu-burgerSOS span,
     .menu-burgerSOS::before,
@@ -170,7 +172,7 @@ body.lockSOS
         height: 10%
         width: 100%
         transition: all 0.3s ease 0s
-        background-color: rgb(34, 34, 34)
+        background-color: rgb(255, 217, 4)
 
     .menu-burgerSOS::before,
     .menu-burgerSOS::after
@@ -192,12 +194,12 @@ body.lockSOS
     .menu-burgerSOS.activeHeaderSOS::before
         top: 50%
         transform: rotate(-45deg) translate(0px, -50%)
-        background: rgba(255, 255, 255, 0.5)
+        background: rgba(255, 217, 4, 0.7)
 
     .menu-burgerSOS.activeHeaderSOS::after
         bottom: 50%
         transform: rotate(45deg) translate(0px, 50%)
-        background: rgba(255, 255, 255, 0.5)
+        background: rgb(255, 217, 0.7)
 
     .menu-bodySOS
         position: fixed
@@ -250,5 +252,6 @@ body.lockSOS
     .headerSOS-RIGHT-button
         width: 200px
         height: 45px
+        margin-top: 12px
         &-text
             margin-top: 8px
