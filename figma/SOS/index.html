@@ -16,55 +16,49 @@
     <section class="SectionOne"
         style="background-image: url(../../figma/SOS/img/bg-image-1.jpg); background-size:cover">
         <div class="container1">
-            <header>
-                <div class="header-inner" id="up">
-                    <div class="logo">
-                        <img src="img/logo-1.png" alt="">
-                    </div>
-                    <div class="menu-inner">
-                        <div class="submenu-main">
-                            <a href="#">main</a>
-                            <a href="#">about</a>
-                            <a href="#">game features</a>
-                            <a href="#">system requirements</a>
-                            <a href="#">quotes</a>
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <div class="language">
-                            <div class="language-text">
-                                eng
-                            </div>
-                            <div class="language-arrow">
-                                <i class="fas fa-chevron-down"></i>
-                                <!-- <img src="../SOS/img/language-arrow.svg" alt=""> -->
-                            </div>
-                        </div>
-
-                        <div class="language-menu">
-                            <li>rus</li>
-                            <li>fra</li>
-                            <li>deu</li>
-                        </div>
-
-                        <div class="separator">
-                            <img src="img/separator1.svg" alt="">
-                        </div>
-
-                        <div class="GamePlatform">
-
-                            <div class="logo-Xbox">
-                                <img src="img/xbox-icon.svg" alt="">
-                            </div>
-                            <div class="logo-steam">
-                                <img src="img/steam-icon.svg" alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
+            <header class="headerSOS" id="up">
+		<div class="header-container-SOS">
+			<div class="headerSOS-LEFT-img">
+                <div class="headerSOS-LEFT-img-logo">
+                    <img src="img/logo-1.png" alt="">
                 </div>
-            </header>
+            </div>
+			<div class="header-menu-SOS menu">
+				<nav class="menu-bodySOS">
+					<ul class="menu-listSOS">
+                        <li><a href="#" class="menu__link">main</a></li>
+						<li><a href="#" class="menu__link">about</a></li>
+						<li><a href="#" class="menu__link">game features</a></li>
+						<li><a href="#" class="menu__link">system requirements</a></li>
+						<li><a href="#" class="menu__link">quotes</a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+            <div class="headerSOS-RIGHT-button">
+                <div class="language">
+                    <div class="language-text">
+                        eng
+                    </div>
+                    <div class="language-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+				<div class="headerSOS-xbox">
+					<img src="img/xbox-icon.svg" alt="">
+				</div>
+				<div class="headerSOS-steam">
+					<img src="img/steam-icon.svg" alt="">
+				</div>
+            </div>
+			<div class="menu-burgerSOS">
+				<span></span>
+			</div>
+		</div>
+	</header>
+
 
             <div class="title-wrapper">
                 <div class="Main-title">
@@ -113,7 +107,7 @@
         <div class="textSectionTwo">
             <div class="textSectionTwo-text">
                 Each round, <strong>you</strong> and <strong>15</strong> other contestants compete to escape a deadly
-                island filled with
+                island logoed with
                 monsters. The
                 trick is: <strong>three</strong> people can survive. Will you run solo or form friendships with others
                 to escape?
@@ -484,8 +478,9 @@
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-    <script src="../SOS/js/button-subscribe.js"></script>
-    <script src="../SOS/js/SOS-s3menu.js"></script>
+    <script src="js/button-subscribe.js"></script>
+    <script src="js/SOS-s3menu.js"></script>
+    <script src="js/burgerMenu.js"></script>
     <script src="../../js/up.js"></script>
     <!-- <script src="../SOS/js/switch-img.js"></script> -->
 
