@@ -2114,12 +2114,6 @@ html:hover .spider {
   color: white;
 }
 
-@media (max-width: 580px) {
-  .Main-title {
-    line-height: 70px;
-    font-size: 70px;
-  }
-}
 .sub-title {
   margin-top: 40px;
   font-family: Bebas Neue;
@@ -2171,7 +2165,7 @@ html:hover .spider {
   width: 68px;
   height: 25px;
   margin: 0 auto;
-  margin-top: 570px;
+  margin-top: 560px;
   margin-button: 20px;
   cursor: pointer;
   animation: animate-TheStory 1s ease infinite;
@@ -2191,13 +2185,23 @@ html:hover .spider {
 
 @keyframes animate-TheStory {
   0% {
-    margin-top: 570px;
-  }
-  50% {
     margin-top: 550px;
   }
+  50% {
+    margin-top: 540px;
+  }
   100% {
-    margin-top: 570px;
+    margin-top: 550px;
+  }
+}
+@media (max-width: 580px) {
+  .Main-title {
+    line-height: 70px;
+    font-size: 70px;
+  }
+
+  .the-story {
+    margin-top: 500px;
   }
 }
 .SectionTwo {
