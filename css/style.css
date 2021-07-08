@@ -2405,6 +2405,7 @@ html:hover .spider {
   font-weight: 700;
   font-family: Bebas Neue;
   padding: 10px 0;
+  line-height: 36px;
 }
 .s3block1 .s3text1 {
   width: 360px;
@@ -2425,6 +2426,7 @@ html:hover .spider {
   font-weight: 700;
   font-family: Bebas Neue;
   padding: 10px 0;
+  line-height: 36px;
 }
 .s3block2 .s3text2 {
   width: 360px;
@@ -2445,6 +2447,7 @@ html:hover .spider {
   font-weight: 700;
   font-family: Bebas Neue;
   padding: 10px 0;
+  line-height: 36px;
 }
 .s3block3 .s3text3 {
   width: 360px;
@@ -2460,6 +2463,14 @@ html:hover .spider {
   display: none;
 }
 
+@media (max-width: 930px) {
+  .SOS-S3-container {
+    justify-content: flex-start;
+  }
+  .SOS-S3-container .SOS-S3-wrapper {
+    padding: 10px;
+  }
+}
 .SectionFour {
   min-weight: 1000px;
   min-height: 880px;
