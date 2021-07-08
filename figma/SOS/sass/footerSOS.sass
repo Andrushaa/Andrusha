@@ -1,0 +1,138 @@
+.footer-up
+    display: flex
+    justify-content: space-between
+    width: 75%
+    margin: 0 auto
+    padding-bottom: 30px
+    flex-wrap: wrap
+
+    &-img
+        img
+            width: 180px
+            height: 90px
+            padding-right: 90px
+
+    .footer-up-imgs
+        i
+            color: white
+            font-size: 24px
+            padding: 30px
+            transition: 0.5s
+
+            &:hover
+                color: red
+
+.footer-under
+    width: 75%
+    display: flex
+    justify-content: space-between
+    margin: 0 auto
+    padding: 15px
+    flex-wrap: wrap
+
+    .under-menu
+        display: flex
+        justify-content: space-between
+        width: 450px
+        flex-wrap: wrap
+
+        a
+            color: white
+            text-decoration: none
+            transition: 0.5s
+            text-transform: uppercase
+            font-weight: 700
+
+            &:hover
+                color: red
+
+.rights-text
+    color: #747576
+    font-weight: 400
+    font-size: 14px
+    line-height: 19px
+    font-family: Open Sans
+    width: 320px
+
+.footer-wrapper
+    position: absolute
+    bottom: 5px
+    width: 100%
+
+    &-inner
+        display: block
+        margin: 0 auto
+
+.footer-menu
+    display: flex
+    justify-content: space-between
+    width: 600px
+    margin-top: 33px
+    a
+        color: white
+        text-decoration: none
+        text-transform: uppercase
+        margin: 0 auto
+        transition: 0.5s
+        font-weight: 700
+        position: relative
+
+        &:hover
+            color: red
+
+.footer-line-long
+    border-top: 3px solid rgba(151, 151, 151, 0.2)
+    width: 75%
+    margin: 0 auto
+
+.footer-line-short
+    margin-top: 1.5px
+    height: 20px
+    border-left: 1px solid white
+
+@media (max-width: 1400px)
+    .footer-up
+        display: block
+        margin: 0 auto
+
+        .footer-up-imgs
+            display: flex
+            justify-content: space-around
+
+        .footer-menu
+            display: flex
+            justify-content: space-around
+            width: 100%
+    .footer-up-img
+        display: none
+
+@media (max-width: 700px)
+
+    .footer-under
+        display: flex
+        justify-content: center
+        .rights-text
+            display: block
+            text-align: center
+            padding-bottom: 12px
+
+        .under-menu
+            display: block
+            margin: 0 auto
+            a
+                display: block
+                margin: 0 auto
+                text-align: center
+
+            .footer-line-short
+                display: none
+
+    .footer-up
+        padding-bottom: 0
+        .footer-menu
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+        .footer-up-imgs
+            flex-wrap: wrap
