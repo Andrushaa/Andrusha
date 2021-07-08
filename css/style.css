@@ -2895,6 +2895,18 @@ html:hover .spider {
   cursor: pointer;
   font-weight: 700;
   font-family: Open Sans;
+  animation: animate-Subscribe 1s ease infinite;
+}
+@keyframes animate-Subscribe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
 
 html {
