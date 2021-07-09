@@ -2788,10 +2788,24 @@ html:hover .spider {
   position: relative;
 }
 
+.SOS-S6-wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.SOS-S6-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SOS-s6-right {
+  width: 65%;
+  height: 70%;
+}
+
 .s6h1-up {
-  position: absolute;
-  top: 220px;
-  left: 678px;
+  margin-top: 220px;
   color: white;
   font-weight: 700;
   font-size: 24px;
@@ -2800,21 +2814,17 @@ html:hover .spider {
 }
 
 .s6h1-main {
-  position: absolute;
-  top: 260px;
-  left: 678px;
+  margin-top: 30px;
   color: white;
   font-weight: 700;
   font-size: 60px;
-  line-height: 80px;
+  line-height: 60px;
   text-transform: uppercase;
   font-family: Bebas Neue;
 }
 
 .s6h1-text {
-  position: absolute;
-  top: 380px;
-  left: 675px;
+  margin-top: 30px;
   width: 645px;
   color: white;
   font-size: 18px;
@@ -2823,20 +2833,20 @@ html:hover .spider {
   line-height: 22px;
 }
 
-.s6img-main {
-  position: absolute;
-  top: 20px;
-  left: 160px;
-}
 .s6img-main img {
   width: 360px;
   height: 600px;
 }
 
+.SOSemail-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
 .email {
-  position: absolute;
-  top: 510px;
-  left: 676px;
   width: 367px;
   height: 60px;
   background: rgba(255, 255, 255, 0.08);
@@ -2868,9 +2878,6 @@ html:hover .spider {
 }
 
 .ButtonSubscribe {
-  position: absolute;
-  top: 511px;
-  left: 1060px;
   width: 260px;
   height: 60px;
   background: linear-gradient(#FFB548, #F3AF34);
@@ -2906,6 +2913,24 @@ html:hover .spider {
   }
 }
 
+@media (max-width: 1300px) {
+  .SectionSix {
+    width: 100%;
+    height: auto;
+  }
+
+  .SOS-S6-inner .SOS-s6-left {
+    poasition: absolute;
+  }
+  .SOS-S6-inner .SOS-s6-left img {
+    max-height: 100%;
+    max-weight: 100%;
+  }
+  .SOS-S6-inner .SOS-s6-right {
+    position: absolute;
+    display: block;
+  }
+}
 html {
   box-sizing: border-box;
 }
