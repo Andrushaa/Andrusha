@@ -2500,6 +2500,7 @@ html:hover .spider {
   padding-top: 20px;
   font-size: 60px;
   font-family: Bebas Neue;
+  line-height: 45px;
 }
 
 .table {
@@ -2614,6 +2615,21 @@ html:hover .spider {
   left: 753px;
 }
 
+@media (max-width: 700px) {
+  .s4-h1up-text {
+    font-size: 16px;
+  }
+
+  .s4-h1main-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 330px) {
+  .s4-h1main-text {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
 .SectionFive {
   min-weight: 1000px;
   min-height: 880px;
@@ -2851,7 +2867,7 @@ html:hover .spider {
 .email {
   width: 367px;
   height: 60px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
 .email-text {
@@ -2931,6 +2947,10 @@ html:hover .spider {
   .SOS-S6-inner .SOS-s6-right {
     position: absolute;
     display: block;
+  }
+  .SOS-S6-inner .email {
+    width: 250px;
+    height: 50%;
   }
 }
 @media (max-width: 700px) {
