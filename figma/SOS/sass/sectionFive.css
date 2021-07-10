@@ -62,7 +62,7 @@
   border: 1.5px solid darkred;
 }
 
-.Read-more-text {
+.Read-more__text {
   color: black;
   font-weight: 700;
   font-size: 16px;
@@ -84,12 +84,12 @@
 .reviewsSOS:hover {
   border: 2px solid #FFB548;
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .reviewsSOS:hover .reviewsSOS-yellowCircle {
   -webkit-transform: translate(8px, 4px);
-          transform: translate(8px, 4px);
+  transform: translate(8px, 4px);
 }
 
 .reviewsSOS:hover .fa-twitter::before {
@@ -185,4 +185,5 @@
   top: 608px;
   left: 929px;
 }
+
 /*# sourceMappingURL=sectionFive.css.map */

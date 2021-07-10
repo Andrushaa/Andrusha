@@ -136,7 +136,7 @@
   border: 1.5px solid darkred;
 }
 
-.button-yellow-left {
+.button-yellow__left {
   position: absolute;
   left: 16.39px;
   top: 17.5px;
@@ -145,7 +145,7 @@
   font-weight: 700;
 }
 
-.button-yellow-center {
+.button-yellow__center {
   position: absolute;
   left: 176.17px;
   top: 16.54px;

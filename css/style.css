@@ -2138,7 +2138,7 @@ html:hover .spider {
   background: linear-gradient(#fc9804, #d39013);
   border: 1.5px solid darkred;
 }
-.button-yellow-left {
+.button-yellow__left {
   position: absolute;
   left: 16.39px;
   top: 17.5px;
@@ -2146,12 +2146,12 @@ html:hover .spider {
   font-size: 16px;
   font-weight: 700;
 }
-.button-yellow-center {
+.button-yellow__center {
   position: absolute;
   left: 176.17px;
   top: 16.54px;
 }
-.button-yellow-right {
+.button-yellow__right {
   position: absolute;
   right: 16.39px;
   top: 17.5px;
@@ -2170,7 +2170,7 @@ html:hover .spider {
   cursor: pointer;
   animation: animate-TheStory 1s ease infinite;
 }
-.the-story-text {
+.the-story__text {
   font-family: OpenSans;
   font-style: bold;
   font-size: 15px;
@@ -2178,7 +2178,7 @@ html:hover .spider {
   text-transform: uppercase;
   white-space: nowrap;
 }
-.the-story-img {
+.the-story__img {
   position: absolute;
   left: 42%;
 }
@@ -2209,157 +2209,6 @@ html:hover .spider {
     margin-top: 500px;
   }
 }
-.SectionTwo {
-  min-weight: 1000px;
-  min-height: 1100px;
-  background-repeat: no-repeat;
-  display: block;
-  background-position: center;
-  background-size: contain;
-  position: relative;
-}
-.SectionTwo .h1up {
-  position: absolute;
-  color: white;
-  text-transform: uppercase;
-  top: 25%;
-  left: 12%;
-  font-size: 24px;
-  font-family: Bebas Neue;
-}
-.SectionTwo .h1Main {
-  position: absolute;
-  color: white;
-  text-transform: uppercase;
-  font-size: 50px;
-  top: 28%;
-  left: 12%;
-  line-height: 80px;
-  width: 600px;
-  font-weight: 700;
-  font-size: 60px;
-  font-family: Bebas Neue;
-}
-.SectionTwo .textSectionTwo {
-  position: absolute;
-  color: white;
-  top: 48%;
-  left: 24%;
-  font-size: 18px;
-  width: 360px;
-  text-align: justify;
-  font-weight: 400;
-  line-height: 22px;
-  font-family: Open Sans;
-}
-
-.photo1 {
-  position: absolute;
-  top: 15%;
-  left: 55%;
-  z-index: 3;
-  cursor: pointer;
-}
-.photo1 img {
-  width: 490px;
-  height: 600px;
-}
-
-.photo2 {
-  position: absolute;
-  top: 17%;
-  left: 59%;
-  z-index: 2;
-  cursor: pointer;
-}
-.photo2 img {
-  width: 450px;
-  height: 550px;
-}
-
-.photo3 {
-  position: absolute;
-  top: 19%;
-  left: 64%;
-  cursor: pointer;
-}
-.photo3 img {
-  width: 400px;
-  height: 500px;
-}
-
-.switch-img {
-  position: absolute;
-  top: 42%;
-  right: 12%;
-  cursor: pointer;
-}
-
-.point1 {
-  position: absolute;
-  top: 65%;
-  left: 60%;
-  width: 14px;
-  height: 14px;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 50%;
-  z-index: 4;
-  cursor: pointer;
-}
-
-.point2 {
-  position: absolute;
-  top: 65%;
-  left: 64%;
-  width: 14px;
-  height: 14px;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-  z-index: 4;
-  cursor: pointer;
-}
-
-.point3 {
-  position: absolute;
-  top: 65%;
-  left: 68%;
-  width: 14px;
-  height: 14px;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-  z-index: 4;
-  cursor: pointer;
-}
-
-.point4 {
-  position: absolute;
-  top: 65%;
-  left: 72%;
-  width: 14px;
-  height: 14px;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-  z-index: 4;
-  cursor: pointer;
-}
-
-.point5 {
-  position: absolute;
-  top: 65%;
-  left: 76%;
-  width: 14px;
-  height: 14px;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 50%;
-  z-index: 4;
-  cursor: pointer;
-}
-
 .SectionThree {
   display: flex;
   justify-content: center;
@@ -2872,7 +2721,7 @@ html:hover .spider {
   position: relative;
 }
 
-.SOS-s5-wrapper {
+.SOS-s5__wrapper {
   display: flex;
   justify-content: space-around;
 }
@@ -2918,7 +2767,7 @@ html:hover .spider {
   background: linear-gradient(#fc9804, #d39013);
   border: 1.5px solid darkred;
 }
-.Read-more-text {
+.Read-more__text {
   color: black;
   font-weight: 700;
   font-size: 16px;
@@ -3039,7 +2888,7 @@ html:hover .spider {
 }
 
 @media (max-width: 1100px) {
-  .SOS-s5-wrapper {
+  .SOS-s5__wrapper {
     display: block;
   }
 
@@ -3055,14 +2904,15 @@ html:hover .spider {
     text-align: center;
   }
   .SOS-s5-left .s5h1-text {
+    text-align: center;
     padding-top: 20px;
     margin: 0 auto;
   }
-  .SOS-s5-left .Read-more-inner {
+  .SOS-s5-left .Read-more__inner {
     display: block;
     margin-top: 20px;
   }
-  .SOS-s5-left .Read-more-inner .Read-more {
+  .SOS-s5-left .Read-more__inner .Read-more {
     display: block;
     margin: 0 auto;
   }
@@ -3111,6 +2961,117 @@ html:hover .spider {
     width: 90%;
   }
 }
+.SectionTwo {
+  min-width: 1000px;
+  min-height: 1100px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-image: url(../figma/SOS/img/bg-image-2.jpg);
+  background-size: cover;
+}
+.SectionTwo .h1up {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: Bebas Neue;
+}
+.SectionTwo .h1Main {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 80px;
+  width: 600px;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: Bebas Neue;
+}
+.SectionTwo .textSectionTwo {
+  color: white;
+  font-size: 18px;
+  width: 360px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: Open Sans;
+  margin: 50px 0 0 110px;
+}
+
+.about-game {
+  padding: 200px 0 0 0;
+  display: flex;
+}
+
+.about-game__text-content {
+  padding: 50px 0 0 100px;
+}
+
+.about-game__column {
+  flex: 1 1 50%;
+}
+
+.slider {
+  margin: 0 0 0 -50px;
+  position: relative;
+}
+.slider__photo {
+  position: absolute;
+}
+.slider__photo img {
+  height: 100%;
+  width: 100%;
+}
+.slider__photo_1 {
+  height: 500px;
+  width: 450px;
+  z-index: 2;
+}
+.slider__point-switcher {
+  margin-top: -60px;
+}
+
+.point-switcher {
+  display: flex;
+  justify-content: center;
+}
+.point-switcher__item {
+  margin: 0 25px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 4;
+  cursor: pointer;
+}
+.point-switcher__item_active {
+  background-color: white;
+}
+
+.slider__photo_2 {
+  top: 20px;
+  left: 90px;
+  height: 460px;
+  width: 410px;
+  z-index: 1;
+}
+
+.slider__photo_3 {
+  top: 40px;
+  left: 180px;
+  height: 420px;
+  width: 370px;
+  z-index: 0;
+}
+
+.slider__switcher {
+  position: absolute;
+  left: 570px;
+  top: 231px;
+  cursor: pointer;
+}
+
 html {
   box-sizing: border-box;
 }

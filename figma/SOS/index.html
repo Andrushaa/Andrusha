@@ -68,13 +68,13 @@
                     experrience new social battle royale game
                 </div>
                 <div class="button-yellow">
-                    <div class="button-yellow-left">
+                    <div class="button-yellow__left">
                         Buy now on Steam
                     </div>
-                    <div class="button-yellow-center">
+                    <div class="button-yellow__center">
                         <img src="img/separator2.svg" alt="">
                     </div>
-                    <div class="button-yellow-right">
+                    <div class="button-yellow__right">
                         $14.99
                     </div>
                 </div>
@@ -82,76 +82,80 @@
 
 
             <div class="the-story">
-                <div class="the-story-text">
+                <div class="the-story__text">
                     the story
                 </div>
-                <div class="the-story-img">
+                <div class="the-story__img">
                     <img src="img/scroll down.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- новая вёрстка второго блока -->
 
-    <!-- вёрстка второго блока -->
-    <section class="SectionTwo"
-        style="background-image: url(../../figma/SOS/img/bg-image-2.jpg); background-size:cover">
-        <div class="h1up">
-            what is sos?
-        </div>
-        <div class="h1Main">
-            <div class="h1Main-text">
-                social battle royale game
+     <section class="SectionTwo">
+        <div class="about-game">
+            <div class="about-game__column">
+                <div class="about-game__text-content">
+                    <div class="h1up">
+                        what is sos?
+                    </div>
+                    <div class="h1Main">
+                        <div class="h1Main-text">
+                            social battle royale game
+                        </div>
+                    </div>
+                    <div class="textSectionTwo">
+                        <div class="textSectionTwo-text">
+                            Each round, <strong>you</strong> and <strong>15</strong> other contestants compete to escape a deadly
+                            island filled with
+                            monsters. The
+                            trick is: <strong>three</strong> people can survive. Will you run solo or form friendships with others
+                            to escape?
+                            <br> <br>
+                            Making the right decisions could be the difference between life and death.
+                        </div>
+                    </div>
+                </div>           
             </div>
-        </div>
-        <div class="textSectionTwo">
-            <div class="textSectionTwo-text">
-                Each round, <strong>you</strong> and <strong>15</strong> other contestants compete to escape a deadly
-                island logoed with
-                monsters. The
-                trick is: <strong>three</strong> people can survive. Will you run solo or form friendships with others
-                to escape?
-                <br> <br>
-                Making the right decisions could be the difference between life and death.
+            <div class="about-game__column">
+                <div class="slider">
+                    <div class="slider__photo slider__photo_1">
+                        <img class="slider__image">
+
+                        <div class="point-switcher slider__point-switcher">
+                            <div data-value="0" class="point-switcher__item point-switcher__item_active">
+                            </div>
+                    
+                            <div data-value="1" class="point-switcher__item">       
+                            </div>
+                    
+                            <div data-value="2" class="point-switcher__item">      
+                            </div>
+                    
+                            <div data-value="3" class="point-switcher__item">        
+                            </div>
+                    
+                            <div data-value="4" class="point-switcher__item">        
+                            </div>    
+                        </div>                      
+                    </div>
+            
+                    <div class="slider__photo slider__photo_2">
+                        <img id="imgSwitch-2" class="slider__image">
+                    </div>
+            
+                    <div class="slider__photo slider__photo_3">
+                        <img id="imgSwitch-3" class="slider__image">
+                    </div>
+        
+                    <div class="slider__switcher">
+                        <img src="../SOS/img/switch-img.svg" alt="">
+                    </div>
+                </div> 
             </div>
-        </div>
-
-        <div class="photo1">
-            <img id="imgSwitch-1" src="../SOS/img/screenshot-1.jpg" onClick="imgSwitch1(); imgSwitch2();">
-        </div>
-
-        <div class="photo2">
-            <img id="imgSwitch-2" src="../SOS/img/screenshot-2.jpg" onClick="imgSwitch2(); imgSwitch1();">
-        </div>
-
-        <div class="photo3">
-            <img id="imgSwitch-3" src="../SOS/img/screenshot-3.jpg" onClick="imgSwitch3();">
-        </div>
-
-        <div class="switch-img" onClick="imgSwitch1(); imgSwitch2();">
-            <img src="../SOS/img/switch-img.svg" alt="">
-        </div>
-
-        <div class="point1">
-
-        </div>
-
-        <div class="point2">
-
-        </div>
-
-        <div class="point3">
-
-        </div>
-
-        <div class="point4">
-
-        </div>
-
-        <div class="point5">
-
-        </div>
-
+        </div>              
     </section>
 
 
@@ -281,7 +285,7 @@
     <!--   новая  вёрстка пятого блока -->
     <section class="SectionFive"
         style="background-image: url(../../figma/SOS/img/img-section-five.jpg); background-size:cover">
-       <div class="SOS-s5-wrapper">
+       <div class="SOS-s5__wrapper">
            <div class="SOS-s5-left">
                 <div class="s5h1-up">
                     What people think?
@@ -295,9 +299,9 @@
                     to say.
                 </div>
 
-                <div class="Read-more-inner">
+                <div class="Read-more__inner">
                     <button class="Read-more">
-                        <div class="Read-more-text">
+                        <div class="Read-more__text">
                             Read more testimonials
                         </div>
                     </button>
@@ -526,41 +530,8 @@
     <script src="js/SOS-s3menu.js"></script>
     <script src="js/burgerMenu.js"></script>
     <script src="../../js/up.js"></script>
+    <script src="js/sliderSOS.js"></script>
     <!-- <script src="../SOS/js/switch-img.js"></script> -->
-
-    <script>
-        var i = 0;
-        var image = document.getElementById("imgSwitch-1");
-        var imgs = new Array('../SOS/img/screenshot-1.jpg', '../SOS/img/screenshot-2.jpg', '../SOS/img/screenshot-3.jpg');
-        function imgSwitch1() {
-            i++;
-            i %= imgs.length;
-            image.src = imgs[i];
-        }
-    </script>
-
-    <script>
-        var i = 0;
-        var image2 = document.getElementById("imgSwitch-2");
-        var imgs2 = new Array('../SOS/img/screenshot-2.jpg', '../SOS/img/screenshot-3.jpg', '../SOS/img/screenshot-1.jpg');
-        function imgSwitch2() {
-            i++;
-            i %= imgs2.length;
-            i == 0
-            image2.src = imgs2[i];
-        }
-    </script>
-
-    <script>
-        var i = 0;
-        var image3 = document.getElementById("imgSwitch-3");
-        var imgs3 = new Array('../SOS/img/screenshot-3.jpg', '../SOS/img/screenshot-1.jpg', '../SOS/img/screenshot-2.jpg', '../SOS/img/screenshot-3.jpg');
-        function imgSwitch3() {
-            i++;
-            i %= imgs3.length;
-            image3.src = imgs3[i];
-        }
-    </script>
 
 
 </body>
