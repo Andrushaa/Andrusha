@@ -2470,7 +2470,7 @@ html:hover .spider {
 
 @media (max-width: 930px) {
   .SectionThree {
-    min-height: 0;
+    min-height: max-content;
   }
 
   .S3-h1up-text {
