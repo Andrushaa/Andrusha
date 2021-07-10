@@ -2785,18 +2785,20 @@ html:hover .spider {
   display: block;
   background-position: center;
   background-size: contain;
-  position: relative;
 }
 
 .SOS-S6-wrapper {
   display: block;
+  margin-top: 20px;
   margin: 0 auto;
   width: 80%;
+  height: 100%;
 }
 
 .SOS-S6-inner {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .SOS-s6-right {
@@ -2915,8 +2917,8 @@ html:hover .spider {
 
 @media (max-width: 1300px) {
   .SectionSix {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
 
   .SOS-S6-inner .SOS-s6-left {
@@ -3733,7 +3735,6 @@ body.lockZEN {
 }
 
 .footer-wrapper {
-  position: absolute;
   bottom: 5px;
   width: 100%;
 }
@@ -3793,6 +3794,10 @@ body.lockZEN {
   }
 }
 @media (max-width: 700px) {
+  .footer-wrapper {
+    margin-top: 200px;
+  }
+
   .footer-under {
     display: flex;
     justify-content: center;
