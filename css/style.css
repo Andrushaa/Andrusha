@@ -2851,7 +2851,7 @@ html:hover .spider {
 .email {
   width: 367px;
   height: 60px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 .email-text {
@@ -2931,6 +2931,48 @@ html:hover .spider {
   .SOS-S6-inner .SOS-s6-right {
     position: absolute;
     display: block;
+  }
+}
+@media (max-width: 700px) {
+  .SOSemail-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .SOSemail-wrapper .ButtonSubscribe {
+    margin-top: 20px;
+  }
+
+  .email {
+    width: 250px;
+    height: 50%;
+  }
+
+  .SOS-s6-right {
+    width: 100%;
+  }
+
+  .s6h1-up {
+    display: block;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .s6h1-main {
+    display: block;
+    font-size: 30px;
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .s6h1-text {
+    display: block;
+    text-align: center;
+    width: 80%;
+  }
+  .s6h1-text .ButtonSubscribe {
+    margin: 0 auto;
   }
 }
 html {
@@ -3795,7 +3837,7 @@ body.lockZEN {
 }
 @media (max-width: 700px) {
   .footer-wrapper {
-    margin-top: 200px;
+    margin-top: 70px;
   }
 
   .footer-under {
@@ -3830,6 +3872,11 @@ body.lockZEN {
   }
   .footer-up .footer-up-imgs {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 350px) {
+  .footer-wrapper {
+    margin-top: 100px;
   }
 }
 *,
