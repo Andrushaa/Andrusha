@@ -2935,7 +2935,7 @@ html:hover .spider {
   width: 550px;
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
+  margin: 30px;
 }
 
 .LadaSOS {
@@ -2943,7 +2943,7 @@ html:hover .spider {
   width: 550px;
   display: flex;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 30px;
 }
 
 .AaronSOS {
@@ -2951,7 +2951,7 @@ html:hover .spider {
   width: 550px;
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
+  margin: 30px;
 }
 
 .reviewsSOS {
@@ -3016,7 +3016,7 @@ html:hover .spider {
 .reviewsSOS-social {
   position: absolute;
   top: 30px;
-  left: 414px;
+  right: 20px;
 }
 .reviewsSOS-text {
   position: absolute;
@@ -3038,19 +3038,79 @@ html:hover .spider {
   transition: 0.5s;
 }
 
-/** 
- * .evan
- * position: absolute
- * top: 160px
- * left: 970px */
-/** .lada
- * position: absolute
- * top: 372px
- * left: 824px **/
-/** .aaron
- * position: absolute
- * top: 608px
- * left: 929px **/
+@media (max-width: 1100px) {
+  .SOS-s5-wrapper {
+    display: block;
+  }
+
+  .SOS-s5-left {
+    display: block;
+    padding-top: 1px;
+  }
+  .SOS-s5-left .s5h1-up {
+    margin-top: 80px;
+    text-align: center;
+  }
+  .SOS-s5-left .s5h1-main {
+    text-align: center;
+  }
+  .SOS-s5-left .s5h1-text {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .SOS-s5-left .Read-more-inner {
+    display: block;
+    margin-top: 20px;
+  }
+  .SOS-s5-left .Read-more-inner .Read-more {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .SOS-s5-right {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 750px) {
+  .evanSOS {
+    justify-content: center;
+  }
+
+  .LadaSOS {
+    justify-content: center;
+  }
+
+  .AaronSOS {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .s5h1-main {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .s5h1-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .reviewsSOS {
+    width: 290px;
+  }
+  .reviewsSOS-name {
+    width: 50%;
+  }
+  .reviewsSOS-subname {
+    top: 70px;
+  }
+  .reviewsSOS-text {
+    width: 90%;
+  }
+}
 html {
   box-sizing: border-box;
 }
