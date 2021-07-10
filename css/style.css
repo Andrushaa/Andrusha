@@ -2194,6 +2194,11 @@ html:hover .spider {
     margin-top: 550px;
   }
 }
+@media (max-width: 930px) {
+  .Main-title {
+    line-height: 70px;
+  }
+}
 @media (max-width: 580px) {
   .Main-title {
     line-height: 70px;
@@ -2464,11 +2469,36 @@ html:hover .spider {
 }
 
 @media (max-width: 930px) {
+  .SectionThree {
+    min-height: 0;
+  }
+
+  .S3-h1up-text {
+    margin-left: 20px;
+  }
+
+  .S3-h1main {
+    margin-left: 20px;
+  }
+
   .SOS-S3-container {
     justify-content: flex-start;
   }
   .SOS-S3-container .SOS-S3-wrapper {
     padding: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .SOS-S3-wrapper {
+    width: 100%;
+  }
+
+  .S3-h1up-text {
+    width: 100%;
+  }
+
+  .S3-h1main {
+    margin-left: 20px;
   }
 }
 .SectionFour {
@@ -2867,7 +2897,7 @@ html:hover .spider {
 .email {
   width: 367px;
   height: 60px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 .email-text {
