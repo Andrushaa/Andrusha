@@ -2583,7 +2583,7 @@ html:hover .spider {
 }
 
 .email {
-  width: 367px;
+  width: 467px;
   height: 60px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
@@ -2726,6 +2726,8 @@ html:hover .spider {
 .SOS-s5__wrapper {
   display: flex;
   justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .s5h1-up {
@@ -2778,7 +2780,7 @@ html:hover .spider {
 }
 
 .SOS-s5-right {
-  margin-top: 150px;
+  margin-top: 110px;
 }
 
 .evanSOS {
