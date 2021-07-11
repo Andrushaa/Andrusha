@@ -10,6 +10,8 @@
     background-size: cover
 
     .h1up
+        margin-top: 250px
+
         color: white
         text-transform: uppercase
         font-size: 24px
@@ -18,7 +20,6 @@
     .h1Main
         color: white
         text-transform: uppercase
-        font-size: 50px
         line-height: 80px
         width: 600px
         font-weight: 700
@@ -38,13 +39,15 @@
 .about-game
     display: flex
     justify-content: space-between
-    margin-top: 150px
 
     &__wrapper
-        width: 100%
+        display: block
+        margin: 0 auto
+        width: 80%
         height: 100%
 
 .slider
+    margin-top: 187px
     width: 600px
     height: 600px
     position: relative
@@ -102,3 +105,75 @@
     left: 510px
     top: 231px
     cursor: pointer
+
+@media (max-width: 1275px)
+    .SectionTwo
+        min-width: 100%
+        min-height: 100%
+
+    .about-game
+        display: flex
+        align-items: flex-start
+        flex-direction: column
+
+        &__wrapper
+            width: 100%
+
+        .about-game__left
+            margin: 0 auto
+
+            .h1up
+                text-align: center
+
+            .h1Main
+                text-align: center
+                margin: 0 auto
+
+            .textSectionTwo
+                margin: 0 auto
+
+        .slider
+            margin: 0 auto
+            padding-left: 55px
+
+@media (max-width: 600px)
+    .about-game__left
+        width: 100%
+
+        .h1up
+            text-align: center
+            margin-top: 36px
+
+        .h1Main
+            width: 100% !important
+            padding: 15px
+            color: rgba(255, 181, 72, 0.9) !important
+
+        .h1Main-text
+            line-height: 50px
+            text-align: center
+            font-weight: 700
+            font-size: 45px
+            margin: 0 auto
+
+    .textSectionTwo
+        width: 100% !important
+        padding: 15px
+
+    .slider__photo_1
+        width: 70%
+        height: 70%
+
+    .slider__photo_2
+        width: 70%
+        height: 70%
+
+    .slider__photo_3
+        width: 70%
+        height: 70%
+        left: 85px
+
+@media (max-width: 500px)
+    .slider-wrapper
+        width: 100%
+        height: 600px
