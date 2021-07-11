@@ -2384,6 +2384,20 @@ html:hover .spider {
   line-height: 45px;
 }
 
+.TableSOS-wrapper {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.TableSOS-inner {
+  margin-top: 133px;
+  width: 573px;
+  height: 400px;
+  position: relative;
+}
+
 .table {
   width: 267px;
   height: 120px;
@@ -2406,29 +2420,29 @@ html:hover .spider {
 }
 .table-os {
   position: absolute;
-  top: 368px;
-  left: 221px;
+  top: 0px;
+  left: 0px;
 }
 .table-processor {
   position: absolute;
-  top: 368px;
-  left: 487px;
+  top: 0px;
+  left: 266px;
 }
 .table-memory {
   position: absolute;
-  top: 487px;
-  left: 221px;
+  top: 119px;
+  left: 0px;
 }
 .table-storage {
   position: absolute;
-  top: 487px;
-  left: 487px;
+  top: 119px;
+  left: 266px;
 }
 
 .table2 {
   position: absolute;
-  top: 606px;
-  left: 221px;
+  top: 238px;
+  left: 0px;
   width: 533px;
   height: 170px;
   border-left: 1px solid rgba(151, 151, 151, 0.2);
@@ -2441,16 +2455,16 @@ html:hover .spider {
   border-top: 1px solid rgba(151, 151, 151, 0.2);
   width: 64.8px;
   position: absolute;
-  top: 775px;
-  left: 221px;
+  top: 408px;
+  left: 0px;
 }
 
 .line2 {
   border-bottom: 1px solid rgba(151, 151, 151, 0.2);
   width: 17px;
   position: absolute;
-  top: 769px;
-  left: 283px;
+  top: 402px;
+  left: 62.4px;
   transform: rotate(-45deg);
 }
 
@@ -2458,16 +2472,16 @@ html:hover .spider {
   border-top: 1px solid rgba(151, 151, 151, 0.2);
   width: 70px;
   position: absolute;
-  top: 763.2px;
-  left: 297.5px;
+  top: 396px;
+  left: 76.7px;
 }
 
 .line4 {
   border-bottom: 1px solid rgba(151, 151, 151, 0.2);
   width: 17px;
   position: absolute;
-  top: 769px;
-  left: 364.8px;
+  top: 402px;
+  left: 144px;
   transform: rotate(45deg);
 }
 
@@ -2475,16 +2489,16 @@ html:hover .spider {
   border-top: 1px solid rgba(151, 151, 151, 0.2);
   width: 362.8px;
   position: absolute;
-  top: 775px;
-  left: 379.4px;
+  top: 408px;
+  left: 158.7px;
 }
 
 .line6 {
   border-bottom: 1px solid rgba(151, 151, 151, 0.2);
   width: 17px;
   position: absolute;
-  top: 768.5px;
-  left: 739.3px;
+  top: 401.5px;
+  left: 518.5px;
   transform: rotate(-45deg);
 }
 
@@ -2492,8 +2506,8 @@ html:hover .spider {
   border-right: 1px solid rgba(151, 151, 151, 0.2);
   height: 157px;
   position: absolute;
-  top: 606px;
-  left: 753px;
+  top: 239px;
+  left: 532px;
 }
 
 @media (max-width: 700px) {
@@ -2509,6 +2523,89 @@ html:hover .spider {
   .s4-h1main-text {
     font-size: 30px;
     line-height: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .TableSOS-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+  .s4-h1up-text {
+    padding-top: 40px;
+  }
+
+  .TableSOS-inner {
+    margin-top: 40px;
+  }
+
+  .table {
+    display: block;
+    width: 95%;
+  }
+
+  .table-os {
+    left: 10px;
+  }
+
+  .table-processor {
+    top: 119px;
+    left: 10px;
+  }
+
+  .table-memory {
+    top: 238px;
+    left: 10px;
+  }
+
+  .table-storage {
+    top: 357px;
+    left: 10px;
+  }
+
+  .table2 {
+    top: 476px;
+    display: block;
+    width: 95%;
+    border: 1px solid rgba(151, 151, 151, 0.2);
+  }
+
+  .table-name {
+    text-align: center;
+  }
+
+  .table-text {
+    text-align: center;
+  }
+
+  .line1 {
+    display: none;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .line3 {
+    display: none;
+  }
+
+  .line4 {
+    display: none;
+  }
+
+  .line5 {
+    display: none;
+  }
+
+  .line6 {
+    display: none;
+  }
+
+  .line7 {
+    display: none;
   }
 }
 /** @import "../figma/SOS/sass/sectionFive" **/
