@@ -3000,30 +3000,29 @@ html:hover .spider {
 }
 
 .about-game {
-  padding: 200px 0 0 0;
   display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
 }
-
-.about-game__text-content {
-  padding: 50px 0 0 100px;
-}
-
-.about-game__column {
-  flex: 1 1 50%;
+.about-game__wrapper {
+  width: 100%;
+  height: 100%;
 }
 
 .slider {
-  margin: 0 0 0 -50px;
+  width: 600px;
+  height: 600px;
   position: relative;
 }
 .slider__photo {
-  position: absolute;
+  padding: 0;
 }
 .slider__photo img {
   height: 100%;
   width: 100%;
 }
 .slider__photo_1 {
+  position: absolute;
   height: 500px;
   width: 450px;
   z-index: 2;
@@ -3050,16 +3049,18 @@ html:hover .spider {
 }
 
 .slider__photo_2 {
-  top: 20px;
-  left: 90px;
+  position: absolute;
+  top: 30px;
+  left: 70px;
   height: 460px;
   width: 410px;
   z-index: 1;
 }
 
 .slider__photo_3 {
+  position: absolute;
   top: 40px;
-  left: 180px;
+  left: 130px;
   height: 420px;
   width: 370px;
   z-index: 0;
@@ -3067,7 +3068,7 @@ html:hover .spider {
 
 .slider__switcher {
   position: absolute;
-  left: 570px;
+  left: 510px;
   top: 231px;
   cursor: pointer;
 }
