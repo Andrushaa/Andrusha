@@ -3083,13 +3083,18 @@ html:hover .spider {
     min-height: 100%;
   }
 
+  .slider-wrapper {
+    margin: 0 auto;
+  }
+
   .about-game {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: center;
   }
-  .about-game__wrapper {
-    width: 100%;
+  .about-game-wrapper {
+    margin: 0 auto;
   }
   .about-game .about-game__left {
     margin: 0 auto;
@@ -3101,6 +3106,9 @@ html:hover .spider {
     text-align: center;
     margin: 0 auto;
   }
+  .about-game .about-game__left .h1Main-text {
+    line-height: 65px;
+  }
   .about-game .about-game__left .textSectionTwo {
     margin: 0 auto;
   }
@@ -3110,6 +3118,11 @@ html:hover .spider {
   }
 }
 @media (max-width: 600px) {
+  .about-game__wrapper {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
   .about-game__left {
     width: 100%;
   }
@@ -3123,7 +3136,7 @@ html:hover .spider {
     color: rgba(255, 181, 72, 0.9) !important;
   }
   .about-game__left .h1Main-text {
-    line-height: 50px;
+    line-height: 45px !important;
     text-align: center;
     font-weight: 700;
     font-size: 45px;
@@ -3136,25 +3149,43 @@ html:hover .spider {
   }
 
   .slider__photo_1 {
-    width: 70%;
-    height: 70%;
+    position: static !important;
+    width: auto;
+    max-height: 70%;
+    z-index: 7;
+  }
+  .slider__photo_1 img {
+    object-fit: cover;
   }
 
   .slider__photo_2 {
-    width: 70%;
-    height: 70%;
+    width: 20%;
+    height: 20%;
+    display: none;
   }
 
   .slider__photo_3 {
-    width: 70%;
-    height: 70%;
-    left: 85px;
+    width: 20%;
+    height: 20%;
+    display: none;
   }
-}
-@media (max-width: 500px) {
+
+  .slider__switcher {
+    display: none;
+  }
+
   .slider-wrapper {
+    display: block;
+    width: none;
+    height: none;
+  }
+
+  .slider {
+    display: block;
     width: 100%;
-    height: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px !important;
   }
 }
 html {
