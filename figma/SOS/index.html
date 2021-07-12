@@ -26,11 +26,11 @@
 			<div class="header-menu-SOS menu">
 				<nav class="menu-bodySOS">
 					<ul class="menu-listSOS">
-                        <li><a href="#" class="menu__link">main</a></li>
-						<li><a href="#" class="menu__link">about</a></li>
-						<li><a href="#" class="menu__link">game features</a></li>
-						<li><a href="#" class="menu__link">system requirements</a></li>
-						<li><a href="#" class="menu__link">quotes</a></li>
+                        <li><a href="#" class="menu__link" id="mainOut">main</a></li>
+						<li><a href="#" class="menu__link" id="aboutOut">about</a></li>
+						<li><a href="#" class="menu__link" id="featuresOut">game features</a></li>
+						<li><a href="#" class="menu__link" id="requirementsOut">system requirements</a></li>
+						<li><a href="#" class="menu__link" id="quotesOut">quotes</a></li>
 					</ul>
 				</nav>
 
@@ -94,7 +94,7 @@
 
     <!-- новая вёрстка второго блока -->
 
-     <section class="SectionTwo">
+     <section class="SectionTwo" id="aboutIn">
         <div class="about-game__wrapper">
             <div class="about-game">
                 <div class="about-game__left">
@@ -170,7 +170,7 @@
 
 
 <!-- вёрстка третьего блока -->
-    <section class="SectionThree" style="background-image: url(../SOS/img/Group.jpg); background-size:cover">
+    <section class="SectionThree" id="featuresIn" style="background-image: url(../SOS/img/Group.jpg); background-size:cover">
         <div class="SOS-S3-container">
             <div class="SOS-S3-wrapper">
                 <div class="S3-h1up-text">
@@ -217,7 +217,7 @@
     </section>
 
     <!-- вёрстка четвёртого блока -->
-    <section class="SectionFour" style="background-image: url(../../figma/SOS/img/Group2.jpg); background-size:cover">
+    <section class="SectionFour" id="requirementsIn" style="background-image: url(../../figma/SOS/img/Group2.jpg); background-size:cover">
         <div class="s4-h1up">
             <div class="s4-h1up-text">
                 Can My Computer Run this game?
@@ -424,7 +424,7 @@
 
     <!-- вёрстка шестого блока -->
 
-    <section class="SectionSix"
+    <section class="SectionSix" id="quotesIn"
         style="background-image: url(../../figma/SOS/img/img-section-six.jpg); background-size:cover">
         <div class="SOS-S6-wrapper">
             <div class="SOS-S6-inner">
@@ -540,6 +540,8 @@
     <script src="js/burgerMenu.js"></script>
     <script src="../../js/up.js"></script>
     <script src="js/sliderSOS.js"></script>
+    <script src="../SOS/js/scrollUp.js"></script>
+    <script src="../SOS/js/scroll-Header__SOS.js"></script>
     <!-- <script src="../SOS/js/switch-img.js"></script> -->
 
 
