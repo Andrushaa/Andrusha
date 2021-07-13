@@ -4398,6 +4398,25 @@ body.lockSOS {
   margin-right: 5px;
 }
 
+.language_drop-down {
+  width: 60px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.language_drop-down li a {
+  color: white;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.language_drop-down li a:hover {
+  color: red;
+}
+
 .headerSOS-RIGHT-button {
   width: 200px;
   cursor: pointer;
