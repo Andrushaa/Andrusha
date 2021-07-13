@@ -6,9 +6,11 @@ for (let element of SOSs3menu.children) {
   title.onmouseover = () => {
     for (let block of SOSs3menu.children) {
       if (block === element) {
-        block.lastElementChild.classList.remove("hidden");
+        block.lastElementChild.classList.remove("SOS-S3__hidden");
+        block.firstElementChild.classList.add("SOS-S3__active");
       } else {
-        block.lastElementChild.classList.add("hidden");
+        block.lastElementChild.classList.add("SOS-S3__hidden");
+        block.firstElementChild.classList.remove("SOS-S3__active");
       }
     }
   };
