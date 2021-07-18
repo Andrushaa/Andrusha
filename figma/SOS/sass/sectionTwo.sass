@@ -34,7 +34,12 @@
         font-weight: 400
         line-height: 22px
         font-family: Open Sans
-        margin: 50px 0 0 110px
+        margin: 50px 0 0 150px
+
+        span
+            text-decoration: none
+            text-decoration-color: #FFB548
+            border-bottom: 5px solid #FFB548
 
 .about-game
     display: flex
@@ -43,7 +48,7 @@
     &__wrapper
         display: block
         margin: 0 auto
-        width: 80%
+        width: 70%
         height: 100%
 
 .slider
@@ -105,6 +110,10 @@
     left: 510px
     top: 231px
     cursor: pointer
+
+@media ( min-width:  1700px)
+    .textSectionTwo
+        margin: 50px 0 0 270px !important
 
 @media (max-width: 1275px)
     .SectionTwo

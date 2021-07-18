@@ -2211,6 +2211,19 @@ html:hover .spider {
     margin-top: 500px;
   }
 }
+@media (max-width: 330px) {
+  @keyframes animate-TheStory {
+    0% {
+      margin-top: 470px;
+    }
+    50% {
+      margin-top: 440px;
+    }
+    100% {
+      margin-top: 470px;
+    }
+  }
+}
 .SectionThree {
   display: flex;
   justify-content: center;
@@ -3161,7 +3174,12 @@ html:hover .spider {
   font-weight: 400;
   line-height: 22px;
   font-family: Open Sans;
-  margin: 50px 0 0 110px;
+  margin: 50px 0 0 150px;
+}
+.SectionTwo .textSectionTwo span {
+  text-decoration: none;
+  text-decoration-color: #FFB548;
+  border-bottom: 5px solid #FFB548;
 }
 
 .about-game {
@@ -3171,7 +3189,7 @@ html:hover .spider {
 .about-game__wrapper {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
   height: 100%;
 }
 
@@ -3240,6 +3258,11 @@ html:hover .spider {
   cursor: pointer;
 }
 
+@media (min-width: 1700px) {
+  .textSectionTwo {
+    margin: 50px 0 0 270px !important;
+  }
+}
 @media (max-width: 1275px) {
   .SectionTwo {
     min-width: 100%;
