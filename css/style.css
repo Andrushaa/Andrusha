@@ -4250,6 +4250,7 @@ body.lockZEN {
   width: 180px;
   height: 90px;
   padding-right: 90px;
+  border-radius: 0;
 }
 .footer-up .footer-up-imgs i {
   color: white;
