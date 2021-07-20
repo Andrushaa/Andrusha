@@ -3523,10 +3523,6 @@ html {
   font-size: 36px;
   line-height: 34px;
   transition: 0.5s;
-  cursor: pointer;
-}
-.sectionZEN-common-text-h1:hover {
-  color: #ff6781;
 }
 .sectionZEN-common-text-text {
   padding: 22px 0;
@@ -3534,10 +3530,6 @@ html {
   font-weight: 400;
   font-size: 18px;
   transition: 0.5s;
-  cursor: pointer;
-}
-.sectionZEN-common-text-text:hover {
-  color: #ff6781;
 }
 
 .sectionZEN-img img {
@@ -3606,9 +3598,6 @@ html {
   font-size: 16px;
   transition: 0.5s;
 }
-.sectionZEN-common-text-textUp:hover {
-  color: #ff6781;
-}
 .sectionZEN-common-text-h1 {
   margin-top: 23px;
   color: #222;
@@ -3627,9 +3616,6 @@ html {
   width: 400px;
   height: 52px;
   transition: 0.5s;
-}
-.sectionZEN-common-text-textUnder:hover {
-  color: #ff6781;
 }
 .sectionZEN-common-text-buttonApps {
   margin-top: 15px;
@@ -3725,10 +3711,6 @@ html {
   text-align: center;
   margin: 0 auto;
   transition: 0.5s;
-  cursor: pointer;
-}
-.sectionZEN-Cashbask-h1:hover {
-  color: #ff6781;
 }
 .sectionZEN-Cashbask-text {
   color: #222;
@@ -3738,11 +3720,7 @@ html {
   margin: 0 auto;
   padding-bottom: 58px;
   padding-top: 20px;
-  cursor: pointer;
   transition: 0.5s;
-}
-.sectionZEN-Cashbask-text:hover {
-  color: #ff6781;
 }
 .sectionZEN-Cashbask-button {
   width: 237px;
@@ -3791,7 +3769,6 @@ html {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  cursor: pointer;
 }
 .company .company-all .company-png img {
   transition: 0.5s;
