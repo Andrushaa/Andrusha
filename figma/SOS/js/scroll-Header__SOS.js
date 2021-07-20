@@ -5,6 +5,13 @@ function scrollTo(element) {
   })
 }
 
+var buttonMain = document.querySelector('#mainOut');
+var section1 = document.querySelector('#mainIn');
+
+buttonMain.addEventListener('click', () => {
+  scrollTo(section1);
+})
+
 var buttonAbout = document.querySelector('#aboutOut');
 var section3 = document.querySelector('#aboutIn');
 
@@ -39,5 +46,7 @@ var section3 = document.querySelector('#aboutIn');
 theStory.addEventListener('click', () => {
   scrollTo(section3);
 })
+
+
 
 
