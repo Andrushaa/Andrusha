@@ -12,7 +12,6 @@ buttonAbout.addEventListener('click', () => {
   scrollTo(section3);
 })
 
-
 var buttonFeatures = document.querySelector('#featuresOut');
 var section4 = document.querySelector('#featuresIn');
 
@@ -33,3 +32,12 @@ var section6 = document.querySelector('#quotesIn');
 buttonQuotes.addEventListener('click', () => {
   scrollTo(section6);
 })
+
+var theStory = document.querySelector('#storyOut');
+var section3 = document.querySelector('#aboutIn');
+
+theStory.addEventListener('click', () => {
+  scrollTo(section3);
+})
+
+

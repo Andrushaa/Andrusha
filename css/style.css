@@ -1990,8 +1990,8 @@ html:hover .spider {
 }
 
 .SectionOne {
-  min-weight: 1000px;
-  min-height: 1100px;
+  min-weight: auto;
+  min-height: 100vh;
   background-repeat: no-repeat;
   display: block;
   background-position: center;
@@ -2003,7 +2003,6 @@ html:hover .spider {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
 }
 
 .header-inner {
@@ -2163,13 +2162,14 @@ html:hover .spider {
 }
 
 .the-story {
-  position: relative;
+  position: absolute;
   width: 68px;
   height: 25px;
   margin: 0 auto;
-  margin-top: 560px;
-  margin-button: 20px;
   cursor: pointer;
+  left: 50%;
+  bottom: 7%;
+  transform: translate(-50%, -50%);
   animation: animate-TheStory 1s ease infinite;
 }
 .the-story__text {
@@ -2187,13 +2187,13 @@ html:hover .spider {
 
 @keyframes animate-TheStory {
   0% {
-    margin-top: 550px;
+    bottom: 7%;
   }
   50% {
-    margin-top: 540px;
+    bottom: 9%;
   }
   100% {
-    margin-top: 550px;
+    ottom: 7%;
   }
 }
 @media (max-width: 930px) {
@@ -3534,8 +3534,15 @@ html {
 .sectionZEN-img img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
+@media (max-width: 1428px) {
+  .sectionZEN-common {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 1050px) {
   .containerZEN {
     width: 100%;
@@ -3547,7 +3554,7 @@ html {
   }
   .sectionZEN-img img {
     max-height: 100%;
-    max-weight: 100%;
+    max-width: 100%;
   }
 
   .sectionZEN-common-text {
