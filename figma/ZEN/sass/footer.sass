@@ -4,7 +4,7 @@
     flex-wrap: wrap
     margin-top: 68px
 
-    &-common
+    &__common
 
         &-topic
             font-size: 16px
@@ -75,8 +75,7 @@
     margin-top: 33px
     padding-bottom: 20px
 
-    &-text
-
+    &__text
         font-weight: 400
         font-size: 12px
         color: #AAA
@@ -89,12 +88,37 @@
     border-top: 1px solid rgba(151, 151, 151, 0.2)
     margin-top: 68px
 
+@media ( max-width: 900px )
+    .footerZEN-menu
+        padding: 20px
+
+    .footerZEN-under
+        flex-direction: column
+        justify-content: center
+
+    .footerZEN-under__text
+        text-align: center
+        width: 100%
+        padding: 20px
+
+    .footerZEN-under__img
+        margin: 0 auto
+        display: flex
+        img
+            justify-content: center
+
+    .footerZEN__long-img img
+        margin: 0 auto
+        padding: 0
+        display: flex
+        justify-content: center
+
 @media ( max-width: 700px )
     .footerZEN-menu
         display: block
         margin: 0 auto
 
-        &-common
+        &__common
             display: block
 
             &-topic
@@ -120,16 +144,22 @@
                     font-size: 18px
                     padding-bottom: 7px
 
-    .footerZEN-under-text
+    .footerZEN-under
+        flex-direction: column
+        justify-content: center
+
+    .footerZEN-under__text
         text-align: center
+        width: 100%
+        padding: 20px
 
-    .footerZEN-under-img
+    .footerZEN-under__img
         margin: 0 auto
+        display: flex
+        img
+            justify-content: center
 
-    .footerZEN-under img
-        margin: 0 auto
-
-    .footerZEN-long-img img
+    .footerZEN__long-img img
         margin: 0 auto
         padding: 0
         display: flex

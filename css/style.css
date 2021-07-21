@@ -3558,27 +3558,27 @@ html {
   box-sizing: inherit;
 }
 
-.containerZEN {
+.ZEN-section {
   width: 70%;
   margin: 0 auto;
 }
 
-.sectionZEN-common {
+.ZEN-section__common {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
-.sectionZEN-common-text {
+.ZEN-section__common-text {
   color: #222;
   transition: 0.5s;
 }
-.sectionZEN-common-text-h1 {
+.ZEN-section__common-text-h1 {
   font-weight: 400;
   font-size: 36px;
   line-height: 34px;
   transition: 0.5s;
 }
-.sectionZEN-common-text-text {
+.ZEN-section__common-text-text {
   padding: 22px 0;
   width: 470px;
   font-weight: 400;
@@ -3586,33 +3586,33 @@ html {
   transition: 0.5s;
 }
 
-.sectionZEN-img img {
+.ZEN-section__img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 @media (max-width: 1428px) {
-  .sectionZEN-common {
+  .ZEN-section__common {
     display: flex;
     flex-direction: column;
   }
 }
 @media (max-width: 1050px) {
-  .containerZEN {
+  .ZEN-section {
     width: 100%;
     height: 100%;
   }
 
-  .sectionZEN-img {
+  .ZEN-section__img {
     position: absolute;
   }
-  .sectionZEN-img img {
+  .ZEN-section__img img {
     max-height: 100%;
     max-width: 100%;
   }
 
-  .sectionZEN-common-text {
+  .ZEN-section__common-text {
     margin: 0 auto;
     z-index: 2;
     margin-left: 0;
@@ -3644,32 +3644,32 @@ html {
     margin-top: 60px;
   }
 }
-.sectionZEN-common {
+.ZEN-section__common {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
-.sectionZEN-common-text {
+.ZEN-section__common-text {
   display: block;
 }
-.sectionZEN-common-text-textUp {
+.ZEN-section__common-text-textUp {
   margin-top: 204px;
   color: black;
   font-weight: 400;
   font-size: 16px;
   transition: 0.5s;
 }
-.sectionZEN-common-text-h1 {
+.ZEN-section__common-text-h1 {
   margin-top: 23px;
   color: #222;
   font-weight: 400;
   font-size: 42px;
   width: 370px;
 }
-.sectionZEN-common-text-h1-2 {
+.ZEN-section__common-text-h1-2 {
   margin-top: 20px;
 }
-.sectionZEN-common-text-textUnder {
+.ZEN-section__common-text-textUnder {
   margin-top: 23px;
   font-weight: 400;
   font-size: 18px;
@@ -3678,94 +3678,94 @@ html {
   height: 52px;
   transition: 0.5s;
 }
-.sectionZEN-common-text-buttonApps {
+.ZEN-section__common-text-buttonApps {
   margin-top: 15px;
 }
-.sectionZEN-common-text-buttonApps-AppStore a img {
+.ZEN-section__common-text-buttonApps-AppStore a img {
   width: 167px;
   height: 48px;
 }
-.sectionZEN-common-text-buttonApps-GooglePlay a img {
+.ZEN-section__common-text-buttonApps-GooglePlay a img {
   width: 167px;
   height: 48px;
 }
 
 @media (max-width: 1050px) {
-  .sectionZEN-common-text {
+  .ZEN-section__common-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .sectionZEN-common-text-textUp {
+  .ZEN-section__common-text-textUp {
     margin-top: 15px;
     text-align: center;
   }
-  .sectionZEN-common-text-text {
+  .ZEN-section__common-text-text {
     width: 100%;
     height: 100%;
   }
-  .sectionZEN-common-text-h1 {
+  .ZEN-section__common-text-h1 {
     display: block;
     margin: 0 auto;
     padding: 10% 0;
   }
-  .sectionZEN-common-text-h1-1 {
+  .ZEN-section__common-text-h1-1 {
     text-align: center;
   }
-  .sectionZEN-common-text-h1-2 {
+  .ZEN-section__common-text-h1-2 {
     text-align: center;
   }
-  .sectionZEN-common-text-textUnder {
+  .ZEN-section__common-text-textUnder {
     width: 100%;
     height: 80px;
     margin-top: 30px;
     text-align: center;
   }
-  .sectionZEN-common-text-buttonApps {
+  .ZEN-section__common-text-buttonApps {
     display: flex;
     /** flex-direction: column **/
     justify-content: space-around;
     margin-top: 30px;
   }
-  .sectionZEN-common-text-buttonApps-AppStore a {
+  .ZEN-section__common-text-buttonApps-AppStore a {
     display: flex;
     justify-content: center;
   }
-  .sectionZEN-common-text-buttonApps-GooglePlay a {
+  .ZEN-section__common-text-buttonApps-GooglePlay a {
     display: flex;
     justify-content: center;
   }
 }
 @media (max-width: 400px) {
-  .sectionZEN-common-text-buttonApps {
+  .ZEN-section__common-text-buttonApps {
     display: block;
     margin: 0 auto;
   }
-  .sectionZEN-common-text-buttonApps-GooglePlay {
+  .ZEN-section__common-text-buttonApps-GooglePlay {
     margin-top: 5px;
   }
 }
 @media (max-width: 1050px) {
-  .sectionZEN-common-text {
+  .ZEN-section__common-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .sectionZEN-common-text-h1 {
+  .ZEN-section__common-text-h1 {
     margin-top: 5%;
     text-align: center;
     width: 100%;
     line-height: 34px;
   }
-  .sectionZEN-common-text-text {
+  .ZEN-section__common-text-text {
     text-align: center;
   }
 }
-.sectionZEN-Cashbask {
+.sectionZEN__Cashbask {
   margin-top: 100px;
   display: block;
 }
-.sectionZEN-Cashbask-h1 {
+.sectionZEN__Cashbask-h1 {
   font-weight: 400;
   font-size: 36px;
   color: #222;
@@ -3773,7 +3773,7 @@ html {
   margin: 0 auto;
   transition: 0.5s;
 }
-.sectionZEN-Cashbask-text {
+.sectionZEN__Cashbask-text {
   color: #222;
   width: 584px;
   font-size: 18px;
@@ -3783,7 +3783,7 @@ html {
   padding-top: 20px;
   transition: 0.5s;
 }
-.sectionZEN-Cashbask-button {
+.sectionZEN__Cashbask-button {
   width: 237px;
   height: 48px;
   border: 1px solid black;
@@ -3792,11 +3792,11 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
-.sectionZEN-Cashbask-button:hover {
+.sectionZEN__Cashbask-button:hover {
   border: 1px solid red;
   background: rgba(255, 0, 0, 0.2);
 }
-.sectionZEN-Cashbask-button-text a {
+.sectionZEN__Cashbask-button-text a {
   text-align: center;
   margin-top: 11px;
   color: #222;
@@ -3807,22 +3807,22 @@ html {
 }
 
 @media (max-width: 1050px) {
-  .sectionZEN-Cashbask-text {
+  .sectionZEN__Cashbask-text {
     width: 100%;
     padding-bottom: 20px;
   }
 }
-.company {
+.ZEN-company {
   width: 100%;
   height: 100%;
   display: block;
 }
-.company .company-all {
+.ZEN-company__all {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.company .company-all .company-png {
+.ZEN-company__all .ZEN-company__png {
   margin-top: 20px;
   width: 300px;
   height: 100px;
@@ -3831,15 +3831,15 @@ html {
   align-items: center;
   transition: 0.5s;
 }
-.company .company-all .company-png img {
+.ZEN-company__all .ZEN-company__png img {
   transition: 0.5s;
 }
-.company .company-all .company-png img:hover {
+.ZEN-company__all .ZEN-company__png img:hover {
   transform: scale(1.2);
 }
 
 @media (max-width: 1050px) {
-  .company-all {
+  .ZEN-company__all {
     justify-content: center !important;
   }
 }
@@ -3877,7 +3877,7 @@ html {
   flex-wrap: wrap;
   margin-top: 68px;
 }
-.footerZEN-menu-common-topic {
+.footerZEN-menu__common-topic {
   font-size: 16px;
   font-weight: 400;
   color: #222;
@@ -3886,10 +3886,10 @@ html {
   position: relative;
   display: inline-block;
 }
-.footerZEN-menu-common-topic:hover {
+.footerZEN-menu__common-topic:hover {
   color: #ff6781;
 }
-.footerZEN-menu-common-topic::before {
+.footerZEN-menu__common-topic::before {
   content: "";
   bottom: 0;
   left: 0;
@@ -3900,14 +3900,14 @@ html {
   transition: 0.2s;
   transform: scaleX(0);
 }
-.footerZEN-menu-common-topic:hover:before {
+.footerZEN-menu__common-topic:hover:before {
   transform: scaleX(1);
 }
-.footerZEN-menu-common-content {
+.footerZEN-menu__common-content {
   margin-top: 33px;
   padding-bottom: 55px;
 }
-.footerZEN-menu-common-content-list li a {
+.footerZEN-menu__common-content-list li a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
@@ -3916,24 +3916,24 @@ html {
   cursor: pointer;
   transition: 0.5s;
 }
-.footerZEN-menu-common-content-list li a:hover {
+.footerZEN-menu__common-content-list li a:hover {
   color: #ff6781;
 }
-.footerZEN-menu-common-content-img {
+.footerZEN-menu__common-content-img {
   display: flex;
   justify-content: center;
 }
-.footerZEN-menu-common-content-img img {
+.footerZEN-menu__common-content-img img {
   border-radius: 0;
 }
-.footerZEN-menu-common-content-email {
+.footerZEN-menu__common-content-email {
   font-weight: 400;
   font-size: 14px;
   color: #000;
   transition: 0.5s;
   cursor: pointer;
 }
-.footerZEN-menu-common-content-email:hover {
+.footerZEN-menu__common-content-email:hover {
   color: red;
 }
 
@@ -3944,7 +3944,7 @@ html {
   margin-top: 33px;
   padding-bottom: 20px;
 }
-.footerZEN-under-text {
+.footerZEN-under__text {
   font-weight: 400;
   font-size: 12px;
   color: #AAA;
@@ -3959,15 +3959,46 @@ html {
   margin-top: 68px;
 }
 
+@media (max-width: 900px) {
+  .footerZEN-menu {
+    padding: 20px;
+  }
+
+  .footerZEN-under {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerZEN-under__text {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .footerZEN-under__img {
+    margin: 0 auto;
+    display: flex;
+  }
+  .footerZEN-under__img img {
+    justify-content: center;
+  }
+
+  .footerZEN__long-img img {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 700px) {
   .footerZEN-menu {
     display: block;
     margin: 0 auto;
   }
-  .footerZEN-menu-common {
+  .footerZEN-menu__common {
     display: block;
   }
-  .footerZEN-menu-common-topic {
+  .footerZEN-menu__common-topic {
     margin-top: 30px;
     text-align: center;
     font-size: 24px;
@@ -3975,32 +4006,39 @@ html {
     display: flex;
     justify-content: center;
   }
-  .footerZEN-menu-common-content {
+  .footerZEN-menu__common-content {
     margin-top: 10px;
     text-align: center;
     padding-bottom: 10px;
   }
-  .footerZEN-menu-common-content-list li a {
+  .footerZEN-menu__common-content-list li a {
     font-size: 18px;
   }
-  .footerZEN-menu-common-content-email {
+  .footerZEN-menu__common-content-email {
     font-size: 18px;
     padding-bottom: 7px;
   }
 
-  .footerZEN-under-text {
+  .footerZEN-under {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerZEN-under__text {
     text-align: center;
+    width: 100%;
+    padding: 20px;
   }
 
-  .footerZEN-under-img {
+  .footerZEN-under__img {
     margin: 0 auto;
+    display: flex;
+  }
+  .footerZEN-under__img img {
+    justify-content: center;
   }
 
-  .footerZEN-under img {
-    margin: 0 auto;
-  }
-
-  .footerZEN-long-img img {
+  .footerZEN__long-img img {
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -4025,12 +4063,12 @@ li {
   list-style: none;
 }
 
-.headerZEN {
+.ZEN-header {
   width: 100%;
   min-height: 100%;
 }
 
-.header-container-ZEN {
+.ZEN-header__container {
   width: 70%;
   margin: 0px auto;
   display: flex;
@@ -4040,28 +4078,28 @@ li {
 }
 
 /** ----------- **/
-.headerZEN-LEFT {
+.ZEN-header-LEFT {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 340px;
 }
-.headerZEN-LEFT-img {
+.ZEN-header__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 40px;
   width: 140px;
 }
-.headerZEN-LEFT-img-Fill img {
+.ZEN-header__logo-Fill img {
   width: 40px;
   height: 40px;
 }
-.headerZEN-LEFT-img-mastercard img {
+.ZEN-header__logo-mastercard img {
   width: 70p;
   height: 40px;
 }
-.headerZEN-RIGHT-button {
+.ZEN-header__button {
   width: 135px;
   height: 48px;
   border: 1px solid #222;
@@ -4069,11 +4107,11 @@ li {
   cursor: pointer;
   transition: 0.5s;
 }
-.headerZEN-RIGHT-button:hover {
+.ZEN-header__button:hover {
   border: 1px solid red;
   background: rgba(255, 0, 0, 0.2);
 }
-.headerZEN-RIGHT-button-text {
+.ZEN-header__button-text {
   text-align: center;
   margin-top: 10px;
   font-weight: 400;
@@ -4095,25 +4133,25 @@ body.lockZEN {
   min-height: 70px;
 }
 
-.menu-burgerZEN {
+.ZEN-header__burgerMenu {
   display: none;
 }
 
-.menu-listZEN {
+.ZEN-header__list {
   padding: 0 30px;
 }
 
-.menu-listZEN {
+.ZEN-header__list {
   z-index: 10;
 }
-.menu-listZEN li {
+.ZEN-header__list li {
   position: relative;
   margin: 0px 0px 0px 20px;
 }
-.menu-listZEN li a:hover {
+.ZEN-header__list li a:hover {
   color: #ff6781;
 }
-.menu-listZEN li a::before {
+.ZEN-header__list li a::before {
   content: "";
   bottom: 0;
   left: 0;
@@ -4124,7 +4162,7 @@ body.lockZEN {
   transition: 0.2s;
   transform: scaleX(0);
 }
-.menu-listZEN li a:hover:before {
+.ZEN-header__list li a:hover:before {
   transform: scaleX(1);
 }
 
@@ -4133,34 +4171,34 @@ body.lockZEN {
   font-size: 18px;
 }
 
-.menu-bodyZEN {
+.ZEN-header__menu-body {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.header-menu-ZEN {
+.ZEN-header__menu {
   display: flex;
   justify-content: space-between;
   width: 70%;
 }
 
 @media (min-width: 1080px) {
-  .menu-listZEN {
+  .ZEN-header__list {
     display: flex;
     align-items: center;
   }
 }
 @media (max-width: 1080px) {
-  .header-container-ZEN {
+  .ZEN-header__container {
     width: 100%;
   }
 
-  .headerZEN-LEFT-img {
+  .ZEN-header__logo {
     margin-left: 20px;
   }
 
-  .menu-burgerZEN {
+  .ZEN-header__burgerMenu {
     z-index: 5;
     display: block;
     position: relative;
@@ -4170,9 +4208,9 @@ body.lockZEN {
     margin-right: 20px;
   }
 
-  .menu-burgerZEN span,
-.menu-burgerZEN::before,
-.menu-burgerZEN::after {
+  .ZEN-header__burgerMenu span,
+.ZEN-header__burgerMenu::before,
+.ZEN-header__burgerMenu::after {
     left: 0;
     position: absolute;
     height: 10%;
@@ -4181,41 +4219,41 @@ body.lockZEN {
     background-color: #222222;
   }
 
-  .menu-burgerZEN::before,
-.menu-burgerZEN::after {
+  .ZEN-header__burgerMenu::before,
+.ZEN-header__burgerMenu::after {
     content: "";
   }
 
-  .menu-burgerZEN::before {
+  .ZEN-header__burgerMenu::before {
     top: 0;
   }
 
-  .menu-burgerZEN::after {
+  .ZEN-header__burgerMenu::after {
     bottom: 0;
   }
 
-  .menu-burgerZEN span {
+  .ZEN-header__burgerMenu span {
     top: 50%;
     transform: scale(1) translate(0px, -50%);
   }
 
-  .menu-burgerZEN.activeHeaderZEN span {
+  .ZEN-header__burgerMenu.activeZEN-header span {
     transform: scale(0) translate(0px, -50%);
   }
 
-  .menu-burgerZEN.activeHeaderZEN::before {
+  .ZEN-header__burgerMenu.activeZEN-header::before {
     top: 50%;
     transform: rotate(-45deg) translate(0px, -50%);
     background: rgba(255, 255, 255, 0.5);
   }
 
-  .menu-burgerZEN.activeHeaderZEN::after {
+  .ZEN-header__burgerMenu.activeZEN-header::after {
     bottom: 50%;
     transform: rotate(45deg) translate(0px, 50%);
     background: rgba(255, 255, 255, 0.5);
   }
 
-  .menu-bodyZEN {
+  .ZEN-header__menu-body {
     position: fixed;
     top: 0;
     left: -100%;
@@ -4229,12 +4267,12 @@ body.lockZEN {
     background-color: rgba(0, 0, 0, 0.9);
   }
 
-  .menu-bodyZEN.activeHeaderZEN {
+  .ZEN-header__menu-body.activeZEN-header {
     left: 0;
     z-index: 3;
   }
 
-  .menu-bodyZEN::before {
+  .ZEN-header__menu-body::before {
     content: "";
     position: fixed;
     width: 100%;
@@ -4245,17 +4283,17 @@ body.lockZEN {
     z-index: 2;
   }
 
-  .menu-listZEN li {
+  .ZEN-header__list li {
     flex-wrap: wrap;
     margin: 0px 0px 30px 0px;
     text-align: center;
   }
 
-  .menu-listZEN li:last-child {
+  .ZEN-header__list li:last-child {
     margin-bottom: 0;
   }
 
-  .menu-listZEN li:first-child {
+  .ZEN-header__list li:first-child {
     margin-top: 30px;
   }
 
@@ -4264,15 +4302,15 @@ body.lockZEN {
     color: #fff;
   }
 
-  .header-menu-ZEN {
+  .ZEN-header__menu {
     width: 0;
   }
 
-  .headerZEN-RIGHT-button {
+  .ZEN-header__button {
     width: 90px;
     height: 45px;
   }
-  .headerZEN-RIGHT-button-text {
+  .ZEN-header__button-text {
     margin-top: 8px;
   }
 }

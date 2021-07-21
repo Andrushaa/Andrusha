@@ -13,11 +13,11 @@ ul,
 li
     list-style: none
 
-.headerZEN
+.ZEN-header
     width: 100%
     min-height: 100%
 
-.header-container-ZEN
+.ZEN-header__container
     width: 70%
     margin: 0px auto
     display: flex
@@ -27,7 +27,7 @@ li
 
 /** ----------- **/
 
-.headerZEN
+.ZEN-header
 
     &-LEFT
         display: flex
@@ -35,22 +35,22 @@ li
         flex-wrap: wrap
         width: 340px
 
-    &-LEFT-img
+    &__logo
         display: flex
         justify-content: space-between
         align-items: center
         height: 40px
         width: 140px
 
-    &-LEFT-img-Fill img
+    &__logo-Fill img
         width: 40px
         height: 40px
 
-    &-LEFT-img-mastercard img
+    &__logo-mastercard img
         width: 70p
         height: 40px
 
-    &-RIGHT-button
+    &__button
         width: 135px
         height: 48px
         border: 1px solid #222
@@ -58,11 +58,11 @@ li
         cursor: pointer
         transition: 0.5s
 
-    &-RIGHT-button:hover
+    &__button:hover
         border: 1px solid red
         background: rgba(255, 0, 0, 0.2)
 
-    &-RIGHT-button-text
+    &__button-text
         text-align: center
         margin-top: 10px
         font-weight: 400
@@ -81,13 +81,13 @@ body.lockZEN
     justify-content: space-between
     min-height: 70px
 
-.menu-burgerZEN
+.ZEN-header__burgerMenu
     display: none
 
-.menu-listZEN
+.ZEN-header__list
     padding: 0 30px
 
-.menu-listZEN
+.ZEN-header__list
     z-index: 10
     li
         position: relative
@@ -115,30 +115,30 @@ body.lockZEN
     color: rgb(34, 34, 34)
     font-size: 18px
 
-.menu-bodyZEN
+.ZEN-header__menu-body
     display: flex
     justify-content: space-between
     width: 100%
 
-.header-menu-ZEN
+.ZEN-header__menu
     display: flex
     justify-content: space-between
     width: 70%
 
 @media (min-width: 1080px)
-    .menu-listZEN
+    .ZEN-header__list
         display: flex
         align-items: center
 
 @media (max-width: 1080px)
 
-    .header-container-ZEN
+    .ZEN-header__container
         width: 100%
 
-    .headerZEN-LEFT-img
+    .ZEN-header__logo
         margin-left: 20px
 
-    .menu-burgerZEN
+    .ZEN-header__burgerMenu
         z-index: 5
         display: block
         position: relative
@@ -147,9 +147,9 @@ body.lockZEN
         cursor: pointer
         margin-right: 20px
 
-    .menu-burgerZEN span,
-    .menu-burgerZEN::before,
-    .menu-burgerZEN::after
+    .ZEN-header__burgerMenu span,
+    .ZEN-header__burgerMenu::before,
+    .ZEN-header__burgerMenu::after
         left: 0
         position: absolute
         height: 10%
@@ -157,34 +157,34 @@ body.lockZEN
         transition: all 0.3s ease 0s
         background-color: rgb(34, 34, 34)
 
-    .menu-burgerZEN::before,
-    .menu-burgerZEN::after
+    .ZEN-header__burgerMenu::before,
+    .ZEN-header__burgerMenu::after
         content: ""
 
-    .menu-burgerZEN::before
+    .ZEN-header__burgerMenu::before
         top: 0
 
-    .menu-burgerZEN::after
+    .ZEN-header__burgerMenu::after
         bottom: 0
 
-    .menu-burgerZEN span
+    .ZEN-header__burgerMenu span
         top: 50%
         transform: scale(1) translate(0px, -50%)
 
-    .menu-burgerZEN.activeHeaderZEN span
+    .ZEN-header__burgerMenu.activeZEN-header span
         transform: scale(0) translate(0px, -50%)
 
-    .menu-burgerZEN.activeHeaderZEN::before
+    .ZEN-header__burgerMenu.activeZEN-header::before
         top: 50%
         transform: rotate(-45deg) translate(0px, -50%)
         background: rgba(255, 255, 255, 0.5)
 
-    .menu-burgerZEN.activeHeaderZEN::after
+    .ZEN-header__burgerMenu.activeZEN-header::after
         bottom: 50%
         transform: rotate(45deg) translate(0px, 50%)
         background: rgba(255, 255, 255, 0.5)
 
-    .menu-bodyZEN
+    .ZEN-header__menu-body
         position: fixed
         top: 0
         left: -100%
@@ -197,11 +197,11 @@ body.lockZEN
         display: inline
         background-color: rgba(0, 0, 0, 0.9)
 
-    .menu-bodyZEN.activeHeaderZEN
+    .ZEN-header__menu-body.activeZEN-header
         left: 0
         z-index: 3
 
-    .menu-bodyZEN::before
+    .ZEN-header__menu-body::before
         content: ""
         position: fixed
         width: 100%
@@ -211,17 +211,17 @@ body.lockZEN
         background-color: transparent
         z-index: 2
 
-    .menu-listZEN
+    .ZEN-header__list
         li
             flex-wrap: wrap
             margin: 0px 0px 30px 0px
             text-align: center
 
-    .menu-listZEN
+    .ZEN-header__list
         li:last-child
             margin-bottom: 0
 
-    .menu-listZEN
+    .ZEN-header__list
         li:first-child
             margin-top: 30px
 
@@ -229,10 +229,10 @@ body.lockZEN
         font-size: 24px
         color: #fff
 
-    .header-menu-ZEN
+    .ZEN-header__menu
         width: 0
 
-    .headerZEN-RIGHT-button
+    .ZEN-header__button
         width: 90px
         height: 45px
         &-text

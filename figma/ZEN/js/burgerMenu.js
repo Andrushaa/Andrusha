@@ -1,9 +1,9 @@
-const iconMenu = document.querySelector('.menu-burgerZEN');
-const menuBody = document.querySelector('.menu-bodyZEN');
+const iconMenu = document.querySelector('.ZEN-header__burgerMenu');
+const menuBody = document.querySelector('.ZEN-header__menu-body');
 if (iconMenu) {
 	iconMenu.addEventListener("click", function (e) {
 		document.body.classList.toggle('lockZEN');
-		iconMenu.classList.toggle('activeHeaderZEN');
-		menuBody.classList.toggle('activeHeaderZEN');
+		iconMenu.classList.toggle('activeZEN-header');
+		menuBody.classList.toggle('activeZEN-header');
 	});
 }
