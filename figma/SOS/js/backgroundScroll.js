@@ -4,7 +4,7 @@ backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-1-min.jp
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 3800) {
+    if ($(this).scrollTop() > 4000) {
         backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-6-min.jpg)';
     } else if ($(this).scrollTop() > 3200) {
         backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-5-min.jpg)';
