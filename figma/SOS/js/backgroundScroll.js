@@ -19,7 +19,7 @@ $(window).scroll(function() {
 
     }
 
-    else if ($(this).scrollTop() > 700) {
+    else if ($(this).scrollTop() > 610) {
         backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-2-min.jpg)';
     }
     
