@@ -3507,8 +3507,46 @@ html:hover .spider {
   background-repeat: no-repeat;
   background-image: url(../figma/SOS/img/background/bg-image-2-min.jpg);
   background-size: cover;
+  transition: 1s;
 }
 
+@media (max-width: 750px) {
+  .backgrounds {
+    display: none;
+  }
+
+  .SectionOne {
+    background-image: url(../figma/SOS/img/background/bg-image-1-min.jpg);
+    background-size: cover;
+  }
+
+  .SectionTwo {
+    background-image: url(../figma/SOS/img/background/bg-image-2-min.jpg);
+    background-size: cover;
+  }
+
+  .SectionThree {
+    background-image: url(../figma/SOS/img/background/bg-image-3-min.jpg);
+    background-size: cover;
+    background-position: 70% 0%;
+  }
+
+  .SectionFour {
+    background-image: url(../figma/SOS/img/background/bg-image-4-min.jpg);
+    background-size: cover;
+    background-position: 24% 0%;
+  }
+
+  .SectionFive {
+    background-image: url(../figma/SOS/img/background/bg-image-5-min.jpg);
+    background-size: cover;
+  }
+
+  .SectionSix {
+    background-image: url(../figma/SOS/img/background/bg-image-6-min.jpg);
+    background-size: cover;
+  }
+}
 html {
   box-sizing: border-box;
 }
