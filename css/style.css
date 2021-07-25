@@ -5138,6 +5138,7 @@ body.lockSOS {
   border-radius: 20px;
   text-align: center;
   margin: 20px;
+  transition: 0.5s all;
   padding: 10px;
 }
 .education-item:hover {
