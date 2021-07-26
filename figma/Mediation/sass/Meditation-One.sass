@@ -1,16 +1,25 @@
+@font-face
+    font-family: Merienda One
+    src: url(../figma/Mediation/font/MeriendaOne-Regular.ttf)
+
+@font-face
+    font-family: Heebo
+    src: url(../figma/Mediation/font/Heebo.ttf)
+
 .Meditation-One
     min-weight: auto
-    min-height: 100vh
+    width: 100%
+    height: 900px
     background-repeat: no-repeat
-    display: flex
     justify-content: center
     flex-direction: column
     background-position: center
-    background-size: contain
+    background-size: cover
     position: relative
     background-image: url(../figma/Mediation/img/Group1.svg)
 
     &__h1
+        padding-top: 70px
         display: block
         margin: 0 auto
         color: white
@@ -20,13 +29,37 @@
         text-align: center
         font-family: Merienda One
 
+    &__under-text
+        font-size: 17px
+        font-weight: 400
+        line-height: 31px
+        text-align: center
+        font-family: Heebo
+        max-width: 750px
+        max-height: 120px
+        margin: 0 auto
+        color: rgba(0, 0, 0, 0.5)
+        padding-top: 22px
+        padding-bottom: 20px
+
+    .Get-Start
+        display: block
+        width: 240px
+        height: 70px
+        border-radius: 50px
+        background: linear-gradient(#259385 100%, #159685 100%)
+        color: white
+        font-family: Heebo
+        font-weight: 700
+        font-size: 25px
+        text-align: center
+        line-height: 280%
+        margin: 0 auto
+
     &__img
         display: flex
         justify-content: center
+        margin-top: 90px
         img
-            width: 354.6px //591
-            height: 334.8px //558
-
-@font-face
-    font-family: Merienda One
-    src: url(../figma/Mediation/font/MeriendaOne-Regular.ttf)
+            width: 591px //591
+            height: 558px //558
