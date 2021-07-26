@@ -1841,6 +1841,12 @@ html:hover .spider {
   color: black;
   background: #a5a5a5;
 }
+.button.function.ac {
+  font-size: 28px;
+}
+.button.function.percent {
+  font-size: 28px;
+}
 .button.operator {
   background: #f1a33c;
 }
