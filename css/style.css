@@ -3647,6 +3647,11 @@ html {
 }
 
 @media (max-width: 1428px) {
+  .ZEN-section__img img {
+    max-height: 553px;
+    max-width: 585px;
+  }
+
   .ZEN-section__common {
     display: flex;
     flex-direction: column;
