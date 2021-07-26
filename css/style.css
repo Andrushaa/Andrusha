@@ -3647,9 +3647,22 @@ html {
 }
 
 @media (max-width: 1428px) {
+  .ZEN-section__img {
+    margin: 0 auto;
+    padding: 20px;
+  }
   .ZEN-section__img img {
     max-height: 553px;
     max-width: 585px;
+  }
+
+  .ZEN-section__common-text-h1 {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .ZEN-section__common-text-text {
+    text-align: center;
   }
 
   .ZEN-section__common {
@@ -3759,6 +3772,55 @@ html {
   border-radius: 0;
 }
 
+@media (max-width: 1428px) {
+  .ZEN-section__common-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .ZEN-section__common-text-textUp {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .ZEN-section__common-text-text {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+  }
+  .ZEN-section__common-text-h1 {
+    display: block;
+    margin: 0 auto;
+    padding: 10% 0;
+    padding: 9px;
+  }
+  .ZEN-section__common-text-h1-1 {
+    text-align: center;
+  }
+  .ZEN-section__common-text-h1-2 {
+    text-align: center;
+  }
+  .ZEN-section__common-text-textUnder {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 9px;
+  }
+  .ZEN-section__common-text-buttonApps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .ZEN-section__common-text-buttonApps-AppStore a {
+    display: flex;
+    justify-content: center;
+  }
+  .ZEN-section__common-text-buttonApps-GooglePlay a {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media (max-width: 1050px) {
   .ZEN-section__common-text {
     display: flex;
@@ -3929,9 +3991,9 @@ html {
   border-radius: 0;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1428px) {
   .sectionZEN-text-button {
-    margin: 0 auto;
+    margin: 0 auto !important;
     display: flex;
     /** flex-direction: column **/
     justify-content: space-around;
@@ -3941,7 +4003,14 @@ html {
   border-radius: 0;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1428px) {
+  .ZEN-section8-button {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 450px) {
   .ZEN-section8-button {
     display: block;
     margin: 0 auto;
