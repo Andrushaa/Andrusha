@@ -5025,6 +5025,7 @@ body.lockSOS {
   font-weight: 700;
   font-size: 34px;
   color: white;
+  font-family: Marck Script;
   text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4;
 }
 
@@ -5316,6 +5317,10 @@ body.lockSOS {
   100% {
     color: blue;
   }
+}
+@font-face {
+  font-family: Marck Script;
+  src: url(../Andrusha-main/fonts/MarckScript.ttf);
 }
 .education {
   padding: 20px;
