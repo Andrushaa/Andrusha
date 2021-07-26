@@ -6,17 +6,17 @@
     overflow: hidden
     background: black
     color: white
-    height: 780px
+    height: 90vh
     position: relative
     padding-left: 10px
-    width: 550px
+    width: 78vh
 
 .status
     display: flex
     justify-content: start
 
 .signal
-    margin-right: 7px
+    margin-right: 1vh
     width: 20px
     height: 10px
     img
@@ -27,7 +27,6 @@
     height: 20px
 
 .battery
-    width: 8px
     height: 5px
     display: flex
     justify-content: space-between
@@ -40,9 +39,9 @@
 .top-bar
     display: flex
     height: 90px
-    width: 463px
+    width: 100%
     justify-content: space-between
-    padding: 0 20px
+    padding: 5px 0px
 
 .value
     font-size: 130px
@@ -65,10 +64,10 @@
     cursor: pointer
     display: flex
     font-size: 45px
-    height: 100px
+    height: 75px
     justify-content: center
     transition: filter .3s
-    width: 100px
+    width: 75px
 
     &.function
         color: black
@@ -82,9 +81,14 @@
         grid-column: 1 / span 2
         justify-content: flex-start
         padding-left: 43px
-        width: 250px
+        width: 210px
 
     &:active,
 
     &:focus
         filter: brightness(133%)
+
+@media (max-width: 641px)
+    .calculator-on-iPhone-JS
+        height: 100%
+        width: 100%
