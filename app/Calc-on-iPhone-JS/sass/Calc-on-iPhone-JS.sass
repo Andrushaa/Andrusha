@@ -9,7 +9,7 @@
     height: 90vh
     position: relative
     padding-left: 10px
-    width: 78vh
+    width: 50vh
 
 .status
     display: flex
@@ -63,7 +63,7 @@
     border-radius: 50%
     cursor: pointer
     display: flex
-    font-size: 45px
+    font-size: 36px
     height: 75px
     justify-content: center
     transition: filter .3s
@@ -92,3 +92,43 @@
     .calculator-on-iPhone-JS
         height: 100%
         width: 100%
+
+@media (max-width: 520px)
+    .calculator-on-iPhone-JS
+        overflow: hidden
+
+    .top-bar
+
+        .button.number-0
+            width: 172px
+
+        .button
+            font-size: 30px
+
+    .value
+        margin-top: 20px
+        font-size: 80px !important
+
+@media (max-width: 450px)
+    .calculator-on-iPhone-JS
+
+        .top-bar
+            height: 40px
+
+            .value
+                font-size: 40px
+
+    .buttons-container
+        padding: 0 10px
+        grid-gap: 10px
+
+        .button
+            width: auto
+
+@media (max-width: 390px)
+    .button
+        font-size: 24px
+
+@media (max-width: 380px)
+    .button
+        height: 55px
