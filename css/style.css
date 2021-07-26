@@ -5026,6 +5026,7 @@ body.lockSOS {
   font-size: 34px;
   color: white;
   font-family: Marck Script;
+  margin-top: 20px;
   text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4;
 }
 
@@ -5365,6 +5366,37 @@ body.lockSOS {
   .education-item {
     text-align: center;
   }
+}
+.person {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.person-item {
+  margin: auto 0;
+  padding: 20px;
+}
+.person-item__text {
+  font-size: 64px;
+  font-family: Marck Script;
+  color: red;
+  line-height: 70px;
+  text-align: center;
+}
+.person-item__img {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.person-item__img:hover {
+  box-shadow: 0px 0px 100px yellow;
+}
+.person-item__img img {
+  border-radius: 50%;
+  transition: 1s;
+}
+.person-item__img img:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
