@@ -79,7 +79,7 @@
   text-align: right;
 }
 
-.buttons-container {
+.CalcButtons-container {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
@@ -89,7 +89,7 @@
       grid-template-rows: repeat(5, 1fr);
 }
 
-.button {
+.CalcButton {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -111,16 +111,16 @@
   width: 100px;
 }
 
-.button.function {
+.CalcButton.function {
   color: black;
   background: #a5a5a5;
 }
 
-.button.operator {
+.CalcButton.operator {
   background: #f1a33c;
 }
 
-.button.number-0 {
+.CalcButton.number-0 {
   border-radius: 55px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -132,7 +132,7 @@
   width: 250px;
 }
 
-.button:active, .button:focus {
+.CalcButton:active, .CalcButton:focus {
   -webkit-filter: brightness(133%);
           filter: brightness(133%);
 }

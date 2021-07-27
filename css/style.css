@@ -1818,14 +1818,14 @@ html:hover .spider {
   text-align: right;
 }
 
-.buttons-container {
+.CalcButtons-container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 
-.button {
+.CalcButton {
   align-items: center;
   background: #333;
   border-radius: 50%;
@@ -1837,27 +1837,27 @@ html:hover .spider {
   transition: filter 0.3s;
   width: 75px;
 }
-.button.function {
+.CalcButton.function {
   color: black;
   background: #a5a5a5;
 }
-.button.function.ac {
+.CalcButton.function.ac {
   font-size: 28px;
 }
-.button.function.percent {
+.CalcButton.function.percent {
   font-size: 28px;
 }
-.button.operator {
+.CalcButton.operator {
   background: #f1a33c;
 }
-.button.number-0 {
+.CalcButton.number-0 {
   border-radius: 55px;
   grid-column: 1/span 2;
   justify-content: flex-start;
   padding-left: 43px;
   width: 210px;
 }
-.button:active, .button:focus {
+.CalcButton:active, .CalcButton:focus {
   filter: brightness(133%);
 }
 
@@ -1872,10 +1872,10 @@ html:hover .spider {
     overflow: hidden;
   }
 
-  .top-bar .button.number-0 {
+  .top-bar .CalcButton.number-0 {
     width: 172px;
   }
-  .top-bar .button {
+  .top-bar .CalcButton {
     font-size: 30px;
   }
 
@@ -1892,21 +1892,21 @@ html:hover .spider {
     font-size: 40px;
   }
 
-  .buttons-container {
+  .CalcButtons-container {
     padding: 0 10px;
     grid-gap: 10px;
   }
-  .buttons-container .button {
+  .CalcButtons-container .CalcButton {
     width: auto;
   }
 }
 @media (max-width: 390px) {
-  .button {
+  .CalcButton {
     font-size: 24px;
   }
 }
 @media (max-width: 380px) {
-  .button {
+  .CalcButton {
     height: 55px;
   }
 }
@@ -3550,16 +3550,14 @@ html:hover .spider {
 .backgrounds {
   min-width: 100%;
   min-height: 100vh;
-  background-repeat: no-repeat;
   display: block;
   background-position: center;
-  background-size: contain;
   position: fixed;
   left: 0;
   top: 0;
   z-index: -10;
   background-repeat: no-repeat;
-  background-image: url(../figma/SOS/img/background/bg-image-2-min.jpg);
+  background-image: url(../figma/SOS/img/background/bg-image-1-min.jpg);
   background-size: cover;
   transition: 1s;
 }
@@ -4948,14 +4946,6 @@ body.lockSOS {
     margin-top: 8px;
   }
 }
-@font-face {
-  font-family: Merienda One;
-  src: url(../figma/Mediation/font/MeriendaOne-Regular.ttf);
-}
-@font-face {
-  font-family: Heebo;
-  src: url(../figma/Mediation/font/Heebo.ttf);
-}
 .Meditation-One {
   min-weight: auto;
   width: 100%;
@@ -5014,6 +5004,132 @@ body.lockSOS {
 .Meditation-One__img img {
   width: 591px;
   height: 558px;
+}
+
+.Meditation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.Meditation-wrapper .paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  height: 540px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Meditation-wrapper .paper-1 {
+  background-image: url(../figma/Mediation/img/Paper-1-background.png);
+}
+.Meditation-wrapper .paper-2 {
+  background-image: url(../figma/Mediation/img/Paper-2-background.png);
+}
+.Meditation-wrapper .paper-3 {
+  background-image: url(../figma/Mediation/img/Paper-3-background.png);
+}
+.Meditation-wrapper .paper img {
+  margin: 0 auto;
+}
+.Meditation-wrapper .paper-title {
+  margin-top: 20px;
+  font-family: Heebo;
+  font-weight: 500;
+  font-size: 34px;
+  text-align: center;
+  line-height: 47px;
+  color: black;
+}
+.Meditation-wrapper .paper-text {
+  width: 324px;
+  height: 92px;
+  margin: 0 auto;
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+.Meditation-wrapper .paper-button {
+  width: 210px;
+  height: 55px;
+  background: linear-gradient(#259385 100%, #159685 100%);
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: Merienda One;
+  src: url(../figma/Mediation/font/MeriendaOne-Regular.ttf);
+}
+@font-face {
+  font-family: Heebo;
+  src: url(../figma/Mediation/font/Heebo.ttf);
+}
+.Meditation-color {
+  background-color: #edfbf9;
+}
+
+.Meditation-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Meditation-title-2 {
+  font-weight: 400;
+  font-size: 54px;
+  text-align: center;
+  font-family: Merienda One;
+  line-height: 70px;
+  width: 710px;
+  height: 140px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.Meditation-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Heebo;
+  line-height: 32px;
+  margin: 0 auto;
+  width: 1105px;
+  height: 62px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 22px;
+}
+
+.Meditation-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.Meditation-item__article-wrapper {
+  width: 730px;
+  height: 233px;
+  background-image: url(../figma/Mediation/img/item-1-background.svg);
+  position: relative;
+}
+.Meditation-item__article-wrapper .title {
+  font-family: Heebo;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .container {
