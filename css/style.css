@@ -5124,6 +5124,7 @@ body.lockSOS {
   position: relative;
 }
 .Meditation-item__article-wrapper .title {
+  position: absolute;
   font-family: Heebo;
   font-weight: 500;
   font-size: 32px;
@@ -5145,6 +5146,7 @@ body.lockSOS {
 }
 .Meditation-music__item .title {
   position: absolute;
+  top: 35px;
   font-family: Heebo;
   font-weight: 500;
   font-size: 32px;
@@ -5163,6 +5165,19 @@ body.lockSOS {
   font-weight: 400;
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.Meditation-best {
+  min-weight: auto;
+  width: 100%;
+  height: 1200px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url(../figma/Mediation/img/best-background.svg);
 }
 
 .container {
