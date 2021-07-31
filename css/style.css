@@ -5129,10 +5129,12 @@ body.lockSOS {
 @media (max-width: 400px) {
   .Meditation-title-2 {
     font-size: 40px;
+    line-height: 45px;
   }
 
   .Meditation-subtitle {
     font-size: 20px;
+    line-height: 25px;
   }
 }
 .Meditation-wrapper {
@@ -5200,7 +5202,7 @@ body.lockSOS {
   background-size: cover;
   position: relative;
   padding: 50px 0;
-  background-image: url(../figma/Mediation/img/best-background.svg);
+  background-image: url(../figma/Mediation/img/Meditation-best-background.svg);
 }
 .Meditation-best__wrapper {
   display: flex;
@@ -5208,6 +5210,7 @@ body.lockSOS {
   margin: 0 auto;
   width: 90%;
   flex-wrap: wrap;
+  padding-top: 170px;
 }
 .Meditation-best__img {
   margin-top: 50px;
@@ -5400,6 +5403,66 @@ body.lockSOS {
   width: 619px;
 }
 
+@media (max-width: 1650px) {
+  .gym {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .gym-reverse {
+    flex-direction: column;
+  }
+  .gym:nth-child(2) {
+    flex-direction: column !important;
+  }
+  .gym-img {
+    display: flex;
+    justify-content: center;
+  }
+  .gym-item__title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .gym-item__text {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 780px) {
+  .gym {
+    width: auto;
+  }
+  .gym-item__title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .gym-item__text {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  .gym-img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .gym {
+    width: auto;
+  }
+  .gym-item__title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 32px;
+  }
+  .gym-item__text {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+}
 .Meditation-footer {
   min-weight: auto;
   width: 100%;
@@ -5410,7 +5473,7 @@ body.lockSOS {
   background-position: center;
   background-size: cover;
   position: relative;
-  background-image: url(../figma/Mediation/img/footer.svg);
+  background-image: url(../figma/Mediation/img/footer-background.svg);
 }
 .Meditation-footer__img {
   display: flex;
@@ -5422,14 +5485,108 @@ body.lockSOS {
   height: 60px;
   display: flex;
   justify-content: space-between;
-  padding-top: 112px;
+  padding-top: 52px;
   margin: 0 auto;
 }
 .Meditation-footer__logos img {
   width: 55px;
   height: 55px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.Meditation-footer__logos img:hover {
+  box-shadow: 0px 0px 50px #268a79;
+}
+.Meditation-footer__menu {
+  width: 780px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.Meditation-footer__menu a {
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  color: black;
+  transition: 1s;
+  position: relative;
+}
+.Meditation-footer__menu a:hover {
+  color: #268a79;
+}
+.Meditation-footer__menu a::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #268a79;
+  transition: 0.7s;
+  transform: scaleX(0);
+  z-index: 5;
+}
+.Meditation-footer__menu a:hover:before {
+  transform: scaleX(1);
+}
+.Meditation-footer__menu-line {
+  margin-top: 5px;
+  height: 30px;
+  border-left: 1px solid black;
 }
 
+@media (max-width: 810px) {
+  .Meditation-footer__menu {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .Meditation-footer {
+    height: 700px;
+  }
+  .Meditation-footer__img {
+    padding-top: 150px;
+  }
+  .Meditation-footer__menu {
+    height: 300px;
+    flex-direction: column;
+    width: 140px;
+  }
+  .Meditation-footer__menu-line {
+    display: none;
+  }
+  .Meditation-footer__menu a {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .Meditation-footer__logos {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 250px) {
+  .Meditation-footer {
+    height: 900px;
+  }
+  .Meditation-footer__img {
+    padding-top: 170px;
+  }
+  .Meditation-footer__logos {
+    height: 300px;
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .Meditation-footer__logos a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+}
 .container {
   width: 80%;
 }

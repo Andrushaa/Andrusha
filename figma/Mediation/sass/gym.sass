@@ -21,3 +21,62 @@
             line-height: 31px
             color: rgba(0, 0, 0, 0.5)
             width: 619px
+
+@media (max-width: 1650px)
+    .gym
+        flex-direction: column-reverse
+        justify-content: center
+
+        &-reverse
+            flex-direction: column
+
+        &:nth-child(2)
+            flex-direction: column !important
+
+        &-img
+            display: flex
+            justify-content: center
+
+        &-item
+            &__title
+                text-align: center
+                margin-top: 50px
+
+            &__text
+                margin: 0 auto
+                text-align: center
+
+@media (max-width: 780px)
+    .gym
+        width: auto
+        &-item
+            &__title
+                text-align: center
+                margin-top: 50px
+
+            &__text
+                margin: 0 auto
+                width: 90%
+                text-align: center
+
+        &-img
+            img
+                width: 100%
+                height: 100%
+
+@media (max-width: 400px)
+    .gym
+        width: auto
+        &-item
+            &__title
+                font-size: 28px
+                text-align: center
+                margin-top: 50px
+                line-height: 32px
+
+            &__text
+                font-size: 20px
+                line-height: 25px
+                margin: 0 auto
+                width: 90%
+                text-align: center

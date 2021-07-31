@@ -8,7 +8,7 @@
     background-position: center
     background-size: cover
     position: relative
-    background-image: url(../figma/Mediation/img/footer.svg)
+    background-image: url(../figma/Mediation/img/footer-background.svg)
 
     &__img
         display: flex
@@ -20,9 +20,100 @@
         height: 60px
         display: flex
         justify-content: space-between
-        padding-top: 112px
+        padding-top: 52px
         margin: 0 auto
 
         img
             width: 55px
             height: 55px
+            border-radius: 50%
+            transition: 0.5s
+
+            &:hover
+                box-shadow: 0px 0px 50px #268a79
+
+    &__menu
+        width: 780px
+        height: 45px
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        padding: 15px
+        flex-wrap: wrap
+        a
+            font-family: Heebo
+            font-weight: 400
+            font-size: 28px
+            line-height: 42px
+            color: black
+            transition: 1s
+            position: relative
+
+            &:hover
+                color: #268a79
+
+            &::before
+                content: ''
+                bottom: 0
+                left: 0
+                position: absolute
+                width: 100%
+                height: 2px
+                background-color: #268a79
+                transition: 0.7s
+                transform: scaleX(0)
+                z-index: 5
+
+            &:hover:before
+                transform: scaleX(1)
+
+        &-line
+            margin-top: 5px
+            height: 30px
+            border-left: 1px solid black
+
+@media (max-width: 810px)
+    .Meditation-footer
+        &__menu
+            width: 100%
+
+@media (max-width: 600px)
+    .Meditation-footer
+        height: 700px
+        &__img
+            padding-top: 150px
+
+        &__menu
+            height: 300px
+            flex-direction: column
+            width: 140px
+
+            &-line
+                display: none
+
+            a
+                text-align: center
+
+@media (max-width: 320px)
+    .Meditation-footer
+
+        &__logos
+            width: 80%
+            margin: 0 auto
+
+@media (max-width: 250px)
+    .Meditation-footer
+        height: 900px
+
+        &__img
+            padding-top: 170px
+
+        &__logos
+            height: 300px
+            flex-direction: column
+            padding-top: 0
+
+            a
+                display: flex
+                justify-content: center
+                padding: 20px
