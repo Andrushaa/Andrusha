@@ -31,16 +31,18 @@
 
         &__item
             background-image: url(../figma/Mediation/img/Meditation-best__item-background-left.svg)
-            width: 602px
-            height: 205px
+            width: 600px
+            height: 203px
             position: relative
             margin-top: 50px
             margin-left: 20px
             margin-right: 20px
             transition: 0.5s
+            border-radius: 16px
 
             &:hover
                 transform: scale(1.05)
+                box-shadow: 0px 0px 50px #268a79
 
             &-title
                 font-family: Heebo
@@ -75,8 +77,9 @@
         justify-content: space-between
         &__item
             background-image: url(../figma/Mediation/img/Meditation-best__item-background-right.svg)
-            width: 602px
-            height: 205px
+            width: 600px
+            height: 203px
+            border-radius: 16px
             position: relative
             margin-top: 50px
             margin-left: 20px
@@ -85,6 +88,7 @@
 
             &:hover
                 transform: scale(1.05)
+                box-shadow: 0px 0px 50px #268a79
 
             &-title
                 font-family: Heebo
@@ -173,6 +177,14 @@
                     text-align: center
                     margin: 0 auto
                     position: static
+
+@media (max-width: 750px)
+    .Meditation-best
+        height: 1900px
+
+@media (max-width: 693px)
+    .Meditation-best
+        height: 1990px
 
 @media (max-width: 670px)
     .Meditation-best
