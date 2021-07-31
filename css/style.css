@@ -5371,13 +5371,83 @@ body.lockSOS {
 }
 @media (max-width: 670px) {
   .Meditation-best {
-    height: 1900px;
+    height: 2000px;
+  }
+  .Meditation-best-left {
+    width: 100%;
+  }
+  .Meditation-best-left__item {
+    margin: 20px;
+    width: auto;
+  }
+  .Meditation-best-left__item-title {
+    position: static;
+  }
+  .Meditation-best-left__item-text {
+    position: static;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+  }
+  .Meditation-best-right {
+    width: 100%;
+  }
+  .Meditation-best-right__item {
+    margin: 20px;
+    width: auto;
+  }
+  .Meditation-best-right__item-title {
+    position: static;
+  }
+  .Meditation-best-right__item-text {
+    position: static;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 520px) {
+  .Meditation-best-right__item-title {
+    font-size: 28px;
+    line-height: 50px;
   }
 
-  .Meditation-best-left__item {
-    margin: 20px 0;
-    width: 90%;
-    height: auto;
+  .Meditation-best-right__item-text {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px;
+  }
+
+  .Meditation-best-left__item-title {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .Meditation-best-left__item-text {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px;
+  }
+}
+@media (max-width: 331px) {
+  .Meditation-best-right__item-title {
+    font-size: 25px;
+  }
+
+  .Meditation-best-right__item-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px;
+  }
+
+  .Meditation-best-left__item-title {
+    font-size: 25px;
+  }
+
+  .Meditation-best-left__item-text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px;
   }
 }
 .gym {
