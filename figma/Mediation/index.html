@@ -142,20 +142,67 @@
             <div class="Meditation-music__list">
 
                 <div class="Meditation-music__item">
-                    <div class="title">
-                        Turning off Auto Pilot
+                    <div class="Meditation-music__item-info">
+                        <div class="Meditation-music__item-info-title">
+                            Turning off Auto Pilot
+                        </div>
+                        <div class="Meditation-music__item-info-text">
+                            Intriduction, Strees Assesment
+                        </div>
                     </div>
-                    <div class="text">
-                        Intriduction, Strees Assesment
-                    </div>
-                    <div class="player">
+                    
+                    <div class="Meditation-music__item-player">
+                        <audio id="audio-1">
+                            <source src="../Mediation/audio/San_Andreas_Theme_Song.mp3" type="audio/mpeg">
+                        </audio>
 
+                        <button class="player-btn" id="playStopBTN-1" onclick="playStop1()">&#9658;</button>
                     </div>
                 </div>
 
+                <div class="Meditation-music__item">
+                    <div class="Meditation-music__item-info">
+                        <div class="Meditation-music__item-info-title">
+                            Crazy Wind Sound
+                        </div>
+                        <div class="Meditation-music__item-info-text">
+                            Relex Mind
+                        </div>
+                    </div>
+                    
+                    <div class="Meditation-music__item-player">
+                        <audio id="audio-2">
+                            <source src="../Mediation/audio/San_Andreas_Theme_Song.mp3" type="audio/mpeg">
+                        </audio>
+
+                        <button class="player-btn" id="playStopBTN-2" onclick="playStop2()">&#9658;</button>
+                    </div>
+                </div>
+
+                <div class="Meditation-music__item">
+                    <div class="Meditation-music__item-info">
+                        <div class="Meditation-music__item-info-title">
+                            Mental Wellness
+                        </div>
+                        <div class="Meditation-music__item-info-text">
+                            Strees Relief
+                        </div>
+                    </div>
+                    
+                    <div class="Meditation-music__item-player">
+                        <audio id="audio-3">
+                            <source src="../Mediation/audio/San_Andreas_Theme_Song.mp3" type="audio/mpeg">
+                        </audio>
+
+                        <button class="player-btn" id="playStopBTN-3" onclick="playStop3()">&#9658;</button>
+                    </div>
+                </div>
+
+            
+
             </div>
             <div class="Meditation-music__img">
-                <img src="../Mediation/img/Priest.svg" alt="">
+                <img src="../Mediation/img/Priest.png" alt="">
             </div>
         </div>
 
@@ -317,7 +364,8 @@
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+    
+    <script src="../Mediation/js/audio.js"></script>
     <script src="../../js/up.js"></script>
     <script src="../Mediation/js/burgerMenu.js"></script>
 </body>

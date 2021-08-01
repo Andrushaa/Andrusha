@@ -1,6 +1,15 @@
 .Meditation-music
     display: flex
     justify-content: space-between
+    width: 95%
+    margin: 0 auto
+    padding-top: 120px
+
+    &__list
+        height: 600px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
 
     &__item
         width: 655px
@@ -9,24 +18,153 @@
         background-repeat: no-repeat
         position: relative
 
-        .title
+        &-info
+
+            &-title
+                position: absolute
+                top: 35px
+                font-family: Heebo
+                font-weight: 500
+                font-size: 32px
+                line-height: 47px
+                color: rgba(0, 0, 0, 0.8)
+                text-align: center
+                top: 15px
+                left: 40px
+                text-shadow: none
+                line-height: 47px
+
+            &-text
+                position: absolute
+                top: 90px
+                left: 40px
+                font-weight: 400
+                font-size: 24px
+                color: rgba(0, 0, 0, 0.5)
+
+        &-player
             position: absolute
             top: 35px
-            font-family: Heebo
-            font-weight: 500
-            font-size: 32px
-            line-height: 47px
-            color: rgba(0, 0, 0, 0.8)
-            text-align: center
-            top: 15px
-            left: 40px
-            text-shadow: none
-            line-height: 47px
+            right: 40px
+            width: 80px
+            height: 80px
 
-        .text
-            position: absolute
-            top: 90px
-            left: 40px
-            font-weight: 400
-            font-size: 24px
-            color: rgba(0, 0, 0, 0.5)
+            .player-btn
+                width: 80px
+                height: 80px
+                background: linear-gradient(180deg, #259385 0%, #159685 100%)
+                border-radius: 40px
+                text-align: center
+                cursor: pointer
+                color: white
+                line-height: 40px
+                font-size: 48px
+                padding: 20px
+                box-shadow: 0px 25px 30px rgba(179, 228, 221, 0.3), 0px 9px 24px rgba(26, 127, 114, 0.23)
+
+                &:hover
+                    box-shadow: 0px 0px 50px #268a79
+
+@media (max-width: 1580px)
+    .Meditation-music
+        flex-direction: column-reverse
+        padding-top: 50px
+
+        &__img
+            margin: 0 auto
+
+        &__list
+            margin: 0 auto
+            padding-top: 0
+
+@media (max-width: 740px)
+    .Meditation-music
+
+        &__img
+            img
+                width: 100%
+                height: 100%
+
+        &__list
+            margin: 0
+
+        &__item
+            background-image: none
+            background: linear-gradient(90deg, #C3E2DE 27.22%, #CFF1ED 48.89%, #EDFBF9 96.77%)
+            border-radius: 15px
+            position: static
+            display: flex
+            justify-content: space-between
+            padding: 20px
+            margin: 0
+            width: auto
+
+            &-info
+                display: flex
+                flex-direction: column
+                justify-content: center
+
+                &-title
+                    position: static
+                    margin-top: 0
+                    text-align: left
+
+                &-text
+                    position: static
+                    text-align: left
+
+            &-player
+                position: static
+                display: flex
+                flex-direction: column
+                justify-content: center
+                height: auto
+
+@media (max-width: 580px)
+    .Meditation-music__item-info-title
+        font-size: 28px
+
+    .Meditation-music__item-info-text
+        font-size: 20px
+
+@media (max-width: 480px)
+    .Meditation-music
+        width: auto
+
+    .Meditation-music__item-info-title
+        font-size: 24px
+
+    .Meditation-music__item-info-text
+        font-size: 18px
+
+    .Meditation-music__item
+        padding: 10px
+        height: 140px
+
+    .Meditation-music__item-player
+        width: auto
+
+        .player-btn
+            width: 70px
+            height: 70px
+            line-height: 30px
+            padding: 15px
+
+@media (max-width: 480px)
+    .Meditation-music__item-info-title
+        font-size: 22px
+        line-height: 30px
+        text-align: center
+
+    .Meditation-music__item-info-text
+        font-size: 18px
+        text-align: center
+
+@media (max-width: 340px)
+    .Meditation-music__item-player
+
+        .player-btn
+            width: 60px
+            height: 60px
+            line-height: inherit
+            padding: 10px
