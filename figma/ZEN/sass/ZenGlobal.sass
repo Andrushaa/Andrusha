@@ -54,14 +54,17 @@ html
 
     .ZEN-section__common
         display: flex
-        flex-direction: column
+        flex-direction: column-reverse
 
         &:nth-child(2)
-            flex-direction: column-reverse
+            flex-direction: column
 
         &:nth-child(7)
 
-            flex-direction: column-reverse !important
+            flex-direction: column !important
+
+        &-reverse
+            flex-direction: column
 
 @media ( max-width: 1050px)
     .ZEN-section
