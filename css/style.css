@@ -4975,19 +4975,19 @@ body.lockSOS {
   font-family: Merienda One;
 }
 .Meditation-One__under-text {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 31px;
   text-align: center;
   font-family: Heebo;
-  max-width: 750px;
-  max-height: 120px;
+  max-width: 1109px;
+  max-height: 70px;
   margin: 0 auto;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 22px;
   padding-bottom: 20px;
 }
-.Meditation-One .Get-Start {
+.Meditation-One__Get-Start {
   display: block;
   width: 240px;
   height: 70px;
@@ -5001,8 +5001,9 @@ body.lockSOS {
   line-height: 280%;
   margin: 0 auto;
   transition: 0.5s;
+  margin-top: 40px;
 }
-.Meditation-One .Get-Start:hover {
+.Meditation-One__Get-Start:hover {
   box-shadow: 0px 0px 50px #268a79;
 }
 .Meditation-One__img {
@@ -5015,6 +5016,78 @@ body.lockSOS {
   height: 558px;
 }
 
+@media (max-width: 1120px) {
+  .Meditation-One__under-text {
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+  }
+  .Meditation-One__Get-Start {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 700px) {
+  .Meditation-One__h1 {
+    font-size: 58px;
+    line-height: 77px;
+  }
+  .Meditation-One__under-text {
+    font-size: 20px;
+  }
+  .Meditation-One__img {
+    margin: 30px 10px;
+  }
+  .Meditation-One__img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .Meditation-One__Get-Start {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 649px) {
+  .Meditation-One__Get-Start {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 449px) {
+  .Meditation-One__under-text {
+    line-height: 25px;
+  }
+
+  .Meditation-One__Get-Start {
+    margin-top: 160px;
+  }
+}
+@media (max-width: 388px) {
+  .Meditation-One__h1 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+@media (max-width: 331px) {
+  .Meditation-One__h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .Meditation-One__under-text {
+    line-height: 20px;
+    font-size: 19px;
+  }
+
+  .Meditation-One__Get-Start {
+    width: 216px;
+    height: 63px;
+  }
+}
+@media (max-width: 331px) {
+  .Meditation-One__Get-Start {
+    margin-top: 175px;
+  }
+}
 .Meditation-wrapper {
   display: flex;
   justify-content: space-between;
@@ -5154,22 +5227,20 @@ body.lockSOS {
   justify-content: space-around;
   padding-top: 100px;
 }
+.Meditation-item {
+  margin-top: 25px;
+}
 .Meditation-item__article {
-  width: 730px;
-  height: 233px;
-  position: relative;
+  width: 749px;
+  height: 224px;
 }
 .Meditation-item__article-active {
-  width: 818px;
-  height: 333px;
-  background-image: url(../figma/Mediation/img/Meditation-item__article-active.svg);
-  margin-top: -100px;
+  width: 749px;
+  height: 224px;
+  background-image: url(../figma/Mediation/img/Meditation-item__article-active-cut.png);
 }
 .Meditation-item__article-title {
-  position: absolute;
-  top: 35px;
-  left: 70px;
-  padding-top: 35px;
+  padding-top: 50px;
   padding-left: 70px;
   font-family: Heebo;
   font-weight: 500;
@@ -5177,9 +5248,6 @@ body.lockSOS {
   text-align: left;
   text-shadow: none;
   color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  top: 35px;
-  left: 70px;
 }
 .Meditation-item__article-text {
   padding-top: 10px;
@@ -5191,11 +5259,55 @@ body.lockSOS {
   width: 689px;
   height: 116px;
   color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 92px;
-  left: 70px;
 }
 
+@media (max-width: 830px) {
+  .Meditation-wrapper {
+    padding-top: 0px;
+  }
+  .Meditation-item {
+    margin-top: 0;
+  }
+  .Meditation-item img {
+    width: 100%;
+    height: 100%;
+  }
+  .Meditation-item__wrapper {
+    margin-top: 0px;
+  }
+  .Meditation-item__article {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .Meditation-item__article-active {
+    background-image: none;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+  }
+  .Meditation-item__article-title {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .Meditation-item__article-text {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 740px) {
+  .Meditation-item__article-title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .Meditation-item__article-text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 .Meditation-music {
   display: flex;
   justify-content: space-between;
@@ -5257,6 +5369,7 @@ body.lockSOS {
   font-size: 48px;
   padding: 20px;
   box-shadow: 0px 25px 30px rgba(179, 228, 221, 0.3), 0px 9px 24px rgba(26, 127, 114, 0.23);
+  transition: 0.5s;
 }
 .Meditation-music__item-player .player-btn:hover {
   box-shadow: 0px 0px 50px #268a79;
@@ -6436,6 +6549,9 @@ body.lockMeditation {
   color: red;
   line-height: 70px;
   text-align: center;
+}
+.person-item__text:hover {
+  text-shadow: 0px 0px 4px yellow;
 }
 .person-item__img {
   overflow: hidden;

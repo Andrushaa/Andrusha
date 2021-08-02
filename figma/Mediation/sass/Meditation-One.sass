@@ -22,19 +22,19 @@
         font-family: Merienda One
 
     &__under-text
-        font-size: 17px
+        font-size: 24px
         font-weight: 400
         line-height: 31px
         text-align: center
         font-family: Heebo
-        max-width: 750px
-        max-height: 120px
+        max-width: 1109px
+        max-height: 70px
         margin: 0 auto
         color: rgba(0, 0, 0, 0.5)
         padding-top: 22px
         padding-bottom: 20px
 
-    .Get-Start
+    &__Get-Start
         display: block
         width: 240px
         height: 70px
@@ -48,6 +48,7 @@
         line-height: 280%
         margin: 0 auto
         transition: 0.5s
+        margin-top: 40px
 
         &:hover
             box-shadow: 0px 0px 50px #268a79
@@ -59,3 +60,66 @@
         img
             width: 591px //591
             height: 558px //558
+
+@media (max-width: 1120px)
+    .Meditation-One
+        &__under-text
+            padding: 24px
+            width: 100%
+            height: 100%
+
+        &__Get-Start
+            margin-top: 60px
+
+@media (max-width: 700px)
+    .Meditation-One
+        &__h1
+            font-size: 58px
+            line-height: 77px
+
+        &__under-text
+            font-size: 20px
+
+        &__img
+            margin: 30px 10px
+            img
+
+                width: 100%
+                height: 100%
+
+@media (max-width: 700px)
+    .Meditation-One__Get-Start
+        margin-top: 100px
+
+@media (max-width: 649px)
+    .Meditation-One__Get-Start
+        margin-top: 120px
+
+@media (max-width: 449px)
+    .Meditation-One__under-text
+        line-height: 25px
+
+    .Meditation-One__Get-Start
+        margin-top: 160px
+
+@media (max-width: 388px)
+    .Meditation-One__h1
+        font-size: 48px
+        line-height: 52px
+
+@media (max-width: 331px)
+    .Meditation-One__h1
+        font-size: 36px
+        line-height: 42px
+
+    .Meditation-One__under-text
+        line-height: 20px
+        font-size: 19px
+
+    .Meditation-One__Get-Start
+        width: 216px
+        height: 63px
+
+@media (max-width: 331px)
+    .Meditation-One__Get-Start
+        margin-top: 175px
