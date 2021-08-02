@@ -13,7 +13,7 @@ function playStop1(){
 		audio1.currentTime = 0;
 		audio2.pause();
 		audio3.pause();
-		playStopBTN1.innerHTML = "&#9208;";
+		playStopBTN1.innerHTML = "&#9675;"; //9634 9711 9723 9633 25A1 &#9723; 9675 9898
 		playStopBTN2.innerHTML = "&#9658;";
 		playStopBTN3.innerHTML = "&#9658;";
 	}else{
@@ -32,7 +32,7 @@ function playStop2(){
 		audio3.pause();
 		audio2.play();
 		audio2.currentTime = 0;
-		playStopBTN2.innerHTML = "&#9208;";
+		playStopBTN2.innerHTML = "&#9675;";
 		playStopBTN1.innerHTML = "&#9658;";
 		playStopBTN3.innerHTML = "&#9658;";
 	}else{
@@ -53,7 +53,7 @@ function playStop3(){
 		audio3.currentTime = 0;
 		playStopBTN1.innerHTML = "&#9658;";
 		playStopBTN2.innerHTML = "&#9658;";
-		playStopBTN3.innerHTML = "&#9208;";
+		playStopBTN3.innerHTML = "&#9675;";
 	}else{
 		count = 0;
 		audio3.pause();

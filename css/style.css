@@ -2191,7 +2191,7 @@ html:hover .spider {
 }
 .button-yellow:hover {
   background: linear-gradient(#fc9804, #d39013);
-  border: 1.5px solid darkred;
+  box-shadow: 0px 0px 50px #d39013;
 }
 .button-yellow__left {
   position: absolute;
@@ -2927,7 +2927,7 @@ html:hover .spider {
 }
 .ButtonSubscribe:hover {
   background: linear-gradient(#fc9804, #d39013);
-  border: 1.5px solid darkred;
+  box-shadow: 0px 0px 50px #d39013;
 }
 .ButtonSubscribe button {
   width: 250px;
@@ -3117,7 +3117,7 @@ html:hover .spider {
 }
 .Read-more:hover {
   background: linear-gradient(#fc9804, #d39013);
-  border: 1.5px solid darkred;
+  box-shadow: 0px 0px 50px #d39013;
 }
 .Read-more__text {
   color: black;
@@ -3930,6 +3930,7 @@ html {
 .sectionZEN__Cashbask-button:hover {
   border: 1px solid red;
   background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px #ff6781;
 }
 .sectionZEN__Cashbask-button-text a {
   text-align: center;
@@ -4256,6 +4257,7 @@ li {
 .ZEN-header__button:hover {
   border: 1px solid red;
   background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px #ff6781;
 }
 .ZEN-header__button-text {
   text-align: center;
