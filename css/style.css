@@ -5105,13 +5105,13 @@ body.lockSOS {
   background-repeat: no-repeat;
 }
 .Meditation-wrapper .paper-1 {
-  background-image: url(../figma/Mediation/img/Paper-1-background.png);
+  background-image: url(../figma/Mediation/img/Paper-1-background.svg);
 }
 .Meditation-wrapper .paper-2 {
-  background-image: url(../figma/Mediation/img/Paper-2-background.png);
+  background-image: url(../figma/Mediation/img/Paper-2-background.svg);
 }
 .Meditation-wrapper .paper-3 {
-  background-image: url(../figma/Mediation/img/Paper-3-background.png);
+  background-image: url(../figma/Mediation/img/Paper-3-background.svg);
 }
 .Meditation-wrapper .paper img {
   margin: 0 auto;
@@ -5146,7 +5146,7 @@ body.lockSOS {
   color: white;
   font-weight: 400;
   font-size: 24px;
-  line-height: 48px;
+  line-height: 53px;
   margin: 0 auto;
   margin-top: 50px;
   transition: 0.5s;
@@ -5155,6 +5155,29 @@ body.lockSOS {
   box-shadow: 0px 0px 50px #268a79;
 }
 
+@media (max-width: 520px) {
+  .Meditation-wrapper .paper {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    background-image: none;
+    background: linear-gradient(0deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
+  }
+}
+@media (max-width: 415px) {
+  .Meditation-wrapper .paper-text {
+    width: auto;
+    height: auto;
+  }
+  .Meditation-wrapper .paper-button {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    font-size: 20px;
+  }
+}
 @font-face {
   font-family: Merienda One;
   src: url(../figma/Mediation/font/MeriendaOne-Regular.ttf);
@@ -5239,6 +5262,11 @@ body.lockSOS {
   height: 224px;
   background-image: url(../figma/Mediation/img/Meditation-item__article-active-cut.png);
 }
+.Meditation-item__article-active-arrow {
+  display: flex !important;
+  justify-content: flex-end;
+  padding-right: 70px;
+}
 .Meditation-item__article-title {
   padding-top: 50px;
   padding-left: 70px;
@@ -5259,6 +5287,9 @@ body.lockSOS {
   width: 689px;
   height: 116px;
   color: rgba(0, 0, 0, 0.5);
+}
+.Meditation-item__article-active-arrow {
+  display: none !important;
 }
 
 @media (max-width: 830px) {
