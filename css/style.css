@@ -5288,10 +5288,9 @@ body.lockSOS {
   height: 116px;
   color: rgba(0, 0, 0, 0.5);
 }
-.Meditation-item__article-active-arrow {
-  display: none !important;
-}
 
+/**             &-active-arrow
+ * display: none !important **/
 @media (max-width: 830px) {
   .Meditation-wrapper {
     padding-top: 0px;
