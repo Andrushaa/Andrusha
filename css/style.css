@@ -5148,7 +5148,7 @@ body.lockSOS {
   font-size: 24px;
   line-height: 53px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 30px;
   transition: 0.5s;
 }
 .Meditation-wrapper .paper-button:hover {
@@ -5260,12 +5260,7 @@ body.lockSOS {
 .Meditation-item__article-active {
   width: 749px;
   height: 224px;
-  background-image: url(../figma/Mediation/img/Meditation-item__article-active-cut.png);
-}
-.Meditation-item__article-active-arrow {
-  display: flex !important;
-  justify-content: flex-end;
-  padding-right: 70px;
+  background-image: url(../figma/Mediation/img/Meditation-item__article-active-cut-with-arrow.png);
 }
 .Meditation-item__article-title {
   padding-top: 50px;
@@ -5288,9 +5283,17 @@ body.lockSOS {
   height: 116px;
   color: rgba(0, 0, 0, 0.5);
 }
+.Meditation-item__article-arrow {
+  display: flex !important;
+  justify-content: flex-end;
+  margin-right: 77px;
+  margin-top: -20px;
+}
+.Meditation-item__article-arrow a {
+  width: 102px;
+  height: 24px;
+}
 
-/**             &-active-arrow
- * display: none !important **/
 @media (max-width: 830px) {
   .Meditation-wrapper {
     padding-top: 0px;
