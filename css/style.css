@@ -2201,6 +2201,8 @@ html:hover .spider {
   text-align: center;
   text-transform: uppercase;
   color: white;
+  line-height: 80px;
+  letter-spacing: 4px;
 }
 
 .sub-title {
@@ -2211,6 +2213,8 @@ html:hover .spider {
   text-align: center;
   color: white;
   text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
 }
 
 .button-yellow {
@@ -2313,6 +2317,10 @@ html:hover .spider {
     }
   }
 }
+@font-face {
+  font-family: Bebas Neue;
+  src: url(../figma/SOS/webfonts/BebasNeue-Regular.ttf);
+}
 .SectionThree {
   display: flex;
   justify-content: center;
@@ -2331,16 +2339,17 @@ html:hover .spider {
 }
 
 .SOS-S3-wrapper {
-  margin: 15% 10% 0 0;
+  margin: 15% 20% 0 0;
 }
 
 .S3-h1up-text {
   color: white;
   text-transform: uppercase;
   font-family: Bebas Neue;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
+  letter-spacing: 2px;
 }
 
 .S3-h1main-text {
@@ -2348,8 +2357,10 @@ html:hover .spider {
   color: white;
   text-transform: uppercase;
   font-family: Bebas Neue;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 4px;
   font-style: normal;
 }
 
@@ -2383,10 +2394,11 @@ html:hover .spider {
 .s3block1 .s3h1 {
   color: #ffb548;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: Bebas Neue;
   padding: 10px 0;
   line-height: 36px;
+  letter-spacing: 3px;
 }
 .s3block1 .s3h1::before {
   content: "";
@@ -2413,10 +2425,11 @@ html:hover .spider {
 .s3block2 .s3h2 {
   color: #ffb548;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: Bebas Neue;
   padding: 10px 0;
   line-height: 36px;
+  letter-spacing: 3px;
 }
 .s3block2 .s3h2::before {
   content: "";
@@ -2443,10 +2456,11 @@ html:hover .spider {
 .s3block3 .s3h3 {
   color: #ffb548;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: Bebas Neue;
   padding: 10px 0;
   line-height: 36px;
+  letter-spacing: 3px;
 }
 .s3block3 .s3h3::before {
   content: "";
@@ -2612,6 +2626,7 @@ html:hover .spider {
   padding-top: 145px;
   font-size: 24px;
   line-height: 24px;
+  letter-spacing: 3px;
   font-family: Bebas Neue;
 }
 
@@ -2624,6 +2639,7 @@ html:hover .spider {
   font-size: 60px;
   font-family: Bebas Neue;
   line-height: 45px;
+  letter-spacing: 4px;
 }
 
 .TableSOS-wrapper {
@@ -2882,20 +2898,23 @@ html:hover .spider {
 .s6h1-up {
   margin-top: 220px;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
+  font-family: Bebas Neue;
+  letter-spacing: 3px;
 }
 
 .s6h1-main {
   margin-top: 30px;
   color: white;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 60px;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 80px;
   text-transform: uppercase;
   font-family: Bebas Neue;
+  letter-spacing: 4px;
 }
 
 .s6h1-text {
@@ -2959,22 +2978,20 @@ html:hover .spider {
   border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
+  width: 250px;
+  height: 50px;
+  border: none;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Open Sans;
 }
 .ButtonSubscribe:hover {
   background: linear-gradient(#fc9804, #d39013);
   box-shadow: 0px 0px 50px #d39013;
-}
-.ButtonSubscribe button {
-  width: 250px;
-  height: 50px;
-  background: transparent;
-  border: none;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 700;
-  font-family: Open Sans;
-  animation: animate-Subscribe 1s ease infinite;
 }
 @keyframes animate-Subscribe {
   0% {
@@ -3119,6 +3136,8 @@ html:hover .spider {
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .s5h1-main {
@@ -3149,17 +3168,17 @@ html:hover .spider {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.5s;
-}
-.Read-more:hover {
-  background: linear-gradient(#fc9804, #d39013);
-  box-shadow: 0px 0px 50px #d39013;
-}
-.Read-more__text {
   color: black;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
+  line-height: 58px;
+  text-align: center;
   font-family: Open Sans;
+}
+.Read-more:hover {
+  background: linear-gradient(#fc9804, #d39013);
+  box-shadow: 0px 0px 50px #d39013;
 }
 
 .SOS-s5-right {
@@ -3292,13 +3311,12 @@ html:hover .spider {
   .SOS-s5-left .s5h1-text {
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
   }
-  .SOS-s5-left .Read-more__inner {
+  .SOS-s5-left .Read-more {
     display: block;
     margin-top: 20px;
-  }
-  .SOS-s5-left .Read-more__inner .Read-more {
     display: block;
     margin: 0 auto;
   }
@@ -3370,8 +3388,9 @@ html:hover .spider {
   text-transform: uppercase;
   line-height: 80px;
   width: 600px;
-  font-weight: 700;
-  font-size: 60px;
+  font-weight: 500;
+  font-size: 80px;
+  letter-spacing: 4px;
   font-family: Bebas Neue;
 }
 .SectionTwo .textSectionTwo {
