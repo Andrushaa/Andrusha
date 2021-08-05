@@ -2214,6 +2214,7 @@ html:hover .spider {
 }
 
 .button-yellow {
+  display: block;
   margin: 0 auto;
   position: relative;
   margin-top: 28.55px;
