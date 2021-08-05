@@ -3562,6 +3562,10 @@ html:hover .spider {
   transition: 1s;
 }
 
+.backgrounds-img {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .backgrounds {
     display: none;
@@ -5260,7 +5264,7 @@ body.lockSOS {
 .Meditation-item__article-active {
   width: 749px;
   height: 224px;
-  background-image: url(../figma/Mediation/img/Meditation-item__article-active-cut-with-arrow.png);
+  background-image: url(../figma/Mediation/img/Meditation-item__article-active.png);
 }
 .Meditation-item__article-title {
   padding-top: 50px;
@@ -6012,6 +6016,9 @@ body.lockSOS {
   justify-content: space-between;
   min-height: 70px;
 }
+.Meditation-header__container a img {
+  margin-top: 8px;
+}
 
 body.lockMeditation {
   overflow: hidden;
@@ -6533,9 +6540,10 @@ body.lockMeditation {
 }
 .education-item {
   background-color: #334bd4;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   color: white;
+  font-size: 18px;
   border-radius: 20px;
   text-align: center;
   margin: 20px;
@@ -6547,6 +6555,7 @@ body.lockMeditation {
 }
 .education-item p {
   margin: 0 auto;
+  padding: 8px 0;
 }
 
 @media (max-width: 500px) {
@@ -6564,6 +6573,9 @@ body.lockMeditation {
   }
   .education-item {
     text-align: center;
+  }
+  .education-item p {
+    padding: 3px 0;
   }
 }
 .person {
