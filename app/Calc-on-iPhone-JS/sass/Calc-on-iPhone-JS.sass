@@ -103,6 +103,10 @@
     .calculator-on-iPhone-JS
         overflow: hidden
 
+    .fancybox-slide
+        max-height: 640px
+        overflow: hidden
+
     .top-bar
 
         .CalcButton.number-0
@@ -115,7 +119,13 @@
         margin-top: 20px
         font-size: 80px !important
 
+@media (max-width: 470px)
+    .fancybox-slide
+        max-height: 540px
+        overflow: hidden
+
 @media (max-width: 450px)
+
     .calculator-on-iPhone-JS
 
         .top-bar
@@ -134,6 +144,21 @@
 @media (max-width: 390px)
     .CalcButton
         font-size: 24px
+
+    .status
+
+        .signal
+            width: 15px
+            height: 8px
+        .mts
+            font-size: 12px
+
+        .wifi
+            width: 15px
+            height: 15px
+
+        .clock
+            font-size: 12px
 
 @media (max-width: 380px)
     .CalcButton

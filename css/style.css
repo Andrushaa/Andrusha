@@ -1872,6 +1872,11 @@ html:hover .spider {
     overflow: hidden;
   }
 
+  .fancybox-slide {
+    max-height: 640px;
+    overflow: hidden;
+  }
+
   .top-bar .CalcButton.number-0 {
     width: 172px;
   }
@@ -1882,6 +1887,12 @@ html:hover .spider {
   .value {
     margin-top: 20px;
     font-size: 80px !important;
+  }
+}
+@media (max-width: 470px) {
+  .fancybox-slide {
+    max-height: 540px;
+    overflow: hidden;
   }
 }
 @media (max-width: 450px) {
@@ -1903,6 +1914,18 @@ html:hover .spider {
 @media (max-width: 390px) {
   .CalcButton {
     font-size: 24px;
+  }
+
+  .status .signal {
+    width: 15px;
+    height: 8px;
+  }
+  .status .mts {
+    font-size: 12px;
+  }
+  .status .wifi {
+    width: 15px;
+    height: 15px;
   }
 }
 @media (max-width: 380px) {
