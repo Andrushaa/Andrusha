@@ -145,20 +145,30 @@
     .CalcButton
         font-size: 24px
 
-    .status
+    .top-bar
+        .status
+            .signal
+                width: 15px
+                height: 8px
+            .mts
+                font-size: 12px
 
-        .signal
-            width: 15px
-            height: 8px
-        .mts
-            font-size: 12px
-
-        .wifi
-            width: 15px
-            height: 15px
+            .wifi
+                width: 15px
+                height: 15px
 
         .clock
             font-size: 12px
+
+        .battery
+            &-text
+                font-size: 12px
+
+            &-logo
+                img
+                    width: 32px
+                    height: 42px
+                    padding-bottom: 21px
 
 @media (max-width: 380px)
     .CalcButton
