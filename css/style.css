@@ -2000,9 +2000,10 @@ html {
 .ZEN-section__common-text-h1 {
   font-weight: 500;
   font-size: 36px;
-  line-height: 34px;
+  line-height: 42px;
   transition: 0.5s;
   font-family: Nunito;
+  width: 377px;
 }
 .ZEN-section__common-text-text {
   padding: 22px 0;
@@ -2011,6 +2012,10 @@ html {
   font-size: 18px;
   transition: 0.5s;
   line-height: 25px;
+  font-family: Nunito;
+}
+.ZEN-section__common-text-text p {
+  margin-top: 10px;
 }
 
 .ZEN-section__img img {
@@ -2124,7 +2129,7 @@ html {
   font-size: 27px;
   vertical-align: middle;
 }
-.ZEN-section__common-text-h1 {
+.ZEN-section__common-text-main {
   margin-top: 23px;
   color: #222;
   font-weight: 400;
@@ -2132,7 +2137,7 @@ html {
   width: 423px;
   line-height: 43px;
 }
-.ZEN-section__common-text-h1-2 {
+.ZEN-section__common-text-main-2 {
   margin-top: 20px;
 }
 .ZEN-section__common-text-textUnder {
@@ -2296,6 +2301,7 @@ html {
   color: #222;
   width: 584px;
   font-size: 18px;
+  line-height: 26px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 58px;
@@ -2364,6 +2370,13 @@ html {
     justify-content: center !important;
   }
 }
+.ZEN-section__common-text-h1-long {
+  width: 470px;
+}
+.ZEN-section__common-text-h1-long i {
+  font-size: 27px;
+}
+
 .sectionZEN-text-button {
   display: flex;
   width: 200px;
