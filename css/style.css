@@ -2511,6 +2511,11 @@ html {
   margin-top: 68px;
 }
 
+@media (max-width: 1050px) {
+  .footerZEN-menu {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 900px) {
   .footerZEN-menu {
     padding: 20px;
