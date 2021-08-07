@@ -1998,10 +1998,11 @@ html {
   transition: 0.5s;
 }
 .ZEN-section__common-text-h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 36px;
   line-height: 34px;
   transition: 0.5s;
+  font-family: Nunito;
 }
 .ZEN-section__common-text-text {
   padding: 22px 0;
@@ -2009,6 +2010,7 @@ html {
   font-weight: 400;
   font-size: 18px;
   transition: 0.5s;
+  line-height: 25px;
 }
 
 .ZEN-section__img img {
@@ -2098,6 +2100,10 @@ html {
     margin-top: 60px;
   }
 }
+@font-face {
+  font-family: Nunito;
+  src: url(../figma/ZEN/fonts/Nunito.ttf);
+}
 .ZEN-section__common {
   margin-top: 15px;
   display: flex;
@@ -2112,13 +2118,19 @@ html {
   font-weight: 400;
   font-size: 16px;
   transition: 0.5s;
+  line-height: 27px;
+}
+.ZEN-section__common-text-textUp i {
+  font-size: 27px;
+  vertical-align: middle;
 }
 .ZEN-section__common-text-h1 {
   margin-top: 23px;
   color: #222;
   font-weight: 400;
   font-size: 42px;
-  width: 370px;
+  width: 423px;
+  line-height: 43px;
 }
 .ZEN-section__common-text-h1-2 {
   margin-top: 20px;
@@ -2374,6 +2386,13 @@ html {
     justify-content: space-around;
   }
 }
+.ZEN-section8-button {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
 .ZEN-section8-button img {
   border-radius: 0;
 }
@@ -2387,8 +2406,17 @@ html {
 }
 @media (max-width: 450px) {
   .ZEN-section8-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+  .ZEN-section8-button img {
     display: block;
     margin: 0 auto;
+    padding: 10px;
   }
 }
 .footerZEN-menu {
@@ -2400,6 +2428,7 @@ html {
 .footerZEN-menu__common-topic {
   font-size: 16px;
   font-weight: 400;
+  font-family: Nunito;
   color: #222;
   cursor: pointer;
   transition: 0.5s;
