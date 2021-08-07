@@ -2742,6 +2742,10 @@ body.lockZEN {
   width: 70%;
 }
 
+.header-line {
+  border-top: 1px solid rgba(151, 151, 151, 0.2);
+}
+
 @media (min-width: 1080px) {
   .ZEN-header__list {
     display: flex;
