@@ -1,16 +1,10 @@
-
 .footer_icon_social_network-list
-  margin: 0
-  padding: 0
+  margin: 0 auto
+  width: 500px
   display: flex
+  padding: 0 20px
   justify-content: space-between
-  align-items: center
-
-
-.footer_icon_social_network-list
-  margin: 0
-  padding: 0
-  display: flex
+  flex-wrap: wrap
 
   li
     position: relative
@@ -34,7 +28,6 @@
       opacity: 0
       transition: 1s
 
-
     &:after
       content: ""
       position: absolute
@@ -49,12 +42,9 @@
       transition: 1s
       filter: blur(40px)
 
-
     &:hover
       &:before, &:after
         opacity: 1
-
-
 
     a
       position: absolute
@@ -74,52 +64,40 @@
         opacity: 0.2
         transition: 0.5s
 
-
       &:hover i
         opacity: 1
         transform: scale(1.5)
 
-
-
     &:nth-child(1)
       a, &:before, &:after
         background: #519af5
-        background: linear-gradient(45deg, #519af5, #ffff)
-
-
+        background: linear-gradient(45deg, rgba(71, 130, 198, 1), rgba(71, 130, 198, 0.7))
 
     &:nth-child(2)
-      a, &:before, &:after 
+      a, &:before, &:after
         background: #f12711
-        background: linear-gradient(45deg, #11998e, #38ef7d)
-
-
+        background: linear-gradient(45deg, rgba(51, 168, 218, 1), rgba(51, 168, 218, 0.7))
 
     &:nth-child(3)
       a, &:before, &:after
         background: #f12711
-        background: linear-gradient(45deg, #7F00FF, #E100FF)
-
-
+        background: linear-gradient(45deg, rgba(136, 153, 247, 1), rgba(136, 153, 247, 0.7))
 
     &:nth-child(4)
       a, &:before, &:after
         background: #f12711
-        background: linear-gradient(45deg, #fc4a1a, #f7b733)
-
+        background: linear-gradient(45deg, rgba(0, 157, 237, 1), rgba(0, 157, 237, 0.7))
 
     &:nth-child(5)
       a, &:before, &:after
         background: #519af5
-        background: linear-gradient(45deg, #519af5, #ffff)
+        background: linear-gradient(45deg, rgba(78, 203, 92, 1),rgba(78, 203, 92, 0.7))
 
     &:nth-child(6)
       a, &:before, &:after
         background: #519af5
-        background: linear-gradient(45deg, #519af5, #ffff)
+        background: linear-gradient(45deg, rgba(95, 68, 200, 1),rgba(95, 68, 200, 0.7))
 
-    &:nth-child(7)
-      a, &:before, &:after
-        background: #519af5
-        background: linear-gradient(45deg, #519af5, #ffff)
-
+@media (max-width: 680px)
+  .footer_icon_social_network-list
+    width: 100%

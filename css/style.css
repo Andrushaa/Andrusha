@@ -6689,4 +6689,103 @@ body.lockMeditation {
   transform: scale(1.2);
 }
 
+.footer_icon_social_network-list {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_icon_social_network-list li {
+  position: relative;
+  list-style-type: none;
+  width: 65px;
+  height: 65px;
+  margin: 0 1px;
+  border-radius: 50%;
+}
+.footer_icon_social_network-list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: blur(20px);
+  z-index: -1;
+  opacity: 0;
+  transition: 1s;
+}
+.footer_icon_social_network-list li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  transition: 1s;
+  filter: blur(40px);
+}
+.footer_icon_social_network-list li:hover:before, .footer_icon_social_network-list li:hover:after {
+  opacity: 1;
+}
+.footer_icon_social_network-list li a {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #BF6363;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.footer_icon_social_network-list li a i {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0.2;
+  transition: 0.5s;
+}
+.footer_icon_social_network-list li a:hover i {
+  opacity: 1;
+  transform: scale(1.5);
+}
+.footer_icon_social_network-list li:nth-child(1) a, .footer_icon_social_network-list li:nth-child(1):before, .footer_icon_social_network-list li:nth-child(1):after {
+  background: #519af5;
+  background: linear-gradient(45deg, #4782c6, rgba(71, 130, 198, 0.7));
+}
+.footer_icon_social_network-list li:nth-child(2) a, .footer_icon_social_network-list li:nth-child(2):before, .footer_icon_social_network-list li:nth-child(2):after {
+  background: #f12711;
+  background: linear-gradient(45deg, #33a8da, rgba(51, 168, 218, 0.7));
+}
+.footer_icon_social_network-list li:nth-child(3) a, .footer_icon_social_network-list li:nth-child(3):before, .footer_icon_social_network-list li:nth-child(3):after {
+  background: #f12711;
+  background: linear-gradient(45deg, #8899f7, rgba(136, 153, 247, 0.7));
+}
+.footer_icon_social_network-list li:nth-child(4) a, .footer_icon_social_network-list li:nth-child(4):before, .footer_icon_social_network-list li:nth-child(4):after {
+  background: #f12711;
+  background: linear-gradient(45deg, #009ded, rgba(0, 157, 237, 0.7));
+}
+.footer_icon_social_network-list li:nth-child(5) a, .footer_icon_social_network-list li:nth-child(5):before, .footer_icon_social_network-list li:nth-child(5):after {
+  background: #519af5;
+  background: linear-gradient(45deg, #4ecb5c, rgba(78, 203, 92, 0.7));
+}
+.footer_icon_social_network-list li:nth-child(6) a, .footer_icon_social_network-list li:nth-child(6):before, .footer_icon_social_network-list li:nth-child(6):after {
+  background: #519af5;
+  background: linear-gradient(45deg, #5f44c8, rgba(95, 68, 200, 0.7));
+}
+
+@media (max-width: 680px) {
+  .footer_icon_social_network-list {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
