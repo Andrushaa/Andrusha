@@ -2184,11 +2184,6 @@ html {
     margin: 0 auto;
     padding: 10% 0;
     padding: 9px;
-  }
-  .ZEN-section__common-text-h1-1 {
-    text-align: center;
-  }
-  .ZEN-section__common-text-h1-2 {
     text-align: center;
   }
   .ZEN-section__common-text-textUnder {
@@ -2227,16 +2222,11 @@ html {
     height: 100%;
     padding: 8px;
   }
-  .ZEN-section__common-text-h1 {
+  .ZEN-section__common-text-main {
     display: block;
     margin: 0 auto;
     padding: 10% 0;
     padding: 9px;
-  }
-  .ZEN-section__common-text-h1-1 {
-    text-align: center;
-  }
-  .ZEN-section__common-text-h1-2 {
     text-align: center;
   }
   .ZEN-section__common-text-textUnder {
