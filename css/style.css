@@ -5862,7 +5862,7 @@ body.lockSOS {
   font-family: Heebo;
   font-weight: 500;
   font-size: 32px;
-  line-height: 47px;
+  line-height: 58px;
   color: rgba(0, 0, 0, 0.8);
 }
 .gym-item__text {
@@ -5872,6 +5872,23 @@ body.lockSOS {
   line-height: 31px;
   color: rgba(0, 0, 0, 0.5);
   width: 619px;
+}
+.gym-item__button {
+  width: 210px;
+  height: 55px;
+  background: linear-gradient(#259385 100%, #159685 100%);
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 53px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+.gym-item__button:hover {
+  box-shadow: 0px 0px 50px #268a79;
 }
 
 @media (max-width: 1650px) {
@@ -5896,6 +5913,10 @@ body.lockSOS {
   .gym-item__text {
     margin: 0 auto;
     text-align: center;
+  }
+  .gym-item__button {
+    display: block;
+    margin: 8 auto;
   }
 }
 @media (max-width: 780px) {
