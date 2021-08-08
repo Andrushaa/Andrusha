@@ -79,15 +79,13 @@ img {
   overflow: hidden;
   background: black;
   color: white;
-  height: 90vh;
   position: relative;
-  padding-left: 10px;
-  width: 50vh;
 }
 
 .status {
   display: flex;
   justify-content: start;
+  padding-left: 7px;
 }
 
 .signal {
@@ -125,7 +123,7 @@ img {
 }
 
 .value {
-  font-size: 130px;
+  font-size: 90px;
   font-weight: 300;
   height: 70px;
   margin-bottom: 20px;
@@ -134,103 +132,68 @@ img {
 }
 
 .CalcButtons-container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  display: block;
+  padding: 0 25px;
 }
-
-.CalcButton {
+.CalcButtons-container span {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.CalcButtons-container span .CalcButton {
   align-items: center;
   background: #333;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
-  font-size: 36px;
-  height: 75px;
+  font-size: 44px;
+  height: 80px;
   justify-content: center;
   transition: filter 0.3s;
-  width: 75px;
+  width: 80px;
 }
-.CalcButton.function {
+.CalcButtons-container span .CalcButton.function {
   color: black;
   background: #a5a5a5;
 }
-.CalcButton.function.ac {
+.CalcButtons-container span .CalcButton.function.ac {
   font-size: 28px;
 }
-.CalcButton.function.percent {
+.CalcButtons-container span .CalcButton.function.percent {
   font-size: 28px;
 }
-.CalcButton.operator {
+.CalcButtons-container span .CalcButton.operator {
   background: #f1a33c;
 }
-.CalcButton.number-0 {
+.CalcButtons-container span .CalcButton.number-0 {
   border-radius: 55px;
-  grid-column: 1/span 2;
   justify-content: flex-start;
-  padding-left: 43px;
+  padding-left: 35px;
   width: 210px;
 }
-.CalcButton:active, .CalcButton:focus {
+.CalcButtons-container span .CalcButton:active, .CalcButtons-container span .CalcButton:focus {
   filter: brightness(133%);
 }
 
-@media (max-width: 641px) {
-  .calculator-on-iPhone-JS {
-    height: 100%;
-    width: 100%;
-  }
-}
-@media (max-width: 520px) {
-  .calculator-on-iPhone-JS {
-    overflow: hidden;
-  }
-
-  .fancybox-slide {
-    max-height: 640px;
-    overflow: hidden;
-  }
-
-  .top-bar .CalcButton.number-0 {
-    width: 172px;
-  }
-  .top-bar .CalcButton {
-    font-size: 30px;
-  }
-
-  .value {
-    margin-top: 20px;
-    font-size: 80px !important;
-  }
-}
-@media (max-width: 470px) {
-  .fancybox-slide {
-    max-height: 540px;
-    overflow: hidden;
-  }
-}
-@media (max-width: 450px) {
-  .calculator-on-iPhone-JS .top-bar {
-    height: 40px;
-  }
-  .calculator-on-iPhone-JS .top-bar .value {
-    font-size: 40px;
-  }
-
+@media (max-width: 465px) {
   .CalcButtons-container {
-    padding: 0 10px;
-    grid-gap: 10px;
+    display: block;
+    padding: 0 15px;
   }
-  .CalcButtons-container .CalcButton {
-    width: auto;
+  .CalcButtons-container span {
+    margin: 15px 0;
+  }
+  .CalcButtons-container span .CalcButton {
+    font-size: 36px;
+    height: 70px;
+    width: 70px;
+  }
+  .CalcButtons-container span .CalcButton.number-0 {
+    width: 170px;
+    padding-left: 33px;
   }
 }
-@media (max-width: 390px) {
-  .CalcButton {
-    font-size: 24px;
-  }
-
+@media (max-width: 400px) {
   .top-bar .status .signal {
     width: 15px;
     height: 8px;
@@ -253,12 +216,86 @@ img {
     height: 42px;
     padding-bottom: 21px;
   }
-}
-@media (max-width: 380px) {
-  .CalcButton {
-    height: 55px;
+
+  .CalcButtons-container {
+    display: block;
+    padding: 0 10px;
+  }
+  .CalcButtons-container span {
+    margin: 15px 0;
+  }
+  .CalcButtons-container span .CalcButton {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+  }
+  .CalcButtons-container span .CalcButton.number-0 {
+    width: 150px;
+    padding-left: 30px;
   }
 }
+@media (max-width: 350px) {
+  .top-bar {
+    height: 80px;
+  }
+
+  .value {
+    font-size: 70px;
+  }
+
+  .CalcButtons-container {
+    display: block;
+    padding: 0 10px;
+  }
+  .CalcButtons-container span {
+    margin: 15px 0;
+  }
+  .CalcButtons-container span .CalcButton {
+    font-size: 25px;
+    height: 55px;
+    width: 55px;
+  }
+  .CalcButtons-container span .CalcButton.number-0 {
+    width: 130px;
+    padding-left: 24px;
+  }
+  .CalcButtons-container span .CalcButton.function.ac {
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .top-bar {
+    height: 70px;
+  }
+
+  .value {
+    font-size: 50px;
+    height: auto;
+  }
+
+  .CalcButtons-container {
+    display: block;
+    padding: 0 10px;
+  }
+  .CalcButtons-container span {
+    margin: 15px 0;
+  }
+  .CalcButtons-container span .CalcButton {
+    font-size: 24px;
+    height: 48px;
+    width: 48px;
+  }
+  .CalcButtons-container span .CalcButton.number-0 {
+    width: 100px;
+    padding-left: 18px;
+  }
+}
+/** 
+ * ТУТ БУДУТ ОТДЕЛЬНЫЕ СТИЛИ ДЛЯ ПАПАПА ОНИ СЧИТАЮТСЯ ПО ОБЩЕЙ ВЫСОТЕ
+ *
+ *          .fancybox-content
+ *              height: 650px !important
+ *              overflow: hidden **/
 .TicTacToe-Wrapper {
   color: #545454;
   display: flex;
