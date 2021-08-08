@@ -70,16 +70,11 @@ img {
   content: "";
 }
 
-.bodyforapps {
-  background: black;
-  user-select: none;
-}
-
 .calculator-on-iPhone-JS {
   overflow: hidden;
   background: black;
   color: white;
-  position: relative;
+  user-select: none;
 }
 
 .status {
@@ -264,6 +259,11 @@ img {
   }
 }
 @media (max-width: 300px) {
+  .calculator-on-iPhone-JS {
+    height: 450px;
+    overflow: hidden;
+  }
+
   .top-bar {
     height: 70px;
   }
@@ -290,12 +290,6 @@ img {
     padding-left: 18px;
   }
 }
-/** 
- * ТУТ БУДУТ ОТДЕЛЬНЫЕ СТИЛИ ДЛЯ ПАПАПА ОНИ СЧИТАЮТСЯ ПО ОБЩЕЙ ВЫСОТЕ
- *
- *          .fancybox-content
- *              height: 650px !important
- *              overflow: hidden **/
 .TicTacToe-Wrapper {
   color: #545454;
   display: flex;
