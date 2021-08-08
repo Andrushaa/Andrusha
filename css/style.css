@@ -5189,14 +5189,10 @@ body.lockMeditation {
   background: linear-gradient(45deg, #8899f7, rgba(136, 153, 247, 0.7));
 }
 .footer_icon_social_network-list li:nth-child(4) a, .footer_icon_social_network-list li:nth-child(4):before, .footer_icon_social_network-list li:nth-child(4):after {
-  background: #f12711;
-  background: linear-gradient(45deg, #009ded, rgba(0, 157, 237, 0.7));
-}
-.footer_icon_social_network-list li:nth-child(5) a, .footer_icon_social_network-list li:nth-child(5):before, .footer_icon_social_network-list li:nth-child(5):after {
   background: #519af5;
   background: linear-gradient(45deg, #4ecb5c, rgba(78, 203, 92, 0.7));
 }
-.footer_icon_social_network-list li:nth-child(6) a, .footer_icon_social_network-list li:nth-child(6):before, .footer_icon_social_network-list li:nth-child(6):after {
+.footer_icon_social_network-list li:nth-child(5) a, .footer_icon_social_network-list li:nth-child(5):before, .footer_icon_social_network-list li:nth-child(5):after {
   background: #519af5;
   background: linear-gradient(45deg, #5f44c8, rgba(95, 68, 200, 0.7));
 }
