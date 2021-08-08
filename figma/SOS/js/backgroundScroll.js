@@ -16,11 +16,11 @@ $(window).scroll(function() {
     }   
 
     else if ($(this).scrollTop() > 2400) {
-        backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-3-min.jpg)';
+        backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-4-min.jpg)';
     }
     
     else if ($(this).scrollTop() > 1600) {
-        backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-4-min.jpg)';
+        backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-3-min.jpg)';
 
     }
 

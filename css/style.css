@@ -823,17 +823,13 @@ img {
   }
 
   .SOS-S3-container {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .SOS-S3-container .SOS-S3-wrapper {
     padding: 10px;
   }
 }
 @media (max-width: 700px) {
-  .SOS-S3-wrapper {
-    width: 100%;
-  }
-
   .S3-h1up-text {
     width: 100%;
     text-align: center;
@@ -1090,21 +1086,6 @@ img {
   left: 532px;
 }
 
-@media (max-width: 700px) {
-  .s4-h1up-text {
-    font-size: 16px;
-  }
-
-  .s4-h1main-text {
-    font-size: 40px;
-  }
-}
-@media (max-width: 330px) {
-  .s4-h1main-text {
-    font-size: 30px;
-    line-height: 30px;
-  }
-}
 @media (max-width: 850px) {
   .TableSOS-wrapper {
     width: 100%;
@@ -1112,8 +1093,17 @@ img {
     justify-content: center;
   }
 }
+@media (max-width: 700px) {
+  .s4-h1up {
+    font-size: 16px;
+  }
+
+  .s4-h1main {
+    font-size: 40px;
+  }
+}
 @media (max-width: 560px) {
-  .s4-h1up-text {
+  .s4-h1up {
     padding-top: 40px;
   }
 
@@ -1186,6 +1176,12 @@ img {
 
   .line7 {
     display: none;
+  }
+}
+@media (max-width: 330px) {
+  .s4-h1main {
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 /** @import "../figma/SOS/sass/sectionFive" **/
@@ -1309,6 +1305,7 @@ img {
   cursor: pointer;
   font-weight: 700;
   font-family: Open Sans;
+  transition: 0.5s;
 }
 .ButtonSubscribe:hover {
   background: linear-gradient(#fc9804, #d39013);
@@ -1677,6 +1674,7 @@ img {
   .s5h1-main {
     font-size: 50px;
     line-height: 55px;
+    color: rgba(255, 181, 72, 0.9) !important;
   }
 
   .s5h1-text {
@@ -1820,9 +1818,9 @@ img {
   cursor: pointer;
 }
 
-@media (min-width: 1700px) {
-  .textSectionTwo {
-    margin: 50px 0 0 270px !important;
+@media (max-width: 1370px) {
+  .about-game__wrapper {
+    width: 90%;
   }
 }
 @media (max-width: 1275px) {
@@ -1859,6 +1857,7 @@ img {
   }
   .about-game .about-game__left .textSectionTwo {
     margin: 0 auto;
+    padding: 25px;
   }
   .about-game .slider {
     margin: 0 auto;
@@ -1973,7 +1972,7 @@ img {
   .SectionThree {
     background-image: url(../figma/SOS/img/background/bg-image-3-min.jpg);
     background-size: cover;
-    background-position: 70% 0%;
+    background-position: 20% 0%;
     height: 700px;
   }
 
