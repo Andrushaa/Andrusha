@@ -10,6 +10,7 @@ const division = document.querySelector('.division');
 const equal = document.querySelector('.equal');
 
 const decimal = document.querySelector('.decimal');
+
 const number0 = document.querySelector('.number-0');
 const number1 = document.querySelector('.number-1');
 const number2 = document.querySelector('.number-2');
@@ -20,6 +21,7 @@ const number6 = document.querySelector('.number-6');
 const number7 = document.querySelector('.number-7');
 const number8 = document.querySelector('.number-8');
 const number9 = document.querySelector('.number-9');
+
 const numberArray = [
     number0, number1, number2, number3, number4,
     number5, number6, number7, number8, number9
@@ -99,6 +101,8 @@ ac.addEventListener('click', () => {
     ValueStrInMemory = null;
     OperatorInMemory = null;
 });
+
+
 pm.addEventListener('click', () => {
     const CurrentValueNum = GetValueAsNum();
     const CurrentValueStr = GetValueAsStr();
@@ -113,6 +117,8 @@ pm.addEventListener('click', () => {
     SetStrAsValue(CurrentValueStr.substring(1));
     }
 });
+
+
 percent.addEventListener('click', () => {
     const CurrentValueNum = GetValueAsNum();
     const newValueNum = CurrentValueNum / 100;
@@ -120,7 +126,6 @@ percent.addEventListener('click', () => {
     ValueStrInMemory = null;
     OperatorInMemory = null;
 });
-
 
 
 addition.addEventListener('click', () => {
@@ -135,6 +140,8 @@ multiplication.addEventListener('click', () => {
 division.addEventListener('click', () => {
     OperatorClick('division');
 });
+
+
 equal.addEventListener('click', () => {
     if (ValueStrInMemory) {
         SetStrAsValue(GetResultOfOperationAsStr());
@@ -144,13 +151,14 @@ equal.addEventListener('click', () => {
 });
 
 
-
 for (let i=0; i < numberArray.length; i++) {
     const number = numberArray[i];
     number.addEventListener('click', () => {
         NumberClick(i.toString());
     });
 }
+
+
 decimal.addEventListener('click', () => {
     const CurrentValueStr = GetValueAsStr();
     if (!CurrentValueStr.includes('.')) {
