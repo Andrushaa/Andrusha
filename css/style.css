@@ -3541,22 +3541,26 @@ body.lockSOS {
   }
 }
 @media (max-width: 388px) {
+  .Meditation-One {
+    height: 900px;
+  }
   .Meditation-One__h1 {
     font-size: 48px;
     line-height: 52px;
   }
 }
 @media (max-width: 331px) {
+  .Meditation-One {
+    height: 800px;
+  }
   .Meditation-One__h1 {
     font-size: 36px;
     line-height: 42px;
   }
-
   .Meditation-One__under-text {
     line-height: 20px;
     font-size: 19px;
   }
-
   .Meditation-One__Get-Start {
     width: 216px;
     height: 63px;
@@ -3564,17 +3568,17 @@ body.lockSOS {
 }
 @media (max-width: 331px) {
   .Meditation-One__Get-Start {
-    margin-top: 175px;
+    margin-top: 100px;
   }
 }
-.Meditation-wrapper {
+.Meditation-papper-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   margin: 0 auto;
 }
-.Meditation-wrapper .paper {
+.Meditation-papper-wrapper .paper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3583,19 +3587,19 @@ body.lockSOS {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.Meditation-wrapper .paper-1 {
+.Meditation-papper-wrapper .paper-1 {
   background-image: url(../figma/Mediation/img/Paper-1-background.svg);
 }
-.Meditation-wrapper .paper-2 {
+.Meditation-papper-wrapper .paper-2 {
   background-image: url(../figma/Mediation/img/Paper-2-background.svg);
 }
-.Meditation-wrapper .paper-3 {
+.Meditation-papper-wrapper .paper-3 {
   background-image: url(../figma/Mediation/img/Paper-3-background.svg);
 }
-.Meditation-wrapper .paper img {
+.Meditation-papper-wrapper .paper img {
   margin: 0 auto;
 }
-.Meditation-wrapper .paper-title {
+.Meditation-papper-wrapper .paper-title {
   margin-top: 20px;
   font-family: Heebo;
   font-weight: 500;
@@ -3604,7 +3608,7 @@ body.lockSOS {
   line-height: 47px;
   color: black;
 }
-.Meditation-wrapper .paper-text {
+.Meditation-papper-wrapper .paper-text {
   width: 324px;
   height: 92px;
   margin: 0 auto;
@@ -3616,7 +3620,7 @@ body.lockSOS {
   color: black;
   margin-top: 20px;
 }
-.Meditation-wrapper .paper-button {
+.Meditation-papper-wrapper .paper-button {
   width: 210px;
   height: 55px;
   background: linear-gradient(#259385 100%, #159685 100%);
@@ -3630,31 +3634,51 @@ body.lockSOS {
   margin-top: 30px;
   transition: 0.5s;
 }
-.Meditation-wrapper .paper-button:hover {
+.Meditation-papper-wrapper .paper-button:hover {
   box-shadow: 0px 0px 50px #268a79;
 }
 
+@media (max-width: 1649px) {
+  .Meditation-papper-wrapper {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1103px) {
+  .Meditation-papper-wrapper .paper {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 772px) {
+  .Meditation-papper-wrapper {
+    margin-top: 70px;
+  }
+}
 @media (max-width: 520px) {
-  .Meditation-wrapper .paper {
+  .Meditation-papper-wrapper .paper {
     width: auto;
     height: auto;
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px auto;
     border-radius: 15px;
     background-image: none;
     background: linear-gradient(0deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%);
   }
 }
 @media (max-width: 415px) {
-  .Meditation-wrapper .paper-text {
+  .Meditation-papper-wrapper .paper-text {
     width: auto;
     height: auto;
   }
-  .Meditation-wrapper .paper-button {
+  .Meditation-papper-wrapper .paper-button {
     width: auto;
     height: auto;
     margin: 10px;
     font-size: 20px;
+  }
+}
+@media (max-width: 415px) {
+  .Meditation-papper-wrapper {
+    margin-top: 0;
   }
 }
 @font-face {
@@ -3773,6 +3797,17 @@ body.lockSOS {
   height: 24px;
 }
 
+@media (max-width: 1500px) {
+  .Meditation-wrapper {
+    flex-direction: column;
+  }
+  .Meditation-item {
+    margin: 0 auto;
+  }
+  .Meditation-item__wrapper {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 830px) {
   .Meditation-wrapper {
     padding-top: 0px;

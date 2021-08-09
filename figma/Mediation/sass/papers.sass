@@ -1,4 +1,4 @@
-.Meditation-wrapper
+.Meditation-papper-wrapper
     display: flex
     justify-content: space-between
     flex-wrap: wrap
@@ -64,19 +64,32 @@
             &:hover
                 box-shadow: 0px 0px 50px #268a79
 
+@media (max-width: 1649px)
+    .Meditation-papper-wrapper
+        justify-content: space-around
+
+@media (max-width: 1103px)
+    .Meditation-papper-wrapper
+        .paper
+            margin: 0 auto
+
+@media (max-width: 772px)
+    .Meditation-papper-wrapper
+        margin-top: 70px
+
 @media (max-width: 520px)
-    .Meditation-wrapper
+    .Meditation-papper-wrapper
         .paper
             width: auto
             height: auto
             padding: 20px
-            margin: 10px 0
+            margin: 10px auto
             border-radius: 15px
             background-image: none
             background: linear-gradient(0deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.4) 103.6%)
 
 @media (max-width: 415px)
-    .Meditation-wrapper
+    .Meditation-papper-wrapper
         .paper
             &-text
                 width: auto
@@ -87,3 +100,7 @@
                 height: auto
                 margin: 10px
                 font-size: 20px
+
+@media (max-width: 415px)
+    .Meditation-papper-wrapper
+        margin-top: 0
