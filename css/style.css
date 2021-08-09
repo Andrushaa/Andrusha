@@ -3825,7 +3825,7 @@ body.lockSOS {
   .Meditation-item__article {
     width: auto;
     height: auto;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 10px 0;
   }
   .Meditation-item__article-active {
@@ -3841,6 +3841,13 @@ body.lockSOS {
     width: auto;
     height: auto;
     padding-left: 10px;
+  }
+  .Meditation-item__article-arrow {
+    width: 102px;
+    height: 24px;
+    margin: 0 auto;
+    padding-top: 7px;
+    background-image: url(../figma/Mediation/img/Meditation-item-arrow.svg);
   }
 }
 @media (max-width: 740px) {
@@ -4227,7 +4234,7 @@ body.lockSOS {
 }
 @media (max-width: 670px) {
   .Meditation-best {
-    height: 2000px;
+    height: 1700px;
   }
   .Meditation-best-left {
     width: 100%;
@@ -4235,6 +4242,7 @@ body.lockSOS {
   .Meditation-best-left__item {
     margin: 20px;
     width: auto;
+    height: auto;
   }
   .Meditation-best-left__item-title {
     position: static;
@@ -4251,6 +4259,7 @@ body.lockSOS {
   .Meditation-best-right__item {
     margin: 20px;
     width: auto;
+    height: auto;
   }
   .Meditation-best-right__item-title {
     position: static;
