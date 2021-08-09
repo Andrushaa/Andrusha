@@ -570,6 +570,7 @@ img {
   margin-top: 28.55px;
   width: 260.36px;
   height: 60px;
+  transition: 0.5s;
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 4px;
   cursor: pointer;
@@ -1988,7 +1989,7 @@ img {
   top: 0;
   z-index: -10;
   background-repeat: no-repeat;
-  background-image: url(../figma/SOS/img/background/bg-image-1-min.jpg);
+  background-color: black;
   background-size: cover;
   transition: 1s;
 }
