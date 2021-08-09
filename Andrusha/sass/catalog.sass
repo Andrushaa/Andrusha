@@ -15,6 +15,9 @@ $vbr-color: #334bd4
 .button_layout-wrapper
     position: relative
     transition: 1s all
+    width: 100px
+    height: 24px
+    margin: 0 auto
 
     &:hover .button_layout-text
         display: block !important
@@ -33,14 +36,21 @@ $vbr-color: #334bd4
     margin: 0 auto
     margin-top: 10px
 
+    &:hover .button_layout-text
+        display: block !important
+
     a
         margin-top: 0px
         color: #ffffff
 
+        &:hover .button_layout-text
+            display: block !important
+
     &-text
         position: absolute
         top: - 205px
-        width: 100%
+        width: 250px
+        left: -77px
         height: 200px
         background-color: rgba(255, 255, 0, 1)
         display: none
@@ -53,7 +63,7 @@ $vbr-color: #334bd4
             font-size: 15px
 
             &:hover
-                box-shadow: 7px 7px 30px yellow
+                box-shadow: 0px 0px 30px yellow
                 border: none
 
             a
@@ -73,9 +83,6 @@ $vbr-color: #334bd4
             border-left: 76px solid transparent
             border-right: 76px solid transparent
             border-top: 10px solid yellow
-
-    &:hover .button_layout-text
-        display: block !important
 
 .button_main
     border-radius: 5px

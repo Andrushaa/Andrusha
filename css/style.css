@@ -4779,6 +4779,9 @@ body.lockMeditation {
 .button_layout-wrapper {
   position: relative;
   transition: 1s all;
+  width: 100px;
+  height: 24px;
+  margin: 0 auto;
 }
 .button_layout-wrapper:hover .button_layout-text {
   display: block !important;
@@ -4798,14 +4801,21 @@ body.lockMeditation {
   margin: 0 auto;
   margin-top: 10px;
 }
+.button_layout:hover .button_layout-text {
+  display: block !important;
+}
 .button_layout a {
   margin-top: 0px;
   color: #ffffff;
 }
+.button_layout a:hover .button_layout-text {
+  display: block !important;
+}
 .button_layout-text {
   position: absolute;
   top: -205px;
-  width: 100%;
+  width: 250px;
+  left: -77px;
   height: 200px;
   background-color: yellow;
   display: none;
@@ -4818,7 +4828,7 @@ body.lockMeditation {
   font-size: 15px;
 }
 .button_layout-text-text:hover {
-  box-shadow: 7px 7px 30px yellow;
+  box-shadow: 0px 0px 30px yellow;
   border: none;
 }
 .button_layout-text-text a {
@@ -4838,9 +4848,6 @@ body.lockMeditation {
   border-left: 76px solid transparent;
   border-right: 76px solid transparent;
   border-top: 10px solid yellow;
-}
-.button_layout:hover .button_layout-text {
-  display: block !important;
 }
 
 .button_main {
