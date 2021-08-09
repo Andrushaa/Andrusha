@@ -4357,11 +4357,11 @@ body.lockSOS {
 
 @media (max-width: 1650px) {
   .gym {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
   }
   .gym-reverse {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .gym:nth-child(2) {
     flex-direction: column !important;
