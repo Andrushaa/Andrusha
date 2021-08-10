@@ -1387,12 +1387,9 @@ img {
     height: 100%;
   }
 
-  .SOS-S6-inner .SOS-s6-left {
-    poasition: absolute;
-  }
   .SOS-S6-inner .SOS-s6-left img {
     max-height: 100%;
-    max-weight: 100%;
+    max-width: 100%;
   }
   .SOS-S6-inner .SOS-s6-right {
     position: absolute;
@@ -1479,6 +1476,15 @@ img {
 
   .s6h1-text {
     padding: 7px;
+  }
+}
+@media (max-width: 600px) {
+  .s6h1-up {
+    margin-top: 80px;
+  }
+
+  .s6h1-main {
+    margin-top: 0;
   }
 }
 .SectionFive {
