@@ -1827,9 +1827,12 @@ img {
   padding: 0;
 }
 .slider__photo img {
-  height: 100%;
+  height: auto;
   width: 100%;
   border-radius: 6px;
+}
+.slider .point-switcher__item {
+  margin: 0 15px;
 }
 .slider__photo_1 {
   position: absolute;
