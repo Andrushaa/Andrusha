@@ -2275,6 +2275,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
   }
   .ZEN-section__common-text-textUp {
     margin-top: 15px;
@@ -2291,6 +2292,7 @@ html {
     padding: 10% 0;
     padding: 9px;
     text-align: center;
+    width: 100%;
   }
   .ZEN-section__common-text-textUnder {
     width: 100%;
