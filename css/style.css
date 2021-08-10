@@ -894,6 +894,14 @@ img {
     font-size: 70px;
   }
 }
+@media (max-width: 600px) {
+  .S3-h1main {
+    margin-top: 0;
+    width: 100% !important;
+    color: rgba(255, 181, 72, 0.9) !important;
+    font-size: 45px;
+  }
+}
 @media (max-width: 580px) {
   .S3-h1up {
     margin-left: 0;
@@ -1140,13 +1148,17 @@ img {
     font-size: 45px;
   }
 }
+@media (max-width: 600px) {
+  .s4-h1main {
+    color: rgba(255, 181, 72, 0.9) !important;
+    width: 100% !important;
+    color: rgba(255, 181, 72, 0.9) !important;
+    font-size: 45px;
+  }
+}
 @media (max-width: 560px) {
   .s4-h1up {
     padding-top: 40px;
-  }
-
-  .s4-h1main {
-    color: rgba(255, 181, 72, 0.9) !important;
   }
 
   .TableSOS-inner {
@@ -1218,12 +1230,6 @@ img {
 
   .line7 {
     display: none;
-  }
-}
-@media (max-width: 330px) {
-  .s4-h1main {
-    font-size: 30px;
-    line-height: 30px;
   }
 }
 /** @import "../figma/SOS/sass/sectionFive" **/
@@ -1737,6 +1743,15 @@ img {
   }
   .reviewsSOS-text {
     width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .s5h1-main {
+    color: rgba(255, 181, 72, 0.9) !important;
+    width: 100% !important;
+    color: rgba(255, 181, 72, 0.9) !important;
+    font-size: 45px;
+    margin-top: 0;
   }
 }
 .SectionTwo {
