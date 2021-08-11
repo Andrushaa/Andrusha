@@ -3334,6 +3334,10 @@ body.lockSOS {
   }
 }
 @media (max-width: 1080px) {
+  .language {
+    display: none;
+  }
+
   .header-container-SOS {
     width: 100%;
   }
@@ -3452,7 +3456,7 @@ body.lockSOS {
   }
 
   .headerSOS-RIGHT-button {
-    width: 200px;
+    width: 100px;
     height: 45px;
     margin-top: 12px;
   }
