@@ -669,7 +669,7 @@ img {
   src: url(../figma/SOS/webfonts/BebasNeue-Regular.ttf);
 }
 @font-face {
-  font-family: Bebas Neue;
+  font-family: Open Sans;
   src: url(../figma/SOS/webfonts/OpenSans.ttf);
 }
 .SectionThree {
@@ -1563,7 +1563,7 @@ img {
 
 .evanSOS {
   height: 183px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   margin: 30px;
@@ -1571,7 +1571,7 @@ img {
 
 .LadaSOS {
   height: 183px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   margin: 30px;
@@ -1579,7 +1579,7 @@ img {
 
 .AaronSOS {
   height: 183px;
-  width: 550px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   margin: 30px;
@@ -3229,9 +3229,9 @@ body.lockSOS {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
-  transition: 0.2s;
   font-weight: 700;
   font-family: Open Sans;
+  transition: 0.7s;
 }
 .menu-listSOS li a:hover {
   color: red;
