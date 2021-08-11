@@ -1740,15 +1740,19 @@ img {
 
   .reviewsSOS {
     width: 290px;
+    height: 220px;
   }
   .reviewsSOS-name {
-    width: 50%;
+    width: 40%;
   }
   .reviewsSOS-subname {
     top: 70px;
   }
   .reviewsSOS-text {
     width: 90%;
+  }
+  .reviewsSOS-date {
+    margin-top: 181px;
   }
 }
 @media (max-width: 600px) {
