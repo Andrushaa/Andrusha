@@ -1,3 +1,5 @@
+'use strict';
+
 let backgrounds = document.getElementById("backgrounds");
 
 backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-6-min.jpg)';
