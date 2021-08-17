@@ -14,7 +14,7 @@ class ButtonSubscribe extends React.Component {
         }
 
         return e(
-            'button',
+            'div',
             { onClick: () => this.setState({ liked: true }) },
             'Subscribe now'
         );

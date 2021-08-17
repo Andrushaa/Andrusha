@@ -1,3 +1,4 @@
+'use strict';
 const SOSs3menu = document.getElementById("SOS-s3menu");
 
 for (let element of SOSs3menu.children) {
