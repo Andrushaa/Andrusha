@@ -1,3 +1,5 @@
+'use strict';
+
 const iconMenu = document.querySelector('.menu-burgerSOS');
 const menuBody = document.querySelector('.menu-bodySOS');
 if (iconMenu) {
