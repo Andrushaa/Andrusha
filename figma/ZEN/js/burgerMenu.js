@@ -1,3 +1,5 @@
+'use strict';
+
 const iconMenu = document.querySelector('.ZEN-header__burgerMenu');
 const menuBody = document.querySelector('.ZEN-header__menu-body');
 if (iconMenu) {
