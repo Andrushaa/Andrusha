@@ -1,3 +1,5 @@
+'use strict';
+
 const item = document.getElementById("Meditation-items");
 
 for (let element of item.children) {
