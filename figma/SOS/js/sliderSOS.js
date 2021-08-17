@@ -1,3 +1,5 @@
+'use strict';
+
 let images = [
   "../SOS/img/img-1.jpg",
   "../SOS/img/img-2.jpg",
