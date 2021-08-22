@@ -2063,6 +2063,20 @@ img {
     background-size: cover;
   }
 }
+#scrollTopSOS {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  font-size: 40px;
+  z-index: 20px;
+  color: #FFB548;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#scrollTopSOS:hover {
+  box-shadow: 0px 0px 20px #d39013;
+}
+
 html {
   box-sizing: border-box;
 }
