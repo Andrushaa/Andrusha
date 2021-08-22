@@ -5,7 +5,7 @@ let backgrounds = document.getElementById("backgrounds");
 backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-1-min.jpg)';
 
 
-$(window).scroll(function() {
+window.addEventListener('scroll', function() {
     if ($(this).scrollTop() > 4100) {
         backgrounds.style.backgroundImage = 'url(../SOS/img/background/bg-image-6-min.jpg)';
     } else if ($(this).scrollTop() > 3200) {
