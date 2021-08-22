@@ -3712,6 +3712,10 @@ body.lockSOS {
   font-family: Heebo;
   src: url(../figma/Mediation/font/Heebo.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .Meditation-color {
   background-color: #edfbf9;
 }
@@ -4785,6 +4789,28 @@ body.lockMeditation {
     width: 95%;
   }
 }
+#scrollTop {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  font-size: 40px;
+  z-index: 20px;
+  color: #268a79;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#scrollTop:hover {
+  box-shadow: 0px 0px 20px #268a79;
+}
+
+.ShowUp {
+  opacity: 1;
+  transition: 1s;
+}
+.ShowUp-hidden {
+  opacity: 0;
+}
+
 .container {
   width: 80%;
 }

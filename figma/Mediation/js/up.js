@@ -1,18 +1,13 @@
-$(document).ready(function(){
+const ShowUp = document.querySelector('.ShowUp');
 
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 300) {
-            $('.pageUp').fadeIn();
-        } else {
-            $('.pageUp').fadeOut();
-        }
-    });
+window.onscroll = () => {
+    if(window.scrollY > 1000) {
+        ShowUp.classList.remove('ShowUp-hidden');
+    } else if (window.scrollY < 1000) {
+        ShowUp.classList.add('ShowUp-hidden');
+    }
+}
 
-    $("a[href=#up]").click(function(){
-        const _href = $(this).attr("href");
-        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-        return false;
-    });
-
-
-});
+ShowUp.onclick = () => {
+    window.scrollTo(0, 0);
+};
