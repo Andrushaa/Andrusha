@@ -8,9 +8,9 @@ function scrollTo(element) {
 }
 
 window.onscroll = () => {
-    if(window.scrollY > 1000) {
+    if(window.scrollY > 840) {
         ShowUp.classList.remove('ShowUp-hidden');
-    } else if (window.scrollY < 1000) {
+    } else if (window.scrollY < 840) {
         ShowUp.classList.add('ShowUp-hidden');
     }
 }
