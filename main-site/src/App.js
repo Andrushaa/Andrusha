@@ -1,8 +1,12 @@
+import React from 'react';
 import './App.css';
+import TitleOne from "./Components/TitleOne";
 
 function App() {
   return (
-    <h1>Junior фронтенд разработчик</h1>
+    <div>
+      <TitleOne />
+    </div>
   );
 }
 
