@@ -4,9 +4,9 @@ import TitleOne from "./Components/TitleOne";
 
 function App() {
   return (
-    <div>
+    <>
       <TitleOne />
-    </div>
+    </>
   );
 }
 
