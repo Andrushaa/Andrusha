@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './person.css';
 import hamster from "./img/humster.jpg"
 
-class TitleOne extends Component {
+class Person extends Component {
     render() {
         return (
             <>
@@ -25,4 +25,4 @@ class TitleOne extends Component {
     }
 }
 
-export default TitleOne;
+export default Person;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TitleOne from "./Components/TitleOne";
+import Person from "./Components/Person";
 
 function App() {
   return (
     <>
-      <TitleOne />
+      <Person />
     </>
   );
 }
