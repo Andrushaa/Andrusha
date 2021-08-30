@@ -5,7 +5,8 @@ h1 {
   color: white;
   font-family: Marck Script;
   margin-top: 20px;
-  text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4
+  padding: 0 20px;
+  text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4;
 }
 
 .person {
@@ -47,6 +48,11 @@ h1 {
   text-shadow: 0px 0px 4px yellow;
 }
 
+@media (max-width: 700px) {
+  .person {
+    padding: 20px;
+  }
+}
 
 @font-face {
   font-family: Marck Script;
