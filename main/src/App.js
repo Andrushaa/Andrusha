@@ -1,15 +1,11 @@
 import React from 'react';
 
-import Person from "./Components/person/Person";
-import Education from "./Components/education/Education";
-import Works from "./Components/works/Works";
+import Components from "./Components/Components";
 
 function App() {
   return (
     <>
-      <Person />
-      <Education />
-      <Works />
+      <Components />
     </>
   );
 }
