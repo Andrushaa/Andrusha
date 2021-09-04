@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './work-item.css';
-import SOS from "./img/SOS-layout.png";
 
 class WorkItem extends Component {
     render() {
@@ -9,23 +8,23 @@ class WorkItem extends Component {
                 <div className="work-img__wrapper">
                     <div className="work-img">
                         <img
-                            src={SOS}
+                            src={this.props.image}
                             alt="logo"
                         />
                     </div>
                 </div>
 
                 <div className="work-title">
-                    SOS
+                    {this.props.title}
                 </div>
                 <div className="work-descr">
-                    Жанр: сайт игры
+                    {this.props.descr}
                 </div>
                 <div className="work-layout">
-                    <a href="#">Макет</a>
+                    <a href={this.props.layout} target="_blank">Макет</a>
                 </div>
                 <div className="work-watch">
-                    <a href="#">Смотреть</a>
+                    <a href={this.props.watch} target="_blank">Смотреть</a>
                 </div>
             </div>
         );

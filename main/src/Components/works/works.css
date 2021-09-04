@@ -1,43 +1,6 @@
-.education {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0 150px;
-}
-
-.education-item {
-  background-color: #334bd4;
-  width: 350px;
-  height: 310px;
-  color: white;
-  font-size: 18px;
-  border-radius: 20px;
-  text-align: center;
-  margin: 20px;
-  transition: 0.5s all;
-  padding: 20px 5px;
-}
-
-.education-item:hover {
-  box-shadow: 0px 0px 80px #334bd4;
-}
-
-@media (max-width: 800px) {
-  .education {
-    padding: 20px;
-  }
-}
-
-@media (max-width: 450px) {
-  .education {
-    padding: 20px 10px;
-  }
-  .education-item {
-    height: auto;
-  }
-
-/*   .education-item p {
-    padding: 0px 0;
-    margin: 0;
-  } */
+.Works {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 50px;
 }
