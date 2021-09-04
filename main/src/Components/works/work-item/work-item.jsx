@@ -17,7 +17,7 @@ class WorkItem extends Component {
                 <div className="work-title">
                     {this.props.title}
                 </div>
-                <div className="work-descr">
+                <div className="work-type">
                     {this.props.descr}
                 </div>
                 <div className="work-layout">
