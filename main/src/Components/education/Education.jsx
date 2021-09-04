@@ -5,7 +5,6 @@ class Education extends Component {
     render() {
         return (
             <>
-                <h1>Образование</h1>
                 <div className="education">
                     <div className="education-item">
 

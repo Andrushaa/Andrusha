@@ -5,8 +5,7 @@ class Works extends Component {
     render() {
         return (
             <>
-                <h1>Мои работы</h1>
-                
+
             </>
         );
     }

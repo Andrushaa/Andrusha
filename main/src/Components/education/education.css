@@ -1,13 +1,3 @@
-h1 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 34px;
-  color: white;
-  font-family: Marck Script;
-  margin-top: 20px;
-  text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4
-}
-
 .education {
   display: flex;
   justify-content: space-around;
@@ -32,10 +22,7 @@ h1 {
   box-shadow: 0px 0px 80px #334bd4;
 }
 
-@font-face {
-  font-family: Marck Script;
-  src: url("fonts/MarckScript.ttf");
-}
+
 
 @media (max-width: 800px) {
   .education {

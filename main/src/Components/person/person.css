@@ -1,14 +1,3 @@
-h1 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 34px;
-  color: white;
-  font-family: Marck Script;
-  margin-top: 20px;
-  padding: 0 20px;
-  text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4;
-}
-
 .person {
   display: flex;
   justify-content: space-around;
@@ -52,9 +41,4 @@ h1 {
   .person {
     padding: 20px;
   }
-}
-
-@font-face {
-  font-family: Marck Script;
-  src: url("fonts/MarckScript.ttf");
 }
