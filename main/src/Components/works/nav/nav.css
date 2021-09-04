@@ -1,0 +1,30 @@
+.works-tab {
+    width: 220px;
+    height: 50px;
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    transform: skewX(-25deg);
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.works-tab:hover {
+    box-shadow: 7px 7px 30px rgb(35, 54, 165);
+    border: none
+}
+
+.works-tabs {
+    margin-top: 36px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
