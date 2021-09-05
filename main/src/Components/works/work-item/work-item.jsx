@@ -21,10 +21,10 @@ class WorkItem extends Component {
                     {this.props.descr}
                 </div>
                 <div className="work-layout">
-                    <a href={this.props.layout} target="_blank">Макет</a>
+                    <a href={this.props.layout} target="_blank" rel="noreferrer">Макет</a>
                 </div>
                 <div className="work-watch">
-                    <a href={this.props.watch} target="_blank">Смотреть</a>
+                    <a href={this.props.watch} target="_blank" rel="noreferrer">Смотреть</a>
                 </div>
             </div>
         );
