@@ -20,9 +20,7 @@ class AppItem extends Component {
                 <div className="app-type">
                     {this.props.descr}
                 </div>
-                <div className="app-watch">
-                    <a href={this.props.watch} target="_blank" rel="noreferrer">Смотреть</a>
-                </div>
+                <a href={this.props.watch} target="_blank" rel="noreferrer" className="app-watch">Смотреть</a>
             </div>
         );
     }

@@ -20,12 +20,8 @@ class LayoutItem extends Component {
                 <div className="work-type">
                     {this.props.descr}
                 </div>
-                <div className="work-layout">
-                    <a href={this.props.layout} target="_blank" rel="noreferrer">Макет</a>
-                </div>
-                <div className="work-watch">
-                    <a href={this.props.watch} target="_blank" rel="noreferrer">Смотреть</a>
-                </div>
+                <a href={this.props.layout} target="_blank" rel="noreferrer" className="work-layout">Макет</a>
+                <a href={this.props.watch} target="_blank" rel="noreferrer" className="work-watch">Смотреть</a>
             </div>
         );
     }

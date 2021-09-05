@@ -62,9 +62,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.app-watch a {
     text-decoration: none;
     color: white;
 }
