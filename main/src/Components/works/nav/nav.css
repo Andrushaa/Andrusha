@@ -11,6 +11,7 @@
     transform: skewX(-25deg);
     margin: 0 5px;
     cursor: pointer;
+    text-decoration: none;
     transition: 0.5s all;
 }
 
