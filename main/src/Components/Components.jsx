@@ -4,6 +4,7 @@ import Person from "./person/Person";
 import Education from "./education/Education";
 import Title from "./title/Title";
 import Nav from "./works/nav/Nav";
+import SocialNetwork from "./social_network/social_network";
 
 function Components() {
   return (
@@ -14,6 +15,7 @@ function Components() {
       <Education />
       <Title titleName="Мои работы" />
       <Nav/>
+      <SocialNetwork />
     </>
   );
 }
