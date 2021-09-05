@@ -3,5 +3,8 @@
     "@fancyapps/fancybox": "^3.5.7",
     "mixitup": "^3.3.1",
     "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "sass": "^1.39.0"
   }
 }

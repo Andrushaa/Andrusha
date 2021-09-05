@@ -59,15 +59,15 @@ img {
 }
 
 .icon-connection:before {
-  content: "";
+  content: "\e91b";
 }
 
 .icon-stack:before {
-  content: "";
+  content: "\e92e";
 }
 
 .icon-folder:before {
-  content: "";
+  content: "\e92f";
 }
 
 .calculator-on-iPhone-JS {
@@ -75,6 +75,9 @@ img {
   background: black;
   color: white;
   user-select: none;
+  width: 470px;
+  height: 700px;
+  margin: 0 auto;
 }
 
 .status {
