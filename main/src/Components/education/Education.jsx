@@ -8,7 +8,7 @@ class Education extends Component {
                 <div className="education">
                     <div className="education-item">
 
-                        <i className="fas fa-graduation-cap"></i>
+                        <i className="fas fa-graduation-cap"> </i>
                         <p>
                             ТулГУ,
                             <br/>
@@ -27,7 +27,7 @@ class Education extends Component {
                         </p>
                     </div>
                     <div className="education-item">
-                        <i className="fas fa-graduation-cap"></i>
+                        <i className="fas fa-graduation-cap"> </i>
                         <p>
                             HTML
                         </p>

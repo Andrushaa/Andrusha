@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Person from "./person/Person";
 import Education from "./education/Education";
 import Title from "./title/Title";
