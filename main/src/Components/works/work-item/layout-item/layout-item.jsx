@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './work-item.css';
+import './layout-item.css';
 
-class WorkItem extends Component {
+class LayoutItem extends Component {
     render() {
         return (
             <div className="work">
@@ -31,4 +31,4 @@ class WorkItem extends Component {
     }
 }
 
-export default WorkItem;
+export default LayoutItem;

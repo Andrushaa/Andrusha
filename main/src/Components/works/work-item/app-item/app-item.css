@@ -1,0 +1,70 @@
+.app {
+    width: 300px;
+    height: 360px;
+    border: 2px solid #e8e8e8;
+    padding: 20px 20px 26px 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: 0.5s all;
+    border-radius: 14px;
+}
+
+.app:hover {
+    box-shadow: 7px 7px 30px rgb(35, 54, 165);
+    border: none;
+}
+
+.app:hover .app-img {
+    transform: scale(1.49);
+}
+.app-img__wrapper {
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.app-img {
+    display: block;
+    transition: 2s;
+}
+.app-img img{
+    border-radius: 14px;
+    height: 200px;
+    width: 100%;
+}
+
+.app-title {
+    margin-top: 10px;
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.app-type {
+    color: #0d0d0d;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.app-watch {
+    border-radius: 5px;
+    background-color: rgb(35, 54, 165);
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 131px;
+    height: 40px;
+    font-size: 14px;
+    margin: 34px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-watch a {
+    text-decoration: none;
+    color: white;
+}
