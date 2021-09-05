@@ -50,7 +50,6 @@
 .work-layout {
     border-radius: 5px;
     background-color: rgb(35, 54, 165);
-    border: none;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -58,8 +57,7 @@
     cursor: pointer;
     width: 100px;
     height: 24px;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 10px auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,8 +79,7 @@
     width: 131px;
     height: 40px;
     font-size: 14px;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 10px auto 0;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,7 +3,7 @@ h1 {
     font-weight: 700;
     font-size: 34px;
     color: white;
-    font-family: Marck Script;
+    font-family: Marck Script, sans-serif;
     margin-top: 20px;
     text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4
 }
