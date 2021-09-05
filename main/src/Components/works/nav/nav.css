@@ -21,11 +21,11 @@
 }
 
 .works-tabs {
-    margin-top: 36px;
+    margin-top: 20px;
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     padding-left: 0;
 }
