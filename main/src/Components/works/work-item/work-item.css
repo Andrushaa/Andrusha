@@ -15,7 +15,7 @@
 }
 
 .work:hover .work-img {
-    transform: scale(1.35);
+    transform: scale(1.49);
 }
 .work-img__wrapper {
     overflow: hidden;
