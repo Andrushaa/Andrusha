@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './apps.css';
-import AppItem from "../work-item/app-item/app-item";
-import imageCalc from "../work-item/app-item/img/Calc-on-iPhone-JS.svg";
+import AppItem from "../../work-item/app-item/app-item";
+import imageCalc from "../../work-item/app-item/img/Calc-on-iPhone-JS.svg";
 
 class Apps extends Component {
     render() {

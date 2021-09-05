@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './works.css';
-import LayoutItem from "./work-item/layout-item/layout-item";
-import imageSOS from "./work-item/layout-item/img/SOS-layout.png"
-import imageZEN from "./work-item/layout-item/img/ZEN-layout.png"
-import imageMeditation from "./work-item/layout-item/img/Mediation-layout.png"
+import LayoutItem from "../../work-item/layout-item/layout-item";
+import imageSOS from "../../work-item/layout-item/img/SOS-layout.png"
+import imageZEN from "../../work-item/layout-item/img/ZEN-layout.png"
+import imageMeditation from "../../work-item/layout-item/img/Mediation-layout.png"
 
 
 
