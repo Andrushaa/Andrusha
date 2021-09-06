@@ -29,3 +29,9 @@
     margin-bottom: 20px;
     padding-left: 0;
 }
+
+@media (max-width: 510px) {
+    .works-tabs {
+        padding: 0 20px;
+    }
+}

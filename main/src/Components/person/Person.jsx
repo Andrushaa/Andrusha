@@ -9,8 +9,6 @@ class Person extends Component {
                 <div className="person-item__img">
                     <img
                         src={hamster}
-                        height="360"
-                        width="360"
                         alt="person"
                     />
                 </div>
