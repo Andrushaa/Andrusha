@@ -5,21 +5,19 @@ import hamster from "./img/humster.jpg"
 class Person extends Component {
     render() {
         return (
-            <>
-                <div className="person">
-                    <div className="person-item__img">
-                        <img 
-                            src={hamster}
-                            height="360"
-                            width="360"
-                            alt="person"
-                        />
-                    </div>
-                    <div className="person-item__text">
-                        Ершов Андрей
-                    </div>
+            <div className="person">
+                <div className="person-item__img">
+                    <img
+                        src={hamster}
+                        height="360"
+                        width="360"
+                        alt="person"
+                    />
                 </div>
-            </>
+                <div className="person-item__text">
+                        Ершов Андрей
+                </div>
+            </div>
         );
     }
 }
