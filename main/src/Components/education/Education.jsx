@@ -1,6 +1,45 @@
 import React, { Component } from 'react';
 import './education.css';
 
+const educationArr = [{
+        id: 1,
+        text: 'Институт прикладной математики и компьютерных наук.'
+    }, {
+        id: 2,
+        text: 'кафедра: "Прикладная математика и информатика"'
+    }, {
+        id: 3,
+        text: 'Диплом бакалавра - средний балл 4,02'
+    }, {
+        id: 4,
+        text: 'Диплом магистра - средний балл 4,91 (красный диплом)'
+    }
+]
+
+const SkillArr = [{
+        id: 1,
+        text: 'HTML'
+    }, {
+        id: 2,
+        text: 'CSS'
+    }, {
+        id: 3,
+        text: 'Javascript'
+    }, {
+        id: 4,
+        text: 'SASS'
+    }, {
+        id: 5,
+        text: 'React'
+    }, {
+        id: 6,
+        text: 'Selenium'
+    }, {
+        id: 7,
+        text: 'C#'
+    }
+]
+
 class Education extends Component {
     render() {
         return (
@@ -9,43 +48,20 @@ class Education extends Component {
                     <div className="education-item">
 
                         <i className="fas fa-graduation-cap"> </i>
-                        <p>
-                            ТулГУ,
-                            <br/>
-                            Институт прикладной математики и компьютерных наук.
-                        </p>
-                        <p>
-                            кафедра: "Прикладная математика и информатика"
-                        </p>
-                        <p>
-                            Диплом бакалавра - средний балл 4,02
-                        </p>
-                        <p>
-                            Диплом магистра - средний балл 4,91
-                            <br/>
-                            (красный диплом)
-                        </p>
+                        {
+                            educationArr.map(item => <p key={item.id}>
+                                {item.text}
+                            </p>)
+                        }
                     </div>
                     <div className="education-item">
                         <i className="fas fa-graduation-cap"> </i>
-                        <p>
-                            HTML
-                        </p>
-                        <p>
-                            CSS/SASS
-                        </p>
-                        <p>
-                            JavaScript
-                        </p>
-                        <p>
-                            React
-                        </p>
-                        <p>
-                            Selenium
-                        </p>
-                        <p>
-                            C#
-                        </p>
+
+                        {
+                            SkillArr.map(item => <p key={item.id}>
+                                {item.text}
+                            </p>)
+                        }
                     </div>
                 </div>
             </>
