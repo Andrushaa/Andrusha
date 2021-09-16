@@ -43,28 +43,24 @@ const SkillArr = [{
 class Education extends Component {
     render() {
         return (
-            <>
-                <div className="education">
-                    <div className="education-item">
-
-                        <i className="fas fa-graduation-cap"> </i>
+            <div className="education">
+                <div className="education-item">
+                    <i className="fas fa-graduation-cap"> </i>
                         {
                             educationArr.map(item => <p key={item.id}>
                                 {item.text}
                             </p>)
                         }
-                    </div>
-                    <div className="education-item">
-                        <i className="fas fa-graduation-cap"> </i>
-
-                        {
-                            SkillArr.map(item => <p key={item.id}>
-                                {item.text}
-                            </p>)
-                        }
-                    </div>
                 </div>
-            </>
+                <div className="education-item">
+                    <i className="fas fa-graduation-cap"> </i>
+                    {
+                       SkillArr.map(item => <p key={item.id}>
+                           {item.text}
+                       </p>)
+                    }
+                 </div>
+           </div>
         );
     }
 }
