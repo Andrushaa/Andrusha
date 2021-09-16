@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './education.css';
 
 const educationArr = [{
@@ -40,29 +40,27 @@ const SkillArr = [{
     }
 ]
 
-class Education extends Component {
-    render() {
-        return (
-            <div className="education">
-                <div className="education-item">
-                    <i className="fas fa-graduation-cap"> </i>
-                        {
-                            educationArr.map(item => <p key={item.id}>
-                                {item.text}
-                            </p>)
-                        }
-                </div>
-                <div className="education-item">
-                    <i className="fas fa-graduation-cap"> </i>
-                    {
-                       SkillArr.map(item => <p key={item.id}>
-                           {item.text}
-                       </p>)
-                    }
-                 </div>
-           </div>
-        );
-    }
+function Education() {
+    return (
+        <div className="education">
+            <div className="education-item">
+                <i className="fas fa-graduation-cap"> </i>
+                {
+                    educationArr.map(item => <p key={item.id}>
+                        {item.text}
+                    </p>)
+                }
+            </div>
+            <div className="education-item">
+                <i className="fas fa-graduation-cap"> </i>
+                {
+                    SkillArr.map(item => <p key={item.id}>
+                        {item.text}
+                    </p>)
+                }
+            </div>
+        </div>
+    );
 }
 
 export default Education;

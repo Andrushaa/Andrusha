@@ -13,7 +13,7 @@ function Components() {
       <Title titleName="Образование" />
       <Education />
       <Title titleName="Мои работы" />
-      <Nav/>
+      <Nav />
       <SocialNetwork />
     </>
   );

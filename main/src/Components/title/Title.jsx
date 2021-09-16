@@ -1,12 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './title.css';
 
-class Title extends Component {
-    render() {
-        return (
-            <h1>{this.props.titleName}</h1>
-        );
-    }
+function Title(props) {
+    return (
+        <h1>{props.titleName}</h1>
+    );
 }
 
 export default Title;
