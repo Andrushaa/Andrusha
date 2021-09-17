@@ -15,7 +15,6 @@ function Nav() {
                 <Route exact path="/" component={Works} />
                 <Route exact path="/apps" component={Apps} />
             </Switch>
-
         </Router>
 
     );
