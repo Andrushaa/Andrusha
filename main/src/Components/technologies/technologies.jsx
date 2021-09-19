@@ -6,13 +6,13 @@ const textArray = ['HTML', 'CSS', 'JavaScript', 'SASS', 'React'];
 class Technologies extends Component {
     constructor() {
         super();
-        this.state = { textIdx: 0 };
+        this.state = { textId: 0 };
     }
 
     componentDidMount() {
         this.timeout = setInterval(() => {
-            let currentIdx = this.state.textIdx;
-            this.setState({ textIdx: currentIdx + 1 });
+            let currentId = this.state.textId;
+            this.setState({ textId: currentId + 1 });
         }, 1000);
     }
 
@@ -21,7 +21,7 @@ class Technologies extends Component {
     }
 
     render() {
-        let textThatChanges = textArray[this.state.textIdx % textArray.length];
+        let textThatChanges = textArray[this.state.textId % textArray.length];
 
         return (
             <div className="technologies">
