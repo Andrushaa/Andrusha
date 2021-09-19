@@ -1,0 +1,35 @@
+.technologies {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies p {
+    font-size: 25px;
+    font-family: Dosis, sans-serif;
+    text-align: center;
+
+}
+
+.technologies p span {
+    font-family: Gluten, sans-serif;
+    text-shadow: -2px 0 #ff0000, 0 2px #ff0000, 2px 0 #9b870c, 0 -2px #9b870c
+
+}
+
+@media (max-width: 400px) {
+    .technologies {
+        margin: 0 auto;
+        width: 80%;
+        height: 150px;
+    }
+}
+
+@font-face {
+    font-family: Gluten;
+    src: url("fonts/Gluten-Light.ttf");
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("fonts/Dosis-Light.ttf");
+}
