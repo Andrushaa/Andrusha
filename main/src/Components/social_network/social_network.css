@@ -1,3 +1,12 @@
+.social-network__title {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    height: 50px;
+    font-size: 34px;
+    text-shadow: -2px 0 #334bd4, 0 2px #334bd4, 2px 0 #334bd4, 0 -2px #334bd4;
+    color: white;
+}
+
 .social-network {
     margin: 0 auto;
     width: 500px;
@@ -6,14 +15,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.social-network li {
+.social-network button {
     position: relative;
     list-style-type: none;
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    border: none;
+    background-color: transparent;
 }
-.social-network li:before {
+.social-network button:before {
     content: "";
     position: absolute;
     left: 0;
@@ -26,7 +37,7 @@
     opacity: 0;
     transition: 1s;
 }
-.social-network li:after {
+.social-network button:after {
     content: "";
     position: absolute;
     left: 0;
@@ -40,10 +51,10 @@
     transition: 1s;
     filter: blur(40px);
 }
-.social-network li:hover:before, .social-network li:hover:after {
+.social-network button:hover:before, .social-network li:hover:after {
     opacity: 1;
 }
-.social-network li a {
+.social-network button a {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -56,32 +67,32 @@
     font-size: 20px;
     border-radius: 50%;
 }
-.social-network li a i {
+.social-network button a i {
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     opacity: 0.2;
     transition: 0.5s;
 }
-.social-network li a:hover i {
+.social-network button a:hover i {
     opacity: 1;
     transform: scale(1.5);
 }
-.social-network li:nth-child(1) a, .social-network li:nth-child(1):before, .social-network li:nth-child(1):after {
+.social-network button:nth-child(1) a, .social-network button:nth-child(1):before, .social-network button:nth-child(1):after {
     background: #519af5;
     background: linear-gradient(45deg, #4782c6, rgba(71, 130, 198, 0.7));
 }
-.social-network li:nth-child(2) a, .social-network li:nth-child(2):before, .social-network li:nth-child(2):after {
+.social-network button:nth-child(2) a, .social-network button:nth-child(2):before, .social-network button:nth-child(2):after {
     background: #f12711;
     background: linear-gradient(45deg, #33a8da, rgba(51, 168, 218, 0.7));
 }
-.social-network li:nth-child(3) a, .social-network li:nth-child(3):before, .social-network li:nth-child(3):after {
+.social-network button:nth-child(3) a, .social-network button:nth-child(3):before, .social-network button:nth-child(3):after {
     background: #f12711;
     background: linear-gradient(45deg, #8899f7, rgba(136, 153, 247, 0.7));
 }
-.social-network li:nth-child(4) a, .social-network li:nth-child(4):before, .social-network li:nth-child(4):after {
+.social-network button:nth-child(4) a, .social-network button:nth-child(4):before, .social-network button:nth-child(4):after {
     background: #519af5;
     background: linear-gradient(45deg, #4ecb5c, rgba(78, 203, 92, 0.7));
 }
-.social-network li:nth-child(5) a, .social-network li:nth-child(5):before, .social-network li:nth-child(5):after {
+.social-network button:nth-child(5) a, .social-network button:nth-child(5):before, .social-network button:nth-child(5):after {
     background: #519af5;
     background: linear-gradient(45deg, #5f44c8, rgba(95, 68, 200, 0.7));
 }
@@ -92,3 +103,7 @@
     }
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
