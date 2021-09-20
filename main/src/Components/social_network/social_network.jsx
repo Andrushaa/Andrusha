@@ -3,7 +3,7 @@ import './social_network.css';
 
 function SocialNetwork() {
     let [count, setCount] = useState("Социальные сети");
-    let network = "Социальные сети"
+    let network = "Социальные сети";
 
     return (
         <>
