@@ -16,7 +16,7 @@ class Technologies extends Component {
         }, 1000);
     }
 
-    componentDidUnmount() {
+    componentWillUnmount() {
         clearInterval(this.timeout);
     }
 
