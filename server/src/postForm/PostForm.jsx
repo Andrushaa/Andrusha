@@ -58,7 +58,7 @@ const PostForm = ({create}) => {
         const reComment = /^[A-Za-z -]{8,14}$/;
 
         if (!reComment.test(String(body).toLowerCase())) {
-            setCommentError("Комментарий может содержать только латинские буквы. От 9 до 14 символов")
+            setCommentError("Комментарий может содержать только латинские буквы. От 9 до 15 символов")
         } else {
             setCommentError('')
         }
