@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import MyInput from "../input/MyInput";
 import MyButton from "../button/myButton";
+import "./postForm.css"
 
 
 const PostForm = ({create}) => {
@@ -92,8 +93,8 @@ const PostForm = ({create}) => {
     return (
         <form>
             <h1 className='MainTitle'>Create your comment</h1>
-            <p>
-                {(nameDirty && nameError) && <div style={{color: 'red'}}>{nameError}</div>}
+            <div>
+                {(nameDirty && nameError) && <div className="Error-text">{nameError}</div>}
                 <MyInput
                     value={name}
                     onChange={e => nameHandler(e)}
@@ -102,10 +103,10 @@ const PostForm = ({create}) => {
                     onBlur={e => blurHandler(e)}
                     placeholder="Enter your name"
                 />
-            </p>
+            </div>
 
-            <p>
-                {(emailDirty && emailError) && <div style={{color: 'red'}}>{emailError}</div>}
+            <div>
+                {(emailDirty && emailError) && <div className="Error-text">{emailError}</div>}
                 <MyInput
                     value={email}
                     onChange={e => emailHandler(e)}
@@ -114,10 +115,10 @@ const PostForm = ({create}) => {
                     type="email"
                     placeholder="Enter your email"
                 />
-            </p>
+            </div>
 
-           <p>
-               {(commentDirty && commentError) && <div style={{color: 'red'}}> {commentError}</div>}
+           <div>
+               {(commentDirty && commentError) && <div className="Error-text">{commentError}</div>}
                <MyInput
                    value={body}
                    onChange={e => commentHandler(e)}
@@ -126,7 +127,7 @@ const PostForm = ({create}) => {
                    name='body'
                    placeholder="Your comment text"
                />
-           </p>
+           </div>
             <MyButton disabled={!formValid} onClick={addNewPost}>Create</MyButton>
         </form>
     );
