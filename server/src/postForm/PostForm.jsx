@@ -14,7 +14,7 @@ const PostForm = ({create}) => {
     const [emailDirty, setEmailDirty] = useState(false)
     const [commentDirty, setCommentDirty] = useState(false)
     const [nameError, setNameError] = useState('Имя не может быть пустым')
-    const [emailError, setEmailError] = useState('Емаил не может быть пустым')
+    const [emailError, setEmailError] = useState('Email не может быть пустым')
     const [commentError, setCommentError] = useState('Введите свой комментарий')
     const [formValid, setFormValid] = useState(false)
 
