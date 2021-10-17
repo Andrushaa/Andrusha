@@ -1,7 +1,12 @@
 .MyInput {
     padding: 5px 15px;
     width: 110px;
-    border: 1px solid teal;
+    border: 1px solid #334bd4;
     margin: 5px 120px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.MyInput:hover {
+    box-shadow: 0 0 20px #334bd4;
 }
