@@ -4,7 +4,7 @@ import "./app/app.css"
 import Pages from './pages/Pages';
 import Loader from "./loader/Loader";
 import MyButton from "./button/myButton";
-import Modal from "./Modal/Modal";
+import Modal from "./modal/Modal";
 import PostForm from "./postForm/PostForm";
 import {useFetching} from "./hook/useFetching";
 
