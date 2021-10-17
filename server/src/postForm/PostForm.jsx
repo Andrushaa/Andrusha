@@ -34,7 +34,7 @@ const PostForm = ({create}) => {
         const reName =/^[a-z]{3,10}$/;
 
         if (!reName.test(String(name).toLowerCase())) {
-            setNameError("Введите имя латинскими буквами. От 4 до 9 символов")
+            setNameError("Введите имя латинскими буквами. От 4 до 11 символов")
         } else {
             setNameError('')
         }
