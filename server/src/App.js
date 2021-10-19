@@ -24,7 +24,7 @@ function App() {
         setModalActive(false)
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         fetchPosts()
      },[])
 
