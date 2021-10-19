@@ -62,13 +62,19 @@ const PostForm = ({create}) => {
         switch (e.target.name) {
             case 'name':
                 setNameDirty(true)
-                break
+                break;
             case 'email':
                 setEmailDirty(true)
-                break
+                break;
             case "body":
                 setCommentDirty(true)
-                break
+                break;
+            default: {
+                setNameDirty(false)
+                setEmailDirty(false)
+                setCommentDirty(false)
+                break;
+            }
         }
     }
 
