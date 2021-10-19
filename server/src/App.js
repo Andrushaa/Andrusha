@@ -31,7 +31,7 @@ function App() {
 
     return (
         <>
-            <h1 className='MainTitle'>User Posts</h1>
+            <h1 className='MainTitle'>Comments</h1>
 
             <MyButton onClick={() => setModalActive(true)}>
                 New commit
