@@ -73,7 +73,6 @@ const PostForm = ({create}) => {
                 setNameDirty(false)
                 setEmailDirty(false)
                 setCommentDirty(false)
-                break;
             }
         }
     }
