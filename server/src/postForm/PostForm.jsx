@@ -7,9 +7,6 @@ import "./postForm.css"
 const PostForm = ({create}) => {
     const [post, setPost] = useState({name: '', email:'', body:''})
 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [body, setBody] = useState('')
     const [nameDirty, setNameDirty] = useState(false)
     const [emailDirty, setEmailDirty] = useState(false)
     const [commentDirty, setCommentDirty] = useState(false)
@@ -29,11 +26,10 @@ const PostForm = ({create}) => {
     }, [nameError, emailError, commentError])
 
     const nameHandler = (e) => {
-        setName(e.target.value)
         setPost({...post, name: e.target.value})
         const reName =/^[a-z]{3,10}$/;
 
-        if (!reName.test(String(name).toLowerCase())) {
+        if (!reName.test(String(post.name).toLowerCase())) {
             setNameError("Введите имя латинскими буквами. От 4 до 11 символов")
         } else {
             setNameError('')
@@ -41,11 +37,10 @@ const PostForm = ({create}) => {
     }
 
     const emailHandler = (e) => {
-        setEmail(e.target.value)
         setPost({...post, email: e.target.value})
         const reEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-        if (!reEmail.test(String(email).toLowerCase())) {
+        if (!reEmail.test(String(post.email).toLowerCase())) {
             setEmailError("Некорректный email")
         } else {
             setEmailError('')
@@ -53,11 +48,10 @@ const PostForm = ({create}) => {
     }
 
     const commentHandler = (e) => {
-        setBody(e.target.value)
         setPost({...post, body: e.target.value})
         const reComment = /^[A-Za-z -]{8,14}$/;
 
-        if (!reComment.test(String(body).toLowerCase())) {
+        if (!reComment.test(String(post.body).toLowerCase())) {
             setCommentError("Комментарий может содержать только латинские буквы. От 9 до 15 символов")
         } else {
             setCommentError('')
@@ -86,7 +80,8 @@ const PostForm = ({create}) => {
         }
         if (newPost.name !== '' && newPost.email !== '' && newPost.body !== '') {
             create(newPost)
-            setPost({name: '', email:'', body:''})
+            setPost({...post, name: '', email:'', body:''})
+
         }
     }
 
@@ -96,7 +91,7 @@ const PostForm = ({create}) => {
             <div>
                 {(nameDirty && nameError) && <div className="Error-text">{nameError}</div>}
                 <MyInput
-                    value={name}
+                    value={post.name}
                     onChange={e => nameHandler(e)}
                     type="text"
                     name='name'
@@ -108,7 +103,7 @@ const PostForm = ({create}) => {
             <div>
                 {(emailDirty && emailError) && <div className="Error-text">{emailError}</div>}
                 <MyInput
-                    value={email}
+                    value={post.email}
                     onChange={e => emailHandler(e)}
                     onBlur={e => blurHandler(e)}
                     name='email'
@@ -120,7 +115,7 @@ const PostForm = ({create}) => {
            <div>
                {(commentDirty && commentError) && <div className="Error-text">{commentError}</div>}
                <MyInput
-                   value={body}
+                   value={post.body}
                    onChange={e => commentHandler(e)}
                    onBlur={e => blurHandler(e)}
                    type="text"

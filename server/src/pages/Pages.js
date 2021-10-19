@@ -5,7 +5,7 @@ import './pages.css'
 
 function Pages({data}) {
 
-    const [totalPages, startPageIndex, endPageIndex, currentPage, dispPage] = usePagination(10,data.length);
+    const [totalPages, startPageIndex, endPageIndex, currentPage, dispPage] = usePagination(10, data.length);
 
 
     return (
@@ -35,7 +35,7 @@ function Pages({data}) {
 
             }
             <div className="Pagination-wrapper">
-                <Pagination count={totalPages}  color="primary" onChange={(event,value)=>dispPage(value)} />
+                <Pagination count={totalPages}  color="primary" onChange={(event,value) => dispPage(value)} />
             </div>
 
         </div>
