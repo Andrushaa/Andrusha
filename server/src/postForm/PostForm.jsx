@@ -81,7 +81,6 @@ const PostForm = ({create}) => {
         if (newPost.name !== '' && newPost.email !== '' && newPost.body !== '') {
             create(newPost)
             setPost({...post, name: '', email:'', body:''})
-
         }
     }
 
