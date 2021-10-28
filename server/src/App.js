@@ -5,7 +5,7 @@ import Pages from './pages/Pages';
 import Loader from "./loader/Loader";
 import MyButton from "./button/myButton";
 import Modal from "./modal/Modal";
-import PostForm from "./postForm/PostForm";
+import PostFormOld from "./postForm/PostForm-old";
 import {useFetching} from "./hook/useFetching";
 
 
@@ -37,7 +37,7 @@ function App() {
                 New commit
             </MyButton>
             <Modal active={modalActive} setActive={setModalActive}>
-                <PostForm create={createPost}/>
+                <PostFormOld create={createPost}/>
             </Modal>
             {postError &&
                 <h1 className='MainTitle'>An error has occurred ${postError}</h1>

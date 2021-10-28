@@ -4,7 +4,7 @@ import MyButton from "../button/myButton";
 import "./postForm.css"
 
 
-const PostForm = ({create}) => {
+const PostFormOld = ({create}) => {
     const [post, setPost] = useState({name: '', email:'', body:''})
 
     const [nameDirty, setNameDirty] = useState(false)
@@ -132,4 +132,4 @@ const PostForm = ({create}) => {
     );
 };
 
-export default PostForm;
+export default PostFormOld;
