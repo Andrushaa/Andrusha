@@ -2,3 +2,27 @@
     text-align: center;
     color:  red;
 }
+
+.errors-Body {
+    color: red;
+}
+
+.form-Title {
+    color: red;
+    font-family: Akronim, serif;
+    text-align: center;
+    letter-spacing: 7px;
+    font-size: 36px;
+}
+
+.form-Wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@font-face {
+    font-family: Akronim;
+    src: url("fonts/Akronim.ttf");
+}
