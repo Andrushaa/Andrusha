@@ -12,8 +12,7 @@ const PostForm = ({create}) => {
         handleSubmit,
         formState: { errors },
         reset,
-        trigger,
-    } = useForm();
+    } = useForm({mode: 'onBlur'});
 
     const onSubmit = (post) => {
         console.log(post);
@@ -43,10 +42,6 @@ const PostForm = ({create}) => {
                                 message: "Maximum 14 characters",
                             }
                         })}
-
-                        onKeyUp={() => {
-                            trigger("name");
-                        }}
                     />
                     {errors.name && (
                         <small className="errors-Body">{errors.name.message}</small>
@@ -63,9 +58,6 @@ const PostForm = ({create}) => {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                                 message: "Invalid email address",
                             }})}
-                        onKeyUp={() => {
-                            trigger("email");
-                        }}
                     />
                     {errors.email && (
                         <small className="errors-Body">{errors.email.message}</small>
@@ -82,13 +74,10 @@ const PostForm = ({create}) => {
                                 message: "Minimum 10 characters",
                             },
                             maxLength: {
-                                value: 50,
-                                message: "Maximum 50 characters",
+                                value: 30,
+                                message: "Maximum 30 characters",
                             }
                         })}
-                        onKeyUp={() => {
-                            trigger("body");
-                        }}
                     />
                     {errors.body && (
                         <small className="errors-Body">{errors.body.message}</small>
