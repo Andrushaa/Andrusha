@@ -33,7 +33,17 @@ const PostForm = ({create}) => {
                     <label className="form-item__title">Name:</label>
                     <input
                         type="text"
-                        {...register("name", { required: "Name is Required" })}
+                        {...register("name", { required: "Name is Required",
+                            minLength: {
+                                value: 3,
+                                message: "Minimum 3 characters",
+                            },
+                            maxLength: {
+                                value: 14,
+                                message: "Maximum 14 characters",
+                            }
+                        })}
+
                         onKeyUp={() => {
                             trigger("name");
                         }}
@@ -46,7 +56,8 @@ const PostForm = ({create}) => {
                 <div className="form-item">
                     <label className="form-item__title">Email:</label>
                     <input
-                        type="text"
+                        type="email"
+
                         {...register("email", { required: "Email is Required" ,
                             pattern: {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -72,7 +83,7 @@ const PostForm = ({create}) => {
                             },
                             maxLength: {
                                 value: 50,
-                                message: "Maximum 10 characters",
+                                message: "Maximum 50 characters",
                             }
                         })}
                         onKeyUp={() => {

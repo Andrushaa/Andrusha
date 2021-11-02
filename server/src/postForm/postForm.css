@@ -1,10 +1,12 @@
 .Error-text {
     text-align: center;
     color:  red;
+    font-family: Roboto, serif;
 }
 
 .errors-Body {
     color: red;
+    font-family: Roboto, serif;
 }
 
 .form-Title {
@@ -12,7 +14,20 @@
     font-family: Akronim, serif;
     text-align: center;
     letter-spacing: 7px;
-    font-size: 36px;
+    font-size: 40px;
+}
+
+.form-item__title {
+    font-size: 20px;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-family: IndieFlower, serif;
+    height: 60px;
 }
 
 .form-Wrapper {
@@ -20,9 +35,15 @@
     align-items: center;
     flex-direction: column;
 
+
 }
 
 @font-face {
     font-family: Akronim;
     src: url("fonts/Akronim.ttf");
+}
+
+@font-face {
+    font-family: IndieFlower;
+    src: url("fonts/IndieFlower.ttf");
 }
