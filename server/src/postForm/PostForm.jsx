@@ -1,12 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { useForm } from "react-hook-form";
-import MyInput from "../input/MyInput";
-import MyButton from "../button/myButton";
 import "./postForm.css"
 
-
 const PostForm = ({create}) => {
- //   const [post, setPost] = useState({name: '', email:'', body:''})
+
     const {
         register,
         handleSubmit,
