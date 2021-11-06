@@ -21,11 +21,11 @@
 .modal-content {
     padding: 20px;
     border-radius: 12px;
-    background-color: white;
     height: 400px;
     width: 400px;
     transform: scale(0.5);
     transition: 0.4s all;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .modal-content:hover {
