@@ -7,6 +7,8 @@
 .errors-Body {
     color: red;
     font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .form-Title {
