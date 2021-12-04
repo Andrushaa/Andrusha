@@ -1,5 +1,8 @@
 import "./App.css";
 import { useState, useEffect } from "react";
+import wifi from "./img/wifi.svg"
+import signal from "./img/signal.svg"
+import battery from "./img/battery.svg"
 import NumberFormat from "react-number-format";
 
 function App() {
@@ -87,8 +90,63 @@ function App() {
     setCurState("");
     setInput("0");
   };
+
+  const date = new Date();
+
+  const [dateTime, setDateTime] = useState({
+    hours: date.getHours(),
+    minutes: date.getMinutes(),
+    seconds: date.getSeconds()
+  });
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const date = new Date();
+      setDateTime({
+        hours: date.getHours(),
+        minutes: date.getMinutes(),
+        seconds: date.getSeconds()
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
       <div className='container'>
+        <div className="top-bar">
+          <div className="status">
+            <div className="signal">
+              <img
+                  src={signal}
+                  alt="signal"
+              />
+            </div>
+            <div className="mts">
+              MTS RUS
+            </div>
+            <div className="wifi">
+              <img
+                  src={wifi}
+                  alt="wifi"
+              />
+            </div>
+          </div>
+
+          <div>
+            {dateTime.hours}:{dateTime.minutes.toString().padStart(2, '0')}
+          </div>
+
+          <div className="battery">
+            <div className="battery-text">
+              100%
+            </div>
+            <div className="battery-logo">
+              <img
+                  src={battery}
+                  alt="battery"
+              />
+            </div>
+          </div>
+        </div>
         <div className='wrapper'>
           <div className='screen'>
             {input !== "" || input === "0" ? (
@@ -174,9 +232,6 @@ function App() {
               </div>
             </span>
           </div>
-
-
-
         </div>
       </div>
   );
