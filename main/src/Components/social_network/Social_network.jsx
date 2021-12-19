@@ -12,7 +12,7 @@ function SocialNetwork() {
                 <button onMouseOver={() => setCount("Telegram")} onMouseOut={() => setCount(count = network)}><a href="https://telegram.org/" target="_blank"  rel="noreferrer"><i className="fab fa-telegram"> </i></a></button>
                 <button onMouseOver={() => setCount("Discord")} onMouseOut={() => setCount(count = network)}><a href="https://discord.com/" target="_blank"  rel="noreferrer"><i className="fab fa-discord"> </i></a></button>
                 <button onMouseOver={() => setCount("WhatsApp")} onMouseOut={() => setCount(count = network)}><a href="https://web.whatsapp.com/" target="_blank"  rel="noreferrer"><i className="fab fa-whatsapp"> </i></a></button>
-                <button onMouseOver={() => setCount('Viber')} onMouseOut={() => setCount(count = network)}><a href="https://www.viber.com/ru/" target="_blank"  rel="noreferrer"><i className="fab fa-viber"> </i></a></button>
+                <button onMouseOver={() => setCount("Viber")} onMouseOut={() => setCount(count = network)}><a href="https://www.viber.com/ru/" target="_blank"  rel="noreferrer"><i className="fab fa-viber"> </i></a></button>
             </div>
 
             <div className="social-network__title">
