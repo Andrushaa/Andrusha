@@ -2,10 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './title.css';
 
-function Title (props) {
-    return (
-        <h1>{props.titleName}</h1>
-    );
+function Title ({ titleName }) {
+    return <h1> { titleName } </h1>
 }
 
 Title.propTypes = {
