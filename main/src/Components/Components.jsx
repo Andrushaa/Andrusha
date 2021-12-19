@@ -3,7 +3,7 @@ import Person from "./person/Person";
 import Education from "./education/Education";
 import Nav from "./works/nav/Nav";
 import SocialNetwork from "./social_network/Social_network";
-import Wrapper from "./wrapper/wrapper";
+import Wrapper from "./wrapper/Wrapper";
 
 function Components() {
   return (
