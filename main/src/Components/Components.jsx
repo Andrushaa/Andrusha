@@ -1,19 +1,22 @@
 import React from 'react';
 import Person from "./person/Person";
 import Education from "./education/Education";
-import Title from "./title/Title";
 import Nav from "./works/nav/Nav";
 import SocialNetwork from "./social_network/Social_network";
+import Wrapper from "./wrapper/wrapper";
 
 function Components() {
   return (
     <>
-        <Title titleName="Junior фронтенд разработчик" />
-        <Person />
-        <Title titleName="Образование" />
-        <Education />
-        <Title titleName="Мои работы" />
-        <Nav />
+        <Wrapper titleName="Junior фронтенд разработчик">
+            <Person />
+        </Wrapper>
+        <Wrapper titleName="Образование">
+            <Education />
+        </Wrapper>
+        <Wrapper titleName="Мои работы">
+            <Nav />
+        </Wrapper>
         <SocialNetwork />
     </>
   );
