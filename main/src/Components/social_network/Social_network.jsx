@@ -5,14 +5,45 @@ function SocialNetwork() {
     let [count, setCount] = useState("Социальные сети");
     let network = "Социальные сети";
 
+    const social = [{
+            id: 1,
+            text: 'VKontakte',
+            link: 'https://vk.com/',
+            class: 'fab fa-vk'
+        }, {
+            id: 2,
+            text: 'Telegram',
+            link: 'https://telegram.org/',
+            class: 'fab fa-telegram'
+        }, {
+            id: 3,
+            text: 'Discord',
+            link: 'https://discord.com/',
+            class: 'fab fa-discord'
+        }, {
+            id: 4,
+            text: 'WhatsApp',
+            link: 'https://web.whatsapp.com/',
+            class: 'fab fa-whatsapp'
+        }, {
+            id: 5,
+            text: 'Viber',
+            link: 'https://www.viber.com/ru/',
+            class: 'fab fa-viber'
+        }
+    ]
+
     return (
         <>
             <div className="social-network">
-                <button onMouseOver={() => setCount("VKontakte")} onMouseOut={() => setCount(count = network)}><a href="https://vk.com/" target="_blank"  rel="noreferrer"><i className="fab fa-vk"> </i></a></button>
-                <button onMouseOver={() => setCount("Telegram")} onMouseOut={() => setCount(count = network)}><a href="https://telegram.org/" target="_blank"  rel="noreferrer"><i className="fab fa-telegram"> </i></a></button>
-                <button onMouseOver={() => setCount("Discord")} onMouseOut={() => setCount(count = network)}><a href="https://discord.com/" target="_blank"  rel="noreferrer"><i className="fab fa-discord"> </i></a></button>
-                <button onMouseOver={() => setCount("WhatsApp")} onMouseOut={() => setCount(count = network)}><a href="https://web.whatsapp.com/" target="_blank"  rel="noreferrer"><i className="fab fa-whatsapp"> </i></a></button>
-                <button onMouseOver={() => setCount("Viber")} onMouseOut={() => setCount(count = network)}><a href="https://www.viber.com/ru/" target="_blank"  rel="noreferrer"><i className="fab fa-viber"> </i></a></button>
+                {social.map(social => (
+                    <button onMouseOver={() => setCount(social.text)} onMouseOut={() => setCount(count = network)}>
+                        <a href={social.link} target="_blank"  rel="noreferrer">
+                            <i className={social.class}> </i>
+                        </a>
+                    </button>
+                    )
+                )}
             </div>
 
             <div className="social-network__title">
