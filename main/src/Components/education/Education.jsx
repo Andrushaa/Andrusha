@@ -1,20 +1,26 @@
 import React from 'react';
 import './education.css';
-import {EducationArrAPI, SkillArrAPI} from "./API/API";
+import {educationArr, SkillArr} from "./API/API";
 
 function Education() {
+
     return (
         <div className="education">
             <div className="education-item">
                 <i className="fas fa-graduation-cap"> </i>
                 {
-                    <EducationArrAPI/>
+                    educationArr.map(item => <p key={item.id}>
+                        {item.text}
+                    </p>)
                 }
             </div>
+
             <div className="education-item">
                 <i className="fas fa-graduation-cap"> </i>
                 {
-                    <SkillArrAPI/>
+                    SkillArr.map(item => <p key={item.id}>
+                        {item.text}
+                    </p>)
                 }
             </div>
         </div>

@@ -1,7 +1,4 @@
-import React from 'react';
-
-export const EducationArrAPI = () => {
-    const educationArr = [{
+export const educationArr = [{
             id: 1,
             text: 'Институт прикладной математики и компьютерных наук.'
         }, {
@@ -16,20 +13,7 @@ export const EducationArrAPI = () => {
         }
     ]
 
-    return (
-        <>
-            {
-                educationArr.map(item => <p key={item.id}>
-                    {item.text}
-                </p>)
-            }
-        </>
-
-    )
-}
-
-export const SkillArrAPI = () => {
-    const SkillArr = [{
+export const SkillArr = [{
             id: 1,
             text: 'HTML'
         }, {
@@ -52,16 +36,3 @@ export const SkillArrAPI = () => {
             text: 'C#'
         }
     ]
-
-    return (
-        <>
-            {
-
-                SkillArr.map(item => <p key={item.id}>
-                    {item.text}
-                </p>)
-
-            }
-        </>
-    )
-}
