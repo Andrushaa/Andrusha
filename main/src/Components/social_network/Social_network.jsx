@@ -37,7 +37,7 @@ function SocialNetwork() {
         <>
             <div className="social-network">
                 {social.map(social => (
-                    <button onMouseOver={() => setCount(social.text)} onMouseOut={() => setCount(count = network)}>
+                    <button onMouseOver={() => setCount(social.text)} onMouseOut={() => setCount(count = network)} key={social.id}>
                         <a href={social.link} target="_blank"  rel="noreferrer">
                             <i className={social.class}> </i>
                         </a>
