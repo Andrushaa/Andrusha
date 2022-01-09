@@ -13,7 +13,7 @@ export const educationArr = [{
         }
     ]
 
-export const SkillArr = [{
+export const skillArr = [{
             id: 1,
             text: 'HTML'
         }, {
