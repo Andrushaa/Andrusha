@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './social_network.css';
 
 function SocialNetwork() {
-    let [count, setCount] = useState("Социальные сети");
-    let network = "Социальные сети";
+    let [name, setName] = useState("Социальные сети");
+    const network = "Социальные сети";
 
     const social = [{
             id: 1,
@@ -37,7 +37,7 @@ function SocialNetwork() {
         <>
             <div className="social-network">
                 {social.map(social => (
-                    <button onMouseOver={() => setCount(social.text)} onMouseOut={() => setCount(count = network)} key={social.id}>
+                    <button onMouseOver={() => setName(social.text)} onMouseOut={() => setName(name = network)} key={social.id}>
                         <a href={social.link} target="_blank"  rel="noreferrer">
                             <i className={social.class}> </i>
                         </a>
@@ -48,7 +48,7 @@ function SocialNetwork() {
 
             <div className="social-network__title">
                 <i className="fas fa-arrow-up"> </i>
-                &nbsp; {count} &nbsp;
+                &nbsp; {name} &nbsp;
                 <i className="fas fa-arrow-up"> </i>
             </div>
         </>
