@@ -8,7 +8,7 @@ function Education() {
         () =>
             new Promise (list => {
                 setTimeout(() => {
-                    list(import('./EducationArr'))
+                    list(import('./API/EducationAPI'))
                 }, 5000)
             })
     )
@@ -17,7 +17,7 @@ function Education() {
         () =>
             new Promise (list => {
                 setTimeout(() => {
-                    list(import('./SkillArr'))
+                    list(import('./API/SkillAPI'))
                 }, 5000)
             })
     )
